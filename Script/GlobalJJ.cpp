@@ -19,7 +19,7 @@ int    gBarcodeSide 	= 0;
 #define ALL_ORDERS 	 	48		//EATCH STATION PAIR (L, R)
 
 #define LP_NUM			2
-//#define STATION
+
 #define STATION_NUM 	16		//LP 2ea ....test(L, R)
 #define MACHINE_NUM		3
 
@@ -49,7 +49,7 @@ int			gQueryWithCompleted = 0;
 
 int			grefreshDatabase = 0;//2:30 pm automatically  refresh VersionID and reload Database
 
-//GRID COLUMN
+//=============================================================GRID COLUMN
 #define COLUMN_VERSION_ID	0
 #define COLUMN_MOLDSIZE		1
 #define COLUMN_MOLDCOLOR	2
@@ -68,16 +68,27 @@ int			grefreshDatabase = 0;//2:30 pm automatically  refresh VersionID and reload
 
 #define COLUMN_MAX			20
 
-
+//=============================================================Grid Row Color
 #define COLOR_WORK_FINISH		clLime
 #define COLOR_WORK_PROGRESS		clYellow
 #define COLOR_WORK_NEXT			clAqua
 
+//=============================================================Reason
 #define REASON_NORMAL_COUNT	 "00"
 #define REASON_OSND_COUNT	 "01"
 
+//=============================================================
 #define COLUMN_ACTDATESTART	10
 #define COLUMN_ACTDATEEND	11
+
+//=============================================================Alarm Type
+#define ALARM_MOLDCHANGE	"001"
+#define ALARM_ENDORDER		"002"
+#define ALARM_DOWNTIME		"003"
+
+#define ALARM_MOLDCHANGE_D	"Mold Change"
+#define ALARM_ENDORDER_D	"End Order"
+#define ALARM_DOWNTIME_D	"Down Time"
 
 
 int 		gTagPRSQTY[ALL_ORDERS];
@@ -120,7 +131,8 @@ string gRstEndDt = "";
 string gAct = "";
 string gOSD = "";
 
-String	gMoldID[STATION_NUM];	//barcode data = mold_id
+String gMoldID[STATION_NUM];	//barcode data = mold_id
+String gDoorStatus[2];
 
 //=======================================================================================
 void SetUpdateTagTime()
@@ -459,8 +471,7 @@ int checkFinish(int aRow, int aStation, int aAct, int aOSD)
 {
 	//ShowMessage(Format("check finish, %d, %d, %d", [aStation, aAct, aOSD]));
 	if((aAct == 0) && (aOSD == 0)) 
-	{
-		
+	{		
 		string sort_key = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_SORT_KEY);	
 		int isort_key = StrToIntDef(sort_key, 0);
 		//ShowMessage(Format("row 1, %d, %d, %d, %d", [aStation, gWorkingRow[aStation], aAct,  gWorkingNormal[aStation]]));
@@ -649,9 +660,92 @@ void insertFinishSQL(String aSoid)
 }
 
 //=======================================================================================
-void checkMoldChange(int aRow)
+//Station => IPI-MCA17-01-L 
+//Mold    => MS004767-JJME006006A
+void checkMoldChange(int aCurrentRow)
 {
+	int row_cnt = frmScreen1.dhGrid1.GetRowCount;
+	
+	String version_id  	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_VERSION_ID);	//IPI_MCA17_01_L
+	String mold_size   	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_MOLDSIZE);		//MS249037-1 11
+	String station   	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_STATION);
+	String nor_plncnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_NORPLNCNT);
+	String osd_plncnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_OSNDPLNCNT);
+	String nor_actcnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_NORACTCNT);
+	String osd_actcnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_OSNDACTCNT);
+	String soid		    = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_SO_ID);
 
+	int istation 	= StrToInt(station) - 1;
+	int inor_plncnt = StrToInt(nor_plncnt);
+	int iosd_plncnt = StrToInt(osd_plncnt);
+    int inor_actcnt = StrToInt(nor_actcnt);
+	int iosd_actcnt = StrToInt(osd_actcnt);
+
+	int sum_pln = inor_plncnt + iosd_plncnt;
+	int sum_act = inor_actcnt + iosd_actcnt;
+	int remain_count = sum_pln - sum_act;
+	
+	if(remain_count > 3)//continue work
+	{
+		return;
+	}
+	else if(remain_count <= 0)//finished order
+	{
+	
+	}
+	else//check mold type      <= 3
+	{
+		int remain_count2 = remain_count;
+		for(int grid_row=aCurrentRow+1; grid_row<row_cnt; grid_row++)
+		{		
+			String version_id2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_VERSION_ID);			
+			if(version_id != version_id2) 
+			{				
+				continue;//other station
+			}
+				
+			String mold_size2  = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_MOLDSIZE);							
+			if(mold_size == mold_size2)
+			{				
+				String nor_plncnt2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_NORPLNCNT);
+				String osd_plncnt2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_OSNDPLNCNT);
+				String nor_actcnt2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_NORACTCNT);
+				String osd_actcnt2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_OSNDACTCNT);
+				
+				int inor_plncnt2 = StrToInt(nor_plncnt2);
+				int iosd_plncnt2 = StrToInt(osd_plncnt2);
+				int inor_actcnt2 = StrToInt(nor_actcnt2);
+				int iosd_actcnt2 = StrToInt(osd_actcnt2);
+			
+				int sum_pln2 = inor_plncnt2 + iosd_plncnt2;
+				remain_count2 += sum_pln2;
+				if(remain_order2 > 3)
+				{
+					return;
+				}
+				else// if(remain_count2 < 3)
+				{
+					continue;
+				}
+			}
+			else//different mold
+			{
+				if(remain_count2 > 3)
+				{
+					return;
+				}
+				else if(remain_count2 == 3)
+				{
+					SQLalarmInsert(soid, Now, ALARM_MOLDCHANGE, ALARM_MOLDCHANGE_D);
+					return;
+				}
+				else
+				{
+				
+				}
+			}
+		}
+	}
 }
 
 //=======================================================================================
@@ -696,7 +790,7 @@ int compareMold(String aMold_id, String aMold_cd, String aMold_size)
 }
 //=======================================================================================
 //aStartTime=Now
-void SQLalarmInsert(int soid, TDateTime aStartTime)
+void SQLalarmInsert(String aSoid, TDateTime aStartTime, String aAlarmType, String aAlarmDescript)
 {
 	try
 	{
@@ -708,7 +802,7 @@ void SQLalarmInsert(int soid, TDateTime aStartTime)
 		//===================================================1/3
 		string sqlquery_RES = "SELECT SO_ID, RESOURCE_CD, PRS_QTY ";
 				sqlquery_RES += "FROM DATA_SO ";
-				sqlquery_RES += "WHERE SO_ID = '" + intToStr(soid) + "'";
+				sqlquery_RES += "WHERE SO_ID = '" + aSoid + "'";
 		DBScriptClear(namedb);
         DBScriptSQL(namedb, sqlquery_RES);
 		DBScriptExecute(namedb);
@@ -728,7 +822,7 @@ void SQLalarmInsert(int soid, TDateTime aStartTime)
 		sqlquery += "INSERT INTO DATA_ALARM ";
 		sqlquery += "(ALARM_YMD, FROM_RES_CD, ALARM_SEQ, ALARM_TYPE, TO_RES_CD, BY_SO_ID, DESCRIPTION, START_DT, END_DT, STATUS_CD, ACTION_CD, REMARK) ";
 		sqlquery += "VALUES ";
-		sqlquery += "('" + currdate + "', '" + sRES_CD + "', '" + intToStr(cntRow) + "', '001', 'MOLD-SHOP', '" + intToStr(soid) + "', 'Mold Change', '" + sStartTime + "', NULL, 'N', 'S', NULL)";
+		sqlquery += "('" + currdate + "', '" + sRES_CD + "', '" + intToStr(cntRow) + "', aAlarmType, 'MOLD-SHOP', '" + aSoid + "', '" + aAlarmDescript + "', '" + sStartTime + "', NULL, 'N', 'S', NULL)";
    	   
 		//ShowMessage(sqlquery);   
 		
@@ -785,6 +879,9 @@ void SQLActDtRead(int soid)
 
 //=======================================================================================
 {
+	gDoorStatus[0] = "Open";
+	gDoorStatus[1] = "Close";
+
 	for(int i=0; i<ALL_ORDERS; i++)
     {
 		gWorkingRow[i] = -1;

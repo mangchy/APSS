@@ -12,12 +12,6 @@ void TimerGetActual()
 		gLPSOIDZeroNum = UpdateSOID();		
 		SetDebug(Format("number of zero SOID : %d", [gLPSOIDZeroNum]));		
 	}
-	
-	/*
-	for(int i=0; i<ALL_ORDERS; i++)
-    {
-        gDownloadData[i] = -1;
-    }*/
 
 	String sMCAs[3];
 	sMCAs[0] = frmScreen1_4.cbxMCA1.Text;
@@ -81,21 +75,13 @@ void TimerGetActual()
 		
 		try
 		{
-			int iAct = GetTagValueI(gTagNorA[i]);//LP Data, down count
-			int iOSD = GetTagValueI(gTagOsdA[i]);   
+			int iAct 	= GetTagValueI(gTagNorA[i]);//LP Data, down count
+			int iOSD 	= GetTagValueI(gTagOsdA[i]);   
 			int iOSDPln = GetTagValueI(gTagOsdP[i]);
 			
 			int iDBnor_actcnt = gWorkingNormalPln[i] - gWorkingNormal[i];
 			
-			//frmScreen1.dhGrid1.SetCellData(iGridRow, 4, FormatDateTime("HH:NN:SS", dt1), false);//IntToStr(iDBnor_actcnt), true);	
 			frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, IntToStr(gWorkingNormalPln[i] - iAct), true);	
-			//frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_OSNDPLNCNT, IntToStr(iDBosd_actcnt), true);	
-			
-			//frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, Format("%d, %d < %d", [gWorkingNormalPln[i], iAct, iDBnor_actcnt]), false);//IntToStr(iDBnor_actcnt), true);	
-			//frmScreen1.dhGrid1.SetCellData(iGridRow COLUMN_OSNDPLNCNT, Format("%d, %d < %d", [gWorkingOSnDPln[i], iOSDPln, iDBosd_actcnt]), true);//IntToStr(iDBosd_actcnt), true);	
-			
-			//continue;
-			//SetDebug("get act timer 1");//Format("get actual data : %d, %d, (%d ? %d)", [iGridRow, gWorkingNormalPln[i], iAct, iDBnor_actcnt]));
 						
 			if(gWorkingOSnDPln[i] < iOSDPln)//update (OS&D Plan) of DATA_SO
 			{
@@ -105,13 +91,11 @@ void TimerGetActual()
 				UpdateOSnDPlnToDB(gWorkingSOID[i], iOSDPln);
 			}
 			
-			//int iDBosd_actcnt = gWorkingOSnDPln[i] - gWorkingOSnD[i];
-			
-			int iMachine = Int(i/STATION_NUM);
-			int iDoor 	 = Int(i/2);
-			String sMachineName = sMCAs[iMachine];
-			String osnd_act = frmScreen1.dhGrid1.GetCellData(iGridRow, COLUMN_OSNDACTCNT);	
-			int iosnd_act   = StrToIntDef(osnd_act, 0);
+			int 	iMachine  = Int(i/STATION_NUM);
+			int 	iDoor 	  = Int(i/2);
+			String 	sMachineName = sMCAs[iMachine];
+			String 	osnd_act  = frmScreen1.dhGrid1.GetCellData(iGridRow, COLUMN_OSNDACTCNT);	
+			int 	iosnd_act = StrToIntDef(osnd_act, 0);
 			
 			if(iAct < iDBnor_actcnt)//normal count
 			{
@@ -121,106 +105,48 @@ void TimerGetActual()
 				
 				SetDebug(Format("%d, Normal Act Count Row : %d, %d, %d, %d, %d, prs_qty=%d, door=%d", [i, iGridRow, iDBnor_actcnt, iAct, gTagPRSQTY[i], gWorkingNormalPln[i], prs_qty, iDoor]));
 				
-				//ShowMessage(Format("normal, %d, %d, %d, %d, %d", [i, iGridRow, iDBnor_actcnt, iAct,  gWorkingNormal[i], gWorkingNormalPln[i]]));
 				gWorkingNormal[i] = gWorkingNormalPln[i] - iAct;
 	
-//SetDebug("get act timer 2");	
-				//frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, IntToStr(gWorkingNormal[i]), false);	
 				TDateTime dtEnd = Now();
-				SetDebug("iDoor value : " + IntToStr(iDoor));
+				SetDebug(Format("Door value : %d, %s", iDoor, gDoorStatus[iDoor]);
 				SQLActDtRead(gWorkingSOID[i]);
-				int iCalcAct = gWorkingNormalPln[i] - StrToIntDef(gAct, 0);
-				int iCalcOSD = gWorkingOSnD[i] - StrToIntDef(gOSD, 0);
+				
+				int iCalcAct 	  = gWorkingNormalPln[i] - StrToIntDef(gAct, 0);
+				int iCalcOSD 	  = gWorkingOSnD[i] - StrToIntDef(gOSD, 0);
 				String start_time = Copy(gRstStartDt, 9, Length(gRstStartDt));
 				String end_time   = Copy(gRstEndDt, 9, Length(gRstEndDt));
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATESTART, start_time, false);
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATEEND, end_time, false);
-//SetDebug("get act timer 3");
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);	
 				if(iCalcAct == 0)
 				{	
-					//frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);
 					SetColorRow(iGridRow, COLOR_WORK_FINISH);
-					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) return;
-						
+					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) return;						
 				}	
 				else
 				{
-//SetDebug("get act timer 4");
-			InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBnor_actcnt - iAct, gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], dtEnd);
-					//InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBnor_actcnt - StrToIntDef(gAct, 0), gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], dtEnd);
-					//gEndWorkTime[iMachine] = dtEnd;
-//SetDebug("get act timer 5");
+					InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBnor_actcnt - iAct, gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], dtEnd);
+					
 					SQLActDtRead(gWorkingSOID[i]);
 					start_time = Copy(gRstStartDt, 9, Length(gRstStartDt));
 					end_time   = Copy(gRstEndDt, 9, Length(gRstEndDt));
 					frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATESTART, start_time, false);
 					frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATEEND, end_time, false);
 					
-//SetDebug("get act timer 6");
-					iCalcAct = gWorkingNormalPln[i] - StrToIntDef(gAct, 0);
-					iCalcOSD = gWorkingOSnD[i] - StrToIntDef(gOSD, 0);
+					iCalcAct   = gWorkingNormalPln[i] - StrToIntDef(gAct, 0);
+					iCalcOSD   = gWorkingOSnD[i] - StrToIntDef(gOSD, 0);
 					
-					//frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, IntToStr(gWorkingNormal[i]), false);
 					frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);
-					/*if(gWorkingNormal[i] > 0)
-					{
-						frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);
-					}*/
+								
+					checkMoldChange(iGridRow);					
 					
-					/*
-					try
-					{
-					if(gWorkingNormal[i] == 1)
-					
-					{
-						//gStartWorkTime[i] = gTagUpdateTimeDoor[iDoor];
-						//gTimeStamp = Now();
-						
-						frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATESTART, start_time, false);	
-							
-						SetDebug(Format("%d, Normal Work Start Time : %d, %s", [i, iGridRow, Copy(gRstStartDt, 9, Length(gRstStartDt))]));
-					}
-					if(gWorkingNormal[i] > 1)
-					{
-						//String start_time = Copy(gRstStartDt, 9, Length(gRstStartDt));
-						frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATESTART, start_time, false);	
-							
-						//SetDebug(Format("%d, Normal Work Start Time : %d, %s", [i, iGridRow, gRstStartDt]));
-					}
-					
-					}
-					except
-					{
-						SetDebug("ERROR line 143-158 " + ExceptionMessage, clRed);
-					}
-					
-					frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATEEND, FormatDateTime("DD HH:NN:SS", dtEnd), false);	
-					*/
-					
-
-					if(iCalcAct == 3)//insert ALARM
-					{
-						SQLalarmInsert(gWorkingSOID[i], Now);//gStartWorkTime[i]);
-						//SetDebug("Alarm Data Inserted : SOID = " + IntToStr(gWorkingSOID[i]));
-					}
-			
-					if(iCalcAct <= 3)
-					{
-						checkMoldChange(iGridRow);
-					}
-					
-					//if(checkFinish(iGridRow, i, gWorkingNormal[i], iOSD) == 1) return;
 					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) return;
-					//if(checkFinish(iGridRow, i, iAct, iOSD) == 1) return;
 				}
 			}
 			else if((gWorkingOSnDPln[i] != iosnd_act) && (iOSD == 0))//os&d count
 			{
 				gWorkingOSnD[i] = gWorkingOSnDPln[i];// - iOSD;
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_OSNDACTCNT, IntToStr(gWorkingOSnD[i]), false);	
-				//frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, IntToStr(gWorkingNormal[i]), true);	
-				//ShowMessage(Format("os&d, %d, %d, %d, %d, %d", [i, iGridRow, iDBosd_actcnt, iOSD,  gWorkingOSnDPln[i]]));
 
 				int prs_qty2 = gWorkingOSnD[i];
 				prs_qty2 = prs_qty2 * gTagPRSQTY[i];
@@ -230,7 +156,6 @@ void TimerGetActual()
 				
 				TDateTime dtEnd2 = Now();
 				InsertWorkCountToDB(gWorkingSOID[i], prs_qty2, gWorkingOSnD[i], gZone, REASON_OSND_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], dtEnd2);
-				//InsertWorkCountToDB(gWorkingSOID[i], gWorkingNormalPln[i], gWorkingOSnD[i], gZone, "01", sMachineName, Now());
 				
 				if(checkFinish(iGridRow, i, iAct, iOSD) == 1) return;
 			}			
