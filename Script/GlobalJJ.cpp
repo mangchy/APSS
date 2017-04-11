@@ -91,8 +91,8 @@ int			grefreshDatabase = 0;//2:30 pm automatically  refresh VersionID and reload
 #define ALARM_DOWNTIME_D	"Down Time"
 
 //=============================================================
-#define DOOR_MANUAL			0
-#define DOOR_AUTO			1
+#define DOOR_AUTO			0
+#define DOOR_MANUAL			1
 
 
 int 		gTagPRSQTY[ALL_ORDERS];
