@@ -165,12 +165,12 @@ void srcSQL()
 				sInjector_cd, 
 				Copy(s8, 9, Length(s14)),
 				Copy(s15, 9, Length(s15)),
-				"", 
+				s1,//SOID
+				"",//Remark 
 				sort_key, 
 				s3, 
 				station_cd,
 				s4,
-				s1,
 				s7,
 				machine_cd,
 				sPrsQty,
