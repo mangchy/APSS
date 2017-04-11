@@ -23,7 +23,6 @@ int    gBarcodeSide 	= 0;
 #define STATION_NUM 	16		//LP 2ea ....test(L, R)
 #define MACHINE_NUM		3
 
-
 int 		gDownloadNum;
 int 		gDownloadedIdx;
 int 		gDownloadData[ALL_ORDERS];
