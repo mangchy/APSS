@@ -132,7 +132,7 @@ string gAct = "";
 string gOSD = "";
 
 String gMoldID[STATION_NUM];	//barcode data = mold_id
-String gDoorStatus[2];
+String gDoorStatusDescript[2];
 
 //=======================================================================================
 void SetUpdateTagTime()
@@ -187,7 +187,7 @@ int getGridRowFromSOID(String tarMachine, int aOrderPos, int aSOID)
 	int row_cnt = frmScreen1.dhGrid1.GetRowCount;
 	for(int grid_row=0; grid_row<row_cnt; grid_row++)
 	{		
-		String so_id = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_SO_ID);	
+		String so_id 	= frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_SO_ID);	
 		String machine  = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_MACHINE);
 	
 		//int dbMCIndex = getMachineIndex(machine);
@@ -207,7 +207,8 @@ int getGridRowFromSOID(String tarMachine, int aOrderPos, int aSOID)
 //=======================================================================================
 int getGridRow(String tarMachine, int aOrderPos)
 {
-	int imin_sort_key = 999999999;
+	//int imin_sort_key = 999999999;
+	int imin_soid = 999999999999;
 	int row_cnt2 = frmScreen1.dhGrid1.GetRowCount;
 	int row_result = -1;
 	for(int grid_row2=0; grid_row2<row_cnt2; grid_row2++)
@@ -242,21 +243,34 @@ int getGridRow(String tarMachine, int aOrderPos)
 			}
 			
 			String side    	= frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_SHOESSIDE);	
+			String soid 	= frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_SO_ID);	
 			String sort_key = frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_SORT_KEY);	
+			int isoid   	= StrToInt(soid);
 			int isort_key   = StrToInt(sort_key);
 			int iSide = aOrderPos%2;
 			if(((iSide == 0) && (side == "L")) || ((iSide == 1) && (side == "R")))
 			{
 				//ShowMessage(Format("found %d/%d, %d, %s, %d, %s, %d, %s, %d", [grid_row2, row_cnt2, dbMCIndex, machine, istation, side, iSide, sort_key, imin_sort_key]));
-				if(imin_sort_key > isort_key) 
+				
+				if(imin_soid > isoid)
 				{
-					imin_sort_key = isort_key;
+					imin_soid = isoid;
 					row_result = grid_row2;
 				}
 				else
 				{
 					break;
 				}
+				
+				//if(imin_sort_key > isort_key) 
+				//{
+				//	imin_sort_key = isort_key;
+				//	row_result = grid_row2;
+				//}
+				//else
+				//{
+				//	break;
+				//}
 			}	
 		}
 	}
@@ -298,15 +312,17 @@ int UpdateSOID()
 int getNextOrderRow(String aMachine, int aRow)
 {
 	String station 	  = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_STATION);
+	String soid 	  = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_SO_ID);	
 	String sort_key	  = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_SORT_KEY);
 	String side 	  = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_SHOESSIDE);
 	
-	int istation = StrToInt(station) - 1;
+	int istation  = StrToInt(station) - 1;
+	int isoid 	  = StrToInt(soid);	
 	int isort_key = StrToInt(sort_key);
 	
 	int row_cnt = frmScreen1.dhGrid1.GetRowCount;
-	for(int grid_row2=aRow+1; grid_row2<row_cnt; grid_row2++)
 	//for(int grid_row2=0; grid_row2<row_cnt; grid_row2++)
+	for(int grid_row2=aRow+1; grid_row2<row_cnt; grid_row2++)
 	{
 		String station2	 = frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_STATION);
 		int istation2 = StrToInt(station2) - 1;	
@@ -315,15 +331,16 @@ int getNextOrderRow(String aMachine, int aRow)
 		String machine  = frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_MACHINE);	
 		if(aMachine != machine) continue;
 		
-		String soid2 	= frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_SO_ID);	
+		String soid2 	 = frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_SO_ID);	
 		String sort_key2 = frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_SORT_KEY);	
-		String side2 	= frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_SHOESSIDE);	
+		String side2 	 = frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_SHOESSIDE);	
 	
 		String nor_plncnt = frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_NORPLNCNT);	
 		String nor_actcnt = frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_NORACTCNT);	
 		String osd_plncnt = frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_OSNDPLNCNT);	
 		String osd_actcnt = frmScreen1.dhGrid1.GetCellData(grid_row2, COLUMN_OSNDACTCNT);	
 
+		int isoid2 	   = StrToInt(soid2);	
 		int isort_key2 = StrToInt(sort_key2);	
 		int inorplncnt = StrToIntDef(nor_plncnt, 0);
 		int inoractcnt = StrToIntDef(nor_actcnt, 0);
@@ -333,7 +350,8 @@ int getNextOrderRow(String aMachine, int aRow)
 		int pln_sum = inorplncnt + iosdplncnt;
 		int act_sum = inoractcnt + iosdactcnt;
 			
-		if((isort_key < isort_key2) && (side == side2) && (pln_sum > act_sum))
+		//if((isort_key < isort_key2) && (side == side2) && (pln_sum > act_sum))
+		if((soid < soid2) && (side == side2) && (pln_sum > act_sum))
 		{
 			SetDebug(Format("Next Order : %d, SO_ID=%s, SORT_Key=%s, Station=%s", [grid_row2, soid2, sort_key2, station2]));	
 			return grid_row2;
@@ -346,7 +364,7 @@ int getNextOrderRow(String aMachine, int aRow)
 
 
 //=======================================================================================
-//check Mold changing next order
+/*/check Mold changing next order
 void checkMoldChange(int aGridRow)
 {
 	String mold = frmScreen1.dhGrid1.GetCellData(aGridRow, COLUMN_MOLDSIZE);	
@@ -371,7 +389,7 @@ void checkMoldChange(int aGridRow)
 			//LP_SetMoldChingSatusON
 		}		
 	}
-}
+}*/
 
 
 //==================================
@@ -719,7 +737,7 @@ void checkMoldChange(int aCurrentRow)
 			
 				int sum_pln2 = inor_plncnt2 + iosd_plncnt2;
 				remain_count2 += sum_pln2;
-				if(remain_order2 > 3)
+				if(remain_count2 > 3)
 				{
 					return;
 				}
@@ -832,7 +850,7 @@ void SQLalarmInsert(String aSoid, TDateTime aStartTime, String aAlarmType, Strin
 		
 		DBDisconnect(namedb, true); 
 		
-		SetDebug(Format("Alarm Inserted: %s, %d, %s, %s", [currdate, soid, sRES_CD, sPrsQTY]));
+		SetDebug(Format("Alarm Inserted: %s, %d, %s, %s", [currdate, aSoid, sRES_CD, sPrsQTY]));
 	}
 	except
 	{
@@ -879,8 +897,8 @@ void SQLActDtRead(int soid)
 
 //=======================================================================================
 {
-	gDoorStatus[0] = "Open";
-	gDoorStatus[1] = "Close";
+	gDoorStatusDescript[0] = "Open";
+	gDoorStatusDescript[1] = "Close";
 
 	for(int i=0; i<ALL_ORDERS; i++)
     {

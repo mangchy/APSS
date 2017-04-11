@@ -41,6 +41,7 @@ void TimerSetCheck()
 		gDownloadData[io] = -1;
 		gWorkingRow[io] = -1;
 	}
+	
 	frmScreen1_2.prgCheck.UserValue += 100;         
     gDownloadNum   = 0;
 	gDownloadedIdx = 0;

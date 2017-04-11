@@ -108,7 +108,7 @@ void TimerGetActual()
 				gWorkingNormal[i] = gWorkingNormalPln[i] - iAct;
 	
 				TDateTime dtEnd = Now();
-				SetDebug(Format("Door value : %d, %s", iDoor, gDoorStatus[iDoor]);
+				SetDebug(Format("Door value : %d, %s", [iDoor, gDoorStatusDescript[iDoor]]));
 				SQLActDtRead(gWorkingSOID[i]);
 				
 				int iCalcAct 	  = gWorkingNormalPln[i] - StrToIntDef(gAct, 0);
