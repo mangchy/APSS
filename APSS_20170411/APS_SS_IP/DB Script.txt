@@ -1,0 +1,144 @@
+CREATE DATABASE IP_SS
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[DATA_RECIPE]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[DATA_RECIPE]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[DATA_RESOURCE]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[DATA_RESOURCE]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[DATA_RST]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[DATA_RST]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[DATA_SO]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[DATA_SO]
+GO
+
+CREATE TABLE [dbo].[DATA_RECIPE] (
+	[FACTORY] [char] (5) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[MOLD_ID] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[MCS_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[COLOR_CD] [char] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[ZONE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[IPP_LINE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[MACHINE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[INJECTOR_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[MOLD_CD] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MOLD_SIZE_CD] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[STATION_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[STATION_TYPE] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[X1] [numeric](18, 0) NULL ,
+	[X2] [numeric](18, 0) NULL ,
+	[X3] [numeric](18, 0) NULL ,
+	[X4] [numeric](18, 0) NULL ,
+	[X5] [numeric](18, 0) NULL ,
+	[X6] [numeric](18, 0) NULL ,
+	[X7] [numeric](18, 0) NULL ,
+	[X8] [numeric](18, 0) NULL ,
+	[UPD_USER] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[UPD_YMD] [datetime] NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[DATA_RESOURCE] (
+	[FACTORY] [char] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[MACHINE_ID] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[ZONE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[LINE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[MACHINE_CD] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[STATION_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[MACHINE_TYPE] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[TWO_COLOR_YND] [char] (1) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[USE_YN] [char] (1) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[DESCR] [char] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[INST_DTTM] [char] (14) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[INST_ID] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[INST_IP_ADDR] [char] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[UPDT_ID] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[UPDT_IP_ADDR] [char] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[STATION_TYPE] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[OP_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MACHINE_NAME] [char] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MACHINE_SEQ] [numeric](18, 0) NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[DATA_RST] (
+	[RST_YMD] [char] (8) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[SO_ID] [numeric](18, 0) NOT NULL ,
+	[SER_NO] [numeric](18, 0) NOT NULL ,
+	[FACTORY] [char] (5) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[RESOURCE_CD] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[ZONE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[IPP_LINE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MACHINE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[STATION_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[STATION_TYPE] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[START_DATE] [datetime] NULL ,
+	[END_DATE] [datetime] NULL ,
+	[NET_WRK_SEC] [numeric](18, 0) NULL ,
+	[PRS_QTY] [numeric](18, 0) NULL ,
+	[CNT_QTY] [numeric](18, 0) NULL ,
+        [REASON] [char] (2) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+        [INJECTOR_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[REMARK] [char] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[UPD_USER] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[UPD_YMD] [datetime] NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[DATA_SO] (
+	[VERSION_ID] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[FACTORY] [char] (5) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[RESOURCE_CD] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[PCARD_ID] [numeric](18, 0) NOT NULL ,
+	[YMD] [char] (8) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[HH] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[START_DATE] [datetime] NULL ,
+	[END_DATE] [datetime] NULL ,
+	[ZONE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[IPP_LINE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MACHINE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+        [MACHINE_NAME] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[STATION_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[STATION_TYPE] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MODEL_CD] [char] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+        [MODEL_NAME] [char] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[STYLE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CS_SIZE] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[PRS_QTY] [numeric](18, 0) NULL ,
+        [CNT_QTY] [numeric](18, 0) NULL ,
+	[MOLD_CD] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+       [MOLD_SIZE_CD] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[SS_PER_PRS] [numeric](18, 0) NULL ,
+	[JC_TIME] [numeric](18, 0) NULL ,
+	[JC_TYPE] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[RESOURCE_TYPE] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[STATUS] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MCS_1_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MCS_2_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MCS_3_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MCS_4_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MCS_5_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[COLOR_1_CD] [char] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[COLOR_2_CD] [char] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[COLOR_3_CD] [char] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[COLOR_4_CD] [char] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[COLOR_5_CD] [char] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[UV_TYPE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[DUAL_PART_YN] [char] (1) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[OP_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[LINE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[MLINE_CD] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[ASY_YMD] [char] (8) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[ASY_HH] [numeric](18, 0) NULL ,
+	[SO_ID] [numeric](18, 0) NULL ,
+	[SS_ID] [numeric](18, 0) NULL ,
+	[SORT_KEY] [numeric](18, 0) NULL ,
+	[UPD_USER] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[UPD_YMD] [datetime] NULL 
+) ON [PRIMARY]
+GO
+

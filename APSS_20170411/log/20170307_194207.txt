@@ -1,0 +1,156 @@
+Time,Message
+2017/03/07 19:41:07,"completed work : Grid row(28), 5,0, 5, 0"
+2017/03/07 19:41:07,"completed work : Grid row(29), 3,0, 3, 0"
+2017/03/07 19:41:07,"completed work : Grid row(56), 2,0, 2, 0"
+2017/03/07 19:41:07,"completed work : Grid row(85), 6,0, 6, 0"
+2017/03/07 19:41:07,"completed work : Grid row(113), 6,0, 6, 0"
+2017/03/07 19:41:07,"completed work : Grid row(141), 6,0, 6, 0"
+2017/03/07 19:41:08,Check order again 1! 0
+2017/03/07 19:41:08,Check order again 1! 30
+2017/03/07 19:41:08,Check order again 1! 57
+2017/03/07 19:41:08,Check order again 1! 86
+2017/03/07 19:41:08,Check order again 1! 114
+2017/03/07 19:41:09,Check order again 1! 142
+2017/03/07 19:41:09,Check order again 1! 169
+2017/03/07 19:41:09,Check order again 1! 169
+2017/03/07 19:41:09,Check order again 1! 198
+2017/03/07 19:41:09,"not found soid : 8, 0"
+2017/03/07 19:41:09,"SO_ID not found : 8, 0"
+2017/03/07 19:41:09,"not found soid : 9, 0"
+2017/03/07 19:41:09,"SO_ID not found : 9, 0"
+2017/03/07 19:41:09,"not found soid : 10, 0"
+2017/03/07 19:41:09,"SO_ID not found : 10, 0"
+2017/03/07 19:41:09,"not found soid : 11, 0"
+2017/03/07 19:41:09,"SO_ID not found : 11, 0"
+2017/03/07 19:41:09,"not found soid : 12, 0"
+2017/03/07 19:41:09,"SO_ID not found : 12, 0"
+2017/03/07 19:41:09,"not found soid : 13, 0"
+2017/03/07 19:41:09,"SO_ID not found : 13, 0"
+2017/03/07 19:41:09,"not found soid : 14, 0"
+2017/03/07 19:41:09,"SO_ID not found : 14, 0"
+2017/03/07 19:41:09,"not found soid : 15, 0"
+2017/03/07 19:41:09,"SO_ID not found : 15, 0"
+2017/03/07 19:41:09,number of download order : 8
+2017/03/07 19:41:42,"Working row : 0, 30, 57, 86, 114, 142, 169, 198, 226, 255, 283, 311, 340, 368, 396, 424, "
+2017/03/07 19:41:43,"Download Order : 226, 1, IPI_MCA17_05_L, 5527, MS248511-1 12, Z003"
+2017/03/07 19:41:43,"Download Order : 255, 1, IPI_MCA17_05_R, 5556, MS248511-1 3, Z003"
+2017/03/07 19:41:44,"Download Order : 283, 1, IPI_MCA17_06_L, 5584, MS248511-1 2, Z003"
+2017/03/07 19:41:44,"Download Order : 311, 1, IPI_MCA17_06_R, 5612, MS248511-1 10T, Z003"
+2017/03/07 19:41:45,"Download Order : 340, 1, IPI_MCA17_07_L, 5641, MS248511-1 1, Z003"
+2017/03/07 19:41:45,"Download Order : 368, 1, IPI_MCA17_07_R, 5669, MS248511-1 11, Z003"
+2017/03/07 19:41:46,"Download Order : 396, 1, IPI_MCA17_08_L, 5697, MS248511-1 13, Z003"
+2017/03/07 19:41:46,"Download Order : 424, 1, IPI_MCA17_08_R, 5725, MS248511-1 13T, Z003"
+2017/03/07 19:41:47,number of zero SOID : 8
+2017/03/07 19:41:47,number of zero SOID : 8
+2017/03/07 19:41:47,number of zero SOID : 8
+2017/03/07 19:41:47,number of zero SOID : 8
+2017/03/07 19:41:47,number of zero SOID : 8
+2017/03/07 19:41:47,number of zero SOID : 8
+2017/03/07 19:41:47,number of zero SOID : 8
+2017/03/07 19:41:48,number of zero SOID : 8
+2017/03/07 19:41:48,number of zero SOID : 8
+2017/03/07 19:41:49,number of zero SOID : 8
+2017/03/07 19:41:49,number of zero SOID : 8
+2017/03/07 19:41:49,number of zero SOID : 8
+2017/03/07 19:41:49,number of zero SOID : 8
+2017/03/07 19:41:49,number of zero SOID : 8
+2017/03/07 19:41:50,number of zero SOID : 8
+2017/03/07 19:41:50,number of zero SOID : 8
+2017/03/07 19:41:50,number of zero SOID : 8
+2017/03/07 19:41:50,number of zero SOID : 8
+2017/03/07 19:41:50,number of zero SOID : 8
+2017/03/07 19:41:51,number of zero SOID : 8
+2017/03/07 19:41:51,number of zero SOID : 8
+2017/03/07 19:41:51,number of zero SOID : 8
+2017/03/07 19:41:51,number of zero SOID : 8
+2017/03/07 19:41:51,number of zero SOID : 8
+2017/03/07 19:41:51,number of zero SOID : 8
+2017/03/07 19:41:51,number of zero SOID : 8
+2017/03/07 19:41:52,number of zero SOID : 8
+2017/03/07 19:41:52,number of zero SOID : 8
+2017/03/07 19:41:52,number of zero SOID : 8
+2017/03/07 19:41:53,number of zero SOID : 8
+2017/03/07 19:41:53,number of zero SOID : 8
+2017/03/07 19:41:53,number of zero SOID : 8
+2017/03/07 19:41:53,number of zero SOID : 8
+2017/03/07 19:41:53,number of zero SOID : 8
+2017/03/07 19:41:53,number of zero SOID : 8
+2017/03/07 19:41:53,number of zero SOID : 8
+2017/03/07 19:41:54,number of zero SOID : 8
+2017/03/07 19:41:54,number of zero SOID : 8
+2017/03/07 19:41:54,number of zero SOID : 8
+2017/03/07 19:41:55,number of zero SOID : 8
+2017/03/07 19:41:55,number of zero SOID : 8
+2017/03/07 19:41:55,number of zero SOID : 8
+2017/03/07 19:41:55,number of zero SOID : 8
+2017/03/07 19:41:55,number of zero SOID : 8
+2017/03/07 19:41:55,number of zero SOID : 8
+2017/03/07 19:41:55,number of zero SOID : 8
+2017/03/07 19:41:56,number of zero SOID : 8
+2017/03/07 19:41:56,number of zero SOID : 8
+2017/03/07 19:41:56,number of zero SOID : 8
+2017/03/07 19:41:56,number of zero SOID : 8
+2017/03/07 19:41:56,number of zero SOID : 8
+2017/03/07 19:41:57,number of zero SOID : 8
+2017/03/07 19:41:57,number of zero SOID : 8
+2017/03/07 19:41:57,number of zero SOID : 8
+2017/03/07 19:41:57,number of zero SOID : 8
+2017/03/07 19:41:57,number of zero SOID : 8
+2017/03/07 19:41:57,number of zero SOID : 8
+2017/03/07 19:41:58,number of zero SOID : 8
+2017/03/07 19:41:58,number of zero SOID : 8
+2017/03/07 19:41:58,number of zero SOID : 8
+2017/03/07 19:41:58,number of zero SOID : 8
+2017/03/07 19:41:58,number of zero SOID : 8
+2017/03/07 19:41:58,number of zero SOID : 8
+2017/03/07 19:41:58,number of zero SOID : 8
+2017/03/07 19:41:58,number of zero SOID : 8
+2017/03/07 19:41:58,number of zero SOID : 8
+2017/03/07 19:41:59,number of zero SOID : 8
+2017/03/07 19:41:59,number of zero SOID : 8
+2017/03/07 19:41:59,number of zero SOID : 8
+2017/03/07 19:41:59,number of zero SOID : 8
+2017/03/07 19:41:59,number of zero SOID : 8
+2017/03/07 19:41:59,number of zero SOID : 8
+2017/03/07 19:41:59,number of zero SOID : 8
+2017/03/07 19:41:59,number of zero SOID : 8
+2017/03/07 19:41:59,number of zero SOID : 8
+2017/03/07 19:42:00,number of zero SOID : 8
+2017/03/07 19:42:00,number of zero SOID : 8
+2017/03/07 19:42:00,number of zero SOID : 8
+2017/03/07 19:42:00,number of zero SOID : 8
+2017/03/07 19:42:00,number of zero SOID : 8
+2017/03/07 19:42:00,number of zero SOID : 8
+2017/03/07 19:42:00,number of zero SOID : 8
+2017/03/07 19:42:01,number of zero SOID : 8
+2017/03/07 19:42:01,number of zero SOID : 8
+2017/03/07 19:42:01,number of zero SOID : 8
+2017/03/07 19:42:01,number of zero SOID : 8
+2017/03/07 19:42:01,number of zero SOID : 8
+2017/03/07 19:42:01,number of zero SOID : 8
+2017/03/07 19:42:01,number of zero SOID : 8
+2017/03/07 19:42:01,number of zero SOID : 8
+2017/03/07 19:42:01,number of zero SOID : 8
+2017/03/07 19:42:02,number of zero SOID : 8
+2017/03/07 19:42:02,number of zero SOID : 8
+2017/03/07 19:42:03,number of zero SOID : 8
+2017/03/07 19:42:03,number of zero SOID : 8
+2017/03/07 19:42:03,number of zero SOID : 8
+2017/03/07 19:42:04,number of zero SOID : 8
+2017/03/07 19:42:04,number of zero SOID : 8
+2017/03/07 19:42:04,number of zero SOID : 8
+2017/03/07 19:42:04,number of zero SOID : 8
+2017/03/07 19:42:04,number of zero SOID : 8
+2017/03/07 19:42:04,number of zero SOID : 8
+2017/03/07 19:42:05,number of zero SOID : 8
+2017/03/07 19:42:05,number of zero SOID : 8
+2017/03/07 19:42:06,number of zero SOID : 8
+2017/03/07 19:42:06,number of zero SOID : 8
+2017/03/07 19:42:06,number of zero SOID : 8
+2017/03/07 19:42:06,number of zero SOID : 8
+2017/03/07 19:42:06,number of zero SOID : 8
+2017/03/07 19:42:06,number of zero SOID : 8
+2017/03/07 19:42:07,number of zero SOID : 8
+2017/03/07 19:42:07,number of zero SOID : 8
+2017/03/07 19:42:07,number of zero SOID : 8
+2017/03/07 19:42:07,number of zero SOID : 8
