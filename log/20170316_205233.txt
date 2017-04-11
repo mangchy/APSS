@@ -1,0 +1,3227 @@
+Time,Message
+2017/03/16 20:48:01,"completed work : Grid row(0), 9,6, 9, 6"
+2017/03/16 20:48:01,"completed work : Grid row(2), 9,1, 9, 1"
+2017/03/16 20:48:01,"completed work : Grid row(208), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(209), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(210), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(213), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(215), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(216), 5,0, 5, 0"
+2017/03/16 20:48:01,"completed work : Grid row(217), 4,0, 4, 0"
+2017/03/16 20:48:01,"completed work : Grid row(218), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(219), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(220), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(222), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(226), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(231), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(233), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(235), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(236), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(241), 5,0, 5, 0"
+2017/03/16 20:48:01,"completed work : Grid row(242), 8,0, 8, 0"
+2017/03/16 20:48:01,"completed work : Grid row(250), 1,0, 1, 0"
+2017/03/16 20:48:01,"completed work : Grid row(252), 8,0, 8, 0"
+2017/03/16 20:48:01,"completed work : Grid row(253), 1,0, 1, 0"
+2017/03/16 20:48:01,"completed work : Grid row(254), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(255), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(256), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(257), 6,0, 6, 0"
+2017/03/16 20:48:01,"completed work : Grid row(258), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(259), 8,0, 8, 0"
+2017/03/16 20:48:01,"completed work : Grid row(261), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(262), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(263), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(264), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(265), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(266), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(267), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(268), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(269), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(270), 6,0, 6, 0"
+2017/03/16 20:48:01,"completed work : Grid row(271), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(272), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(273), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(274), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(275), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(276), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(277), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(278), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(280), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(281), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(282), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(283), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(284), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(285), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(286), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(287), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(289), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(290), 1,0, 1, 0"
+2017/03/16 20:48:01,"completed work : Grid row(291), 8,0, 8, 0"
+2017/03/16 20:48:01,"completed work : Grid row(292), 2,0, 2, 0"
+2017/03/16 20:48:01,"completed work : Grid row(293), 7,0, 7, 0"
+2017/03/16 20:48:01,"completed work : Grid row(294), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(295), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(298), 4,0, 4, 0"
+2017/03/16 20:48:01,"completed work : Grid row(299), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(300), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(301), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(314), 6,0, 6, 0"
+2017/03/16 20:48:01,"completed work : Grid row(315), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(316), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(317), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(318), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(319), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(320), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(321), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(323), 6,0, 6, 0"
+2017/03/16 20:48:01,"completed work : Grid row(324), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(325), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(326), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(327), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(328), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(329), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(331), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(332), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(333), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(335), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(336), 6,0, 6, 0"
+2017/03/16 20:48:01,"completed work : Grid row(337), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(339), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(340), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(341), 6,0, 6, 0"
+2017/03/16 20:48:01,"completed work : Grid row(342), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(343), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(348), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(355), 6,0, 6, 0"
+2017/03/16 20:48:01,"completed work : Grid row(356), 6,0, 6, 0"
+2017/03/16 20:48:01,"completed work : Grid row(357), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(358), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(359), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(360), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(362), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(363), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(364), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(365), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(366), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(367), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(368), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(369), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(370), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(371), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(372), 7,0, 7, 0"
+2017/03/16 20:48:01,"completed work : Grid row(373), 8,0, 8, 0"
+2017/03/16 20:48:01,"completed work : Grid row(374), 1,0, 1, 0"
+2017/03/16 20:48:01,"completed work : Grid row(375), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(376), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(377), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(378), 8,0, 8, 0"
+2017/03/16 20:48:01,"completed work : Grid row(379), 1,0, 1, 0"
+2017/03/16 20:48:01,"completed work : Grid row(380), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(381), 2,0, 2, 0"
+2017/03/16 20:48:01,"completed work : Grid row(382), 7,0, 7, 0"
+2017/03/16 20:48:01,"completed work : Grid row(383), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(384), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(385), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(386), 4,0, 4, 0"
+2017/03/16 20:48:01,"completed work : Grid row(387), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(388), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(389), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(391), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(392), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(393), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(394), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(395), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(397), 3,0, 3, 0"
+2017/03/16 20:48:01,"completed work : Grid row(398), 6,0, 6, 0"
+2017/03/16 20:48:01,"completed work : Grid row(399), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(400), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(401), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(402), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(403), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(404), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(405), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(406), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(407), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(408), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(409), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(410), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(411), 9,0, 9, 0"
+2017/03/16 20:48:01,"completed work : Grid row(412), 9,0, 9, 0"
+2017/03/16 20:48:02,"not found soid : 0, 0"
+2017/03/16 20:48:02,"SO_ID not found : 0, 0"
+2017/03/16 20:48:02,"not found soid : 1, 0"
+2017/03/16 20:48:02,"SO_ID not found : 1, 0"
+2017/03/16 20:48:02,"not found soid : 2, 0"
+2017/03/16 20:48:02,"SO_ID not found : 2, 0"
+2017/03/16 20:48:02,"not found soid : 3, 0"
+2017/03/16 20:48:02,"SO_ID not found : 3, 0"
+2017/03/16 20:48:02,"not found soid : 4, 0"
+2017/03/16 20:48:02,"SO_ID not found : 4, 0"
+2017/03/16 20:48:02,"not found soid : 5, 0"
+2017/03/16 20:48:02,"SO_ID not found : 5, 0"
+2017/03/16 20:48:02,"not found soid : 6, 0"
+2017/03/16 20:48:02,"SO_ID not found : 6, 0"
+2017/03/16 20:48:02,"not found soid : 7, 0"
+2017/03/16 20:48:02,"SO_ID not found : 7, 0"
+2017/03/16 20:48:02,"not found soid : 8, 0"
+2017/03/16 20:48:02,"SO_ID not found : 8, 0"
+2017/03/16 20:48:02,"not found soid : 9, 0"
+2017/03/16 20:48:02,"SO_ID not found : 9, 0"
+2017/03/16 20:48:02,"not found soid : 10, 0"
+2017/03/16 20:48:02,"SO_ID not found : 10, 0"
+2017/03/16 20:48:02,"not found soid : 11, 0"
+2017/03/16 20:48:02,"SO_ID not found : 11, 0"
+2017/03/16 20:48:02,"not found soid : 12, 0"
+2017/03/16 20:48:02,"SO_ID not found : 12, 0"
+2017/03/16 20:48:02,"not found soid : 13, 0"
+2017/03/16 20:48:02,"SO_ID not found : 13, 0"
+2017/03/16 20:48:02,"not found soid : 14, 0"
+2017/03/16 20:48:02,"SO_ID not found : 14, 0"
+2017/03/16 20:48:02,"not found soid : 15, 0"
+2017/03/16 20:48:02,"SO_ID not found : 15, 0"
+2017/03/16 20:48:02,number of download order : 12
+2017/03/16 20:48:06,"Working row : 211, 221, 237, -1, 260, 279, 288, 302, 322, 330, 344, 361, -1, -1, 390, -1, "
+2017/03/16 20:48:07,"Download Order : 211, 0, IPI_MCA17_01_L, 9190, MS249037-1 9, IU002 WHITE"
+2017/03/16 20:48:08,"Download Order : 221, 0, IPI_MCA17_01_R, 9204, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:48:09,"Download Order : 237, 0, IPI_MCA17_02_L, 9222, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:48:10,"Download Order : 260, 0, IPI_MCA17_03_L, 9249, MS249037-1 10, IU002 WHITE"
+2017/03/16 20:48:11,"Download Order : 279, 0, IPI_MCA17_03_R, 9276, MS249037-1 12, IU002 WHITE"
+2017/03/16 20:48:12,"Download Order : 288, 0, IPI_MCA17_04_L, 9289, MS249037-1 7T, IU002 WHITE"
+2017/03/16 20:48:13,"Download Order : 302, 0, IPI_MCA17_04_R, 9309, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:48:14,"Download Order : 322, 1, IPI_MCA17_05_L, 9333, MS249037-1 9, IU002 WHITE"
+2017/03/16 20:48:15,"Download Order : 330, 1, IPI_MCA17_05_R, 9344, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:48:16,"Download Order : 344, 1, IPI_MCA17_06_L, 9362, MS249037-1 10, IU002 WHITE"
+2017/03/16 20:48:17,"Download Order : 361, 1, IPI_MCA17_06_R, 9383, MS249037-1 9T, IU002 WHITE"
+2017/03/16 20:48:18,"Download Order : 390, 1, IPI_MCA17_08_L, 9423, MS249037-1 7, IU002 WHITE"
+2017/03/16 20:48:18,number of zero SOID : 3
+2017/03/16 20:48:18,number of zero SOID : 2
+2017/03/16 20:48:18,number of zero SOID : 2
+2017/03/16 20:48:18,door close : 4
+2017/03/16 20:48:18,door close : 5
+2017/03/16 20:48:18,door close : 6
+2017/03/16 20:48:18,door close : 7
+2017/03/16 20:48:19,number of zero SOID : 2
+2017/03/16 20:48:19,door close : 0
+2017/03/16 20:48:19,door close : 1
+2017/03/16 20:48:19,door close : 2
+2017/03/16 20:48:19,door close : 3
+2017/03/16 20:48:19,number of zero SOID : 2
+2017/03/16 20:48:19,number of zero SOID : 2
+2017/03/16 20:48:19,number of zero SOID : 2
+2017/03/16 20:48:19,number of zero SOID : 2
+2017/03/16 20:48:19,number of zero SOID : 2
+2017/03/16 20:48:19,number of zero SOID : 2
+2017/03/16 20:48:19,number of zero SOID : 2
+2017/03/16 20:48:19,number of zero SOID : 2
+2017/03/16 20:48:20,number of zero SOID : 2
+2017/03/16 20:48:20,"10, Normal Act Count Row : 344, 2, 1, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:48:20,iDoor value : 5
+2017/03/16 20:48:20,"Next Order : 345, SO_ID=9363, SORT_Key=2, Station=06"
+2017/03/16 20:48:20,number of zero SOID : 2
+2017/03/16 20:48:20,"10, Normal Act Count Row : 344, 1, 0, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:48:20,iDoor value : 5
+2017/03/16 20:48:20,"Next Order : 345, SO_ID=9363, SORT_Key=2, Station=06"
+2017/03/16 20:48:20,"Check order again 1! 211, 9190"
+2017/03/16 20:48:20,"Check order again 1! 211, 9190"
+2017/03/16 20:48:20,"Check order again 1! 211, 9190"
+2017/03/16 20:48:20,"Check order again 1! 211, 9190"
+2017/03/16 20:48:20,"Check order again 1! 211, 9190"
+2017/03/16 20:48:20,"Check order again 1! 211, 9190"
+2017/03/16 20:48:20,"Check order again 1! 211, 9190"
+2017/03/16 20:48:21,"Check order again 1! 211, 9190"
+2017/03/16 20:48:21,"Check order again 1! 211, 9190"
+2017/03/16 20:48:21,"Check order again 1! 211, 9190"
+2017/03/16 20:48:21,"Check order again 1! 211, 9190"
+2017/03/16 20:48:21,"Check order again 1! 211, 9190"
+2017/03/16 20:48:21,"Check order again 1! 211, 9190"
+2017/03/16 20:48:21,"Check order again 1! 211, 9190"
+2017/03/16 20:48:21,"Check order again 1! 211, 9190"
+2017/03/16 20:48:21,"Check order again 1! 211, 9190"
+2017/03/16 20:48:22,"Check order again 1! 221, 9204"
+2017/03/16 20:48:22,"Check order again 1! 221, 9204"
+2017/03/16 20:48:22,"Next Order : 227, SO_ID=9211, SORT_Key=7, Station=01"
+2017/03/16 20:48:22,"Check order again 1! 237, 9222"
+2017/03/16 20:48:22,"Next Order : 227, SO_ID=9211, SORT_Key=7, Station=01"
+2017/03/16 20:48:22,"Check order again 1! 237, 9222"
+2017/03/16 20:48:22,"Next Order : 227, SO_ID=9211, SORT_Key=7, Station=01"
+2017/03/16 20:48:22,"Next Order : 240, SO_ID=9226, SORT_Key=4, Station=02"
+2017/03/16 20:48:22,"not found soid : 3, 0"
+2017/03/16 20:48:22,"SO_ID not found : 3, 0"
+2017/03/16 20:48:22,"Next Order : 304, SO_ID=9311, SORT_Key=4, Station=04"
+2017/03/16 20:48:22,"Next Order : 227, SO_ID=9211, SORT_Key=7, Station=01"
+2017/03/16 20:48:22,"Next Order : 240, SO_ID=9226, SORT_Key=4, Station=02"
+2017/03/16 20:48:22,"not found soid : 11, 0"
+2017/03/16 20:48:22,"SO_ID not found : 11, 0"
+2017/03/16 20:48:22,"Next Order : 304, SO_ID=9311, SORT_Key=4, Station=04"
+2017/03/16 20:48:22,number of download order : 7
+2017/03/16 20:48:23,"Download Order : 227, 0, IPI_MCA17_01_R, 9211, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:48:24,"Download Order : 240, 0, IPI_MCA17_02_L, 9226, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:48:25,"Download Order : 304, 0, IPI_MCA17_04_R, 9311, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:48:26,"Download Order : 227, 0, IPI_MCA17_01_R, 9211, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:48:27,"Download Order : 240, 0, IPI_MCA17_02_L, 9226, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:48:28,"Download Order : 361, 1, IPI_MCA17_06_R, 9383, MS249037-1 9T, IU002 WHITE"
+2017/03/16 20:48:29,"Download Order : 304, 0, IPI_MCA17_04_R, 9311, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:48:29,number of zero SOID : 2
+2017/03/16 20:48:29,"2, Normal Act Count Row : 240, 1, 0, 3, 3, prs_qty=1, door=1"
+2017/03/16 20:48:29,iDoor value : 1
+2017/03/16 20:48:29,"Next Order : 243, SO_ID=9230, SORT_Key=7, Station=02"
+2017/03/16 20:48:29,"Check order again 1! 211, 9190"
+2017/03/16 20:48:30,"Check order again 1! 211, 9190"
+2017/03/16 20:48:30,"Check order again 1! 211, 9190"
+2017/03/16 20:48:30,"Check order again 1! 211, 9190"
+2017/03/16 20:48:30,"Check order again 1! 211, 9190"
+2017/03/16 20:48:30,"Check order again 1! 211, 9190"
+2017/03/16 20:48:30,"Check order again 1! 211, 9190"
+2017/03/16 20:48:30,"Check order again 1! 211, 9190"
+2017/03/16 20:48:30,"Check order again 1! 211, 9190"
+2017/03/16 20:48:30,"Check order again 1! 211, 9190"
+2017/03/16 20:48:31,"Check order again 1! 211, 9190"
+2017/03/16 20:48:31,"Check order again 1! 211, 9190"
+2017/03/16 20:48:31,"Check order again 1! 211, 9190"
+2017/03/16 20:48:31,"Check order again 1! 211, 9190"
+2017/03/16 20:48:31,"Check order again 1! 211, 9190"
+2017/03/16 20:48:31,"Check order again 1! 227, 9211"
+2017/03/16 20:48:31,"Check order again 1! 227, 9211"
+2017/03/16 20:48:31,"Check order again 1! 240, 9226"
+2017/03/16 20:48:32,"Check order again 1! 240, 9226"
+2017/03/16 20:48:32,"Next Order : 243, SO_ID=9230, SORT_Key=7, Station=02"
+2017/03/16 20:48:32,"not found soid : 3, 0"
+2017/03/16 20:48:32,"SO_ID not found : 3, 0"
+2017/03/16 20:48:32,"Next Order : 243, SO_ID=9230, SORT_Key=7, Station=02"
+2017/03/16 20:48:32,"not found soid : 11, 0"
+2017/03/16 20:48:32,"SO_ID not found : 11, 0"
+2017/03/16 20:48:32,number of download order : 3
+2017/03/16 20:48:33,"Download Order : 243, 0, IPI_MCA17_02_L, 9230, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:48:34,"Download Order : 243, 0, IPI_MCA17_02_L, 9230, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:48:35,"Download Order : 361, 1, IPI_MCA17_06_R, 9383, MS249037-1 9T, IU002 WHITE"
+2017/03/16 20:48:35,number of zero SOID : 2
+2017/03/16 20:48:35,number of zero SOID : 2
+2017/03/16 20:48:35,number of zero SOID : 2
+2017/03/16 20:48:35,number of zero SOID : 2
+2017/03/16 20:48:35,number of zero SOID : 2
+2017/03/16 20:48:35,number of zero SOID : 2
+2017/03/16 20:48:36,number of zero SOID : 2
+2017/03/16 20:48:36,number of zero SOID : 2
+2017/03/16 20:48:36,number of zero SOID : 2
+2017/03/16 20:48:36,number of zero SOID : 2
+2017/03/16 20:48:36,number of zero SOID : 2
+2017/03/16 20:48:36,number of zero SOID : 2
+2017/03/16 20:48:36,number of zero SOID : 2
+2017/03/16 20:48:36,"1, Normal Act Count Row : 227, 3, 0, 3, 3, prs_qty=3, door=0"
+2017/03/16 20:48:36,iDoor value : 0
+2017/03/16 20:48:36,"Next Order : 228, SO_ID=9212, SORT_Key=8, Station=01"
+2017/03/16 20:48:36,"Check order again 1! 211, 9190"
+2017/03/16 20:48:37,"Check order again 1! 211, 9190"
+2017/03/16 20:48:37,"Check order again 1! 211, 9190"
+2017/03/16 20:48:37,"Check order again 1! 211, 9190"
+2017/03/16 20:48:37,"Check order again 1! 211, 9190"
+2017/03/16 20:48:37,"Check order again 1! 211, 9190"
+2017/03/16 20:48:37,"Check order again 1! 211, 9190"
+2017/03/16 20:48:37,"Check order again 1! 211, 9190"
+2017/03/16 20:48:37,"Check order again 1! 211, 9190"
+2017/03/16 20:48:37,"Check order again 1! 211, 9190"
+2017/03/16 20:48:38,"Check order again 1! 211, 9190"
+2017/03/16 20:48:38,"Check order again 1! 211, 9190"
+2017/03/16 20:48:38,"Check order again 1! 211, 9190"
+2017/03/16 20:48:38,"Check order again 1! 211, 9190"
+2017/03/16 20:48:38,"Check order again 1! 211, 9190"
+2017/03/16 20:48:38,"Check order again 1! 211, 9190"
+2017/03/16 20:48:38,"Check order again 1! 211, 9190"
+2017/03/16 20:48:38,"Check order again 1! 227, 9211"
+2017/03/16 20:48:38,"Check order again 1! 227, 9211"
+2017/03/16 20:48:39,"Next Order : 228, SO_ID=9212, SORT_Key=8, Station=01"
+2017/03/16 20:48:39,"not found soid : 3, 0"
+2017/03/16 20:48:39,"SO_ID not found : 3, 0"
+2017/03/16 20:48:39,"Next Order : 345, SO_ID=9363, SORT_Key=2, Station=06"
+2017/03/16 20:48:39,"not found soid : 13, 0"
+2017/03/16 20:48:39,"SO_ID not found : 13, 0"
+2017/03/16 20:48:39,"not found soid : 15, 0"
+2017/03/16 20:48:39,"SO_ID not found : 15, 0"
+2017/03/16 20:48:39,number of download order : 2
+2017/03/16 20:48:40,"Download Order : 228, 0, IPI_MCA17_01_R, 9212, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:48:41,"Download Order : 345, 1, IPI_MCA17_06_L, 9363, MS249037-1 10, IU002 WHITE"
+2017/03/16 20:48:41,number of zero SOID : 3
+2017/03/16 20:48:41,number of zero SOID : 3
+2017/03/16 20:48:41,number of zero SOID : 3
+2017/03/16 20:48:41,number of zero SOID : 3
+2017/03/16 20:48:41,"2, Normal Act Count Row : 243, 9, 6, 9, 9, prs_qty=3, door=1"
+2017/03/16 20:48:41,iDoor value : 1
+2017/03/16 20:48:41,number of zero SOID : 3
+2017/03/16 20:48:41,number of zero SOID : 3
+2017/03/16 20:48:42,number of zero SOID : 3
+2017/03/16 20:48:42,number of zero SOID : 3
+2017/03/16 20:48:42,number of zero SOID : 3
+2017/03/16 20:48:42,number of zero SOID : 3
+2017/03/16 20:48:42,number of zero SOID : 3
+2017/03/16 20:48:42,number of zero SOID : 3
+2017/03/16 20:48:42,number of zero SOID : 3
+2017/03/16 20:48:42,number of zero SOID : 3
+2017/03/16 20:48:42,number of zero SOID : 3
+2017/03/16 20:48:43,number of zero SOID : 3
+2017/03/16 20:48:43,number of zero SOID : 3
+2017/03/16 20:48:43,number of zero SOID : 3
+2017/03/16 20:48:43,number of zero SOID : 3
+2017/03/16 20:48:43,number of zero SOID : 3
+2017/03/16 20:48:43,number of zero SOID : 3
+2017/03/16 20:48:43,number of zero SOID : 3
+2017/03/16 20:48:43,number of zero SOID : 3
+2017/03/16 20:48:43,number of zero SOID : 3
+2017/03/16 20:48:43,"1, Normal Act Count Row : 228, 6, 5, 6, 6, prs_qty=1, door=0"
+2017/03/16 20:48:43,iDoor value : 0
+2017/03/16 20:48:43,"1, Normal Work Start Time : 228, 16 20:48:42"
+2017/03/16 20:48:44,number of zero SOID : 3
+2017/03/16 20:48:44,number of zero SOID : 3
+2017/03/16 20:48:44,"10, Normal Act Count Row : 345, 7, 6, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:48:44,iDoor value : 5
+2017/03/16 20:48:44,number of zero SOID : 3
+2017/03/16 20:48:44,number of zero SOID : 3
+2017/03/16 20:48:44,number of zero SOID : 3
+2017/03/16 20:48:44,number of zero SOID : 3
+2017/03/16 20:48:44,number of zero SOID : 3
+2017/03/16 20:48:44,number of zero SOID : 2
+2017/03/16 20:48:44,number of zero SOID : 2
+2017/03/16 20:48:45,number of zero SOID : 2
+2017/03/16 20:48:45,number of zero SOID : 2
+2017/03/16 20:48:45,number of zero SOID : 1
+2017/03/16 20:48:45,number of zero SOID : 1
+2017/03/16 20:48:45,number of zero SOID : 1
+2017/03/16 20:48:45,number of zero SOID : 1
+2017/03/16 20:48:45,number of zero SOID : 1
+2017/03/16 20:48:45,number of zero SOID : 1
+2017/03/16 20:48:45,number of zero SOID : 1
+2017/03/16 20:48:46,number of zero SOID : 1
+2017/03/16 20:48:46,number of zero SOID : 1
+2017/03/16 20:48:46,number of zero SOID : 1
+2017/03/16 20:48:46,number of zero SOID : 1
+2017/03/16 20:48:46,"1, Normal Act Count Row : 228, 5, 4, 6, 6, prs_qty=1, door=0"
+2017/03/16 20:48:46,iDoor value : 0
+2017/03/16 20:48:46,number of zero SOID : 1
+2017/03/16 20:48:46,number of zero SOID : 1
+2017/03/16 20:48:46,"2, Normal Act Count Row : 243, 6, 5, 9, 9, prs_qty=1, door=1"
+2017/03/16 20:48:46,iDoor value : 1
+2017/03/16 20:48:46,number of zero SOID : 1
+2017/03/16 20:48:46,number of zero SOID : 1
+2017/03/16 20:48:46,number of zero SOID : 1
+2017/03/16 20:48:46,number of zero SOID : 1
+2017/03/16 20:48:47,number of zero SOID : 1
+2017/03/16 20:48:47,number of zero SOID : 1
+2017/03/16 20:48:47,number of zero SOID : 1
+2017/03/16 20:48:47,number of zero SOID : 1
+2017/03/16 20:48:47,number of zero SOID : 1
+2017/03/16 20:48:47,number of zero SOID : 2
+2017/03/16 20:48:47,number of zero SOID : 2
+2017/03/16 20:48:47,number of zero SOID : 2
+2017/03/16 20:48:47,number of zero SOID : 2
+2017/03/16 20:48:48,number of zero SOID : 2
+2017/03/16 20:48:48,number of zero SOID : 2
+2017/03/16 20:48:48,number of zero SOID : 2
+2017/03/16 20:48:48,number of zero SOID : 2
+2017/03/16 20:48:48,number of zero SOID : 2
+2017/03/16 20:48:48,number of zero SOID : 2
+2017/03/16 20:48:48,number of zero SOID : 2
+2017/03/16 20:48:48,"1, Normal Act Count Row : 228, 4, 3, 6, 6, prs_qty=1, door=0"
+2017/03/16 20:48:48,iDoor value : 0
+2017/03/16 20:48:48,"Alarm Inserted: 20170316, 9212, IPI_MCA17_01_R, 6"
+2017/03/16 20:48:48,Alarm Data Inserted : SOID = 9212
+2017/03/16 20:48:48,"Next Order : 229, SO_ID=9213, SORT_Key=9, Station=01"
+2017/03/16 20:48:48,number of zero SOID : 2
+2017/03/16 20:48:48,number of zero SOID : 2
+2017/03/16 20:48:48,"2, Normal Act Count Row : 243, 5, 4, 9, 9, prs_qty=1, door=1"
+2017/03/16 20:48:48,iDoor value : 1
+2017/03/16 20:48:49,"10, Normal Act Count Row : 345, 6, 5, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:48:49,iDoor value : 5
+2017/03/16 20:48:49,number of zero SOID : 2
+2017/03/16 20:48:49,number of zero SOID : 3
+2017/03/16 20:48:49,number of zero SOID : 3
+2017/03/16 20:48:49,number of zero SOID : 3
+2017/03/16 20:48:49,number of zero SOID : 3
+2017/03/16 20:48:49,number of zero SOID : 4
+2017/03/16 20:48:49,number of zero SOID : 4
+2017/03/16 20:48:49,number of zero SOID : 4
+2017/03/16 20:48:49,number of zero SOID : 4
+2017/03/16 20:48:50,number of zero SOID : 4
+2017/03/16 20:48:50,number of zero SOID : 4
+2017/03/16 20:48:50,number of zero SOID : 4
+2017/03/16 20:48:50,number of zero SOID : 4
+2017/03/16 20:48:50,number of zero SOID : 4
+2017/03/16 20:48:50,number of zero SOID : 4
+2017/03/16 20:48:50,number of zero SOID : 4
+2017/03/16 20:48:50,number of zero SOID : 4
+2017/03/16 20:48:50,number of zero SOID : 4
+2017/03/16 20:48:51,number of zero SOID : 4
+2017/03/16 20:48:51,number of zero SOID : 4
+2017/03/16 20:48:51,"1, Normal Act Count Row : 228, 3, 2, 6, 6, prs_qty=1, door=0"
+2017/03/16 20:48:51,iDoor value : 0
+2017/03/16 20:48:51,"Next Order : 229, SO_ID=9213, SORT_Key=9, Station=01"
+2017/03/16 20:48:51,number of zero SOID : 4
+2017/03/16 20:48:51,number of zero SOID : 4
+2017/03/16 20:48:51,"2, Normal Act Count Row : 243, 4, 3, 9, 9, prs_qty=1, door=1"
+2017/03/16 20:48:51,iDoor value : 1
+2017/03/16 20:48:51,"Alarm Inserted: 20170316, 9230, IPI_MCA17_02_L, 9"
+2017/03/16 20:48:51,Alarm Data Inserted : SOID = 9230
+2017/03/16 20:48:51,"Next Order : 244, SO_ID=9231, SORT_Key=8, Station=02"
+2017/03/16 20:48:51,"10, Normal Act Count Row : 345, 5, 4, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:48:51,iDoor value : 5
+2017/03/16 20:48:51,number of zero SOID : 4
+2017/03/16 20:48:51,number of zero SOID : 3
+2017/03/16 20:48:51,number of zero SOID : 3
+2017/03/16 20:48:51,number of zero SOID : 3
+2017/03/16 20:48:51,number of zero SOID : 3
+2017/03/16 20:48:52,number of zero SOID : 3
+2017/03/16 20:48:52,number of zero SOID : 2
+2017/03/16 20:48:52,number of zero SOID : 2
+2017/03/16 20:48:52,number of zero SOID : 2
+2017/03/16 20:48:52,number of zero SOID : 2
+2017/03/16 20:48:52,number of zero SOID : 1
+2017/03/16 20:48:52,number of zero SOID : 1
+2017/03/16 20:48:52,number of zero SOID : 1
+2017/03/16 20:48:52,number of zero SOID : 1
+2017/03/16 20:48:53,number of zero SOID : 1
+2017/03/16 20:48:53,number of zero SOID : 1
+2017/03/16 20:48:53,number of zero SOID : 1
+2017/03/16 20:48:53,number of zero SOID : 1
+2017/03/16 20:48:53,number of zero SOID : 1
+2017/03/16 20:48:53,number of zero SOID : 1
+2017/03/16 20:48:53,number of zero SOID : 1
+2017/03/16 20:48:53,number of zero SOID : 1
+2017/03/16 20:48:53,"2, Normal Act Count Row : 243, 3, 2, 9, 9, prs_qty=1, door=1"
+2017/03/16 20:48:53,iDoor value : 1
+2017/03/16 20:48:53,"Next Order : 244, SO_ID=9231, SORT_Key=8, Station=02"
+2017/03/16 20:48:53,"10, Normal Act Count Row : 345, 4, 3, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:48:53,iDoor value : 5
+2017/03/16 20:48:53,ERROR line 155-164 Variant or safe array index out of bounds
+2017/03/16 20:48:53,"Next Order : 346, SO_ID=9365, SORT_Key=3, Station=06"
+2017/03/16 20:48:53,number of zero SOID : 1
+2017/03/16 20:48:53,"10, Normal Act Count Row : 345, 3, 2, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:48:53,iDoor value : 5
+2017/03/16 20:48:54,"Next Order : 346, SO_ID=9365, SORT_Key=3, Station=06"
+2017/03/16 20:48:54,number of zero SOID : 1
+2017/03/16 20:48:54,number of zero SOID : 2
+2017/03/16 20:48:54,number of zero SOID : 2
+2017/03/16 20:48:54,number of zero SOID : 2
+2017/03/16 20:48:54,number of zero SOID : 2
+2017/03/16 20:48:54,number of zero SOID : 3
+2017/03/16 20:48:54,number of zero SOID : 2
+2017/03/16 20:48:54,number of zero SOID : 2
+2017/03/16 20:48:54,number of zero SOID : 2
+2017/03/16 20:48:54,number of zero SOID : 2
+2017/03/16 20:48:55,number of zero SOID : 2
+2017/03/16 20:48:55,number of zero SOID : 2
+2017/03/16 20:48:55,number of zero SOID : 2
+2017/03/16 20:48:55,number of zero SOID : 2
+2017/03/16 20:48:55,number of zero SOID : 2
+2017/03/16 20:48:55,number of zero SOID : 2
+2017/03/16 20:48:55,number of zero SOID : 2
+2017/03/16 20:48:55,number of zero SOID : 2
+2017/03/16 20:48:55,number of zero SOID : 2
+2017/03/16 20:48:56,number of zero SOID : 2
+2017/03/16 20:48:56,"1, Normal Act Count Row : 228, 2, 1, 6, 6, prs_qty=1, door=0"
+2017/03/16 20:48:56,iDoor value : 0
+2017/03/16 20:48:56,"Next Order : 229, SO_ID=9213, SORT_Key=9, Station=01"
+2017/03/16 20:48:56,number of zero SOID : 2
+2017/03/16 20:48:56,number of zero SOID : 2
+2017/03/16 20:48:56,number of zero SOID : 2
+2017/03/16 20:48:56,number of zero SOID : 1
+2017/03/16 20:48:56,number of zero SOID : 1
+2017/03/16 20:48:56,number of zero SOID : 1
+2017/03/16 20:48:56,number of zero SOID : 1
+2017/03/16 20:48:56,number of zero SOID : 1
+2017/03/16 20:48:57,number of zero SOID : 1
+2017/03/16 20:48:57,number of zero SOID : 1
+2017/03/16 20:48:57,number of zero SOID : 1
+2017/03/16 20:48:57,number of zero SOID : 1
+2017/03/16 20:48:57,number of zero SOID : 1
+2017/03/16 20:48:57,number of zero SOID : 1
+2017/03/16 20:48:57,number of zero SOID : 1
+2017/03/16 20:48:57,number of zero SOID : 1
+2017/03/16 20:48:57,number of zero SOID : 1
+2017/03/16 20:48:58,number of zero SOID : 1
+2017/03/16 20:48:58,number of zero SOID : 1
+2017/03/16 20:48:58,number of zero SOID : 1
+2017/03/16 20:48:58,number of zero SOID : 1
+2017/03/16 20:48:58,number of zero SOID : 1
+2017/03/16 20:48:58,"1, Normal Act Count Row : 228, 1, 0, 6, 6, prs_qty=1, door=0"
+2017/03/16 20:48:58,iDoor value : 0
+2017/03/16 20:48:58,"Next Order : 229, SO_ID=9213, SORT_Key=9, Station=01"
+2017/03/16 20:48:58,"Check order again 1! 211, 9190"
+2017/03/16 20:48:58,"Check order again 1! 211, 9190"
+2017/03/16 20:48:58,"Check order again 1! 211, 9190"
+2017/03/16 20:48:59,"Check order again 1! 211, 9190"
+2017/03/16 20:48:59,"Check order again 1! 211, 9190"
+2017/03/16 20:48:59,"Check order again 1! 211, 9190"
+2017/03/16 20:48:59,"Check order again 1! 211, 9190"
+2017/03/16 20:48:59,"Check order again 1! 211, 9190"
+2017/03/16 20:48:59,"Check order again 1! 211, 9190"
+2017/03/16 20:48:59,"Check order again 1! 211, 9190"
+2017/03/16 20:48:59,"Check order again 1! 211, 9190"
+2017/03/16 20:48:59,"Check order again 1! 211, 9190"
+2017/03/16 20:49:00,"Check order again 1! 211, 9190"
+2017/03/16 20:49:00,"Check order again 1! 211, 9190"
+2017/03/16 20:49:00,"Check order again 1! 211, 9190"
+2017/03/16 20:49:00,"Check order again 1! 211, 9190"
+2017/03/16 20:49:00,"Check order again 1! 211, 9190"
+2017/03/16 20:49:00,"Check order again 1! 211, 9190"
+2017/03/16 20:49:00,"Check order again 1! 228, 9212"
+2017/03/16 20:49:00,"Next Order : 229, SO_ID=9213, SORT_Key=9, Station=01"
+2017/03/16 20:49:00,"not found soid : 3, 0"
+2017/03/16 20:49:00,"SO_ID not found : 3, 0"
+2017/03/16 20:49:00,"Next Order : 229, SO_ID=9213, SORT_Key=9, Station=01"
+2017/03/16 20:49:00,"not found soid : 13, 0"
+2017/03/16 20:49:00,"SO_ID not found : 13, 0"
+2017/03/16 20:49:00,number of download order : 2
+2017/03/16 20:49:01,"Download Order : 229, 0, IPI_MCA17_01_R, 9213, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:49:02,"completed work : Grid row(0), 9,6, 9, 6"
+2017/03/16 20:49:02,"completed work : Grid row(2), 9,1, 9, 1"
+2017/03/16 20:49:02,"completed work : Grid row(208), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(209), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(210), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(213), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(215), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(216), 5,0, 5, 0"
+2017/03/16 20:49:02,"completed work : Grid row(217), 4,0, 4, 0"
+2017/03/16 20:49:02,"completed work : Grid row(218), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(219), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(220), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(222), 3,0, 3, 0"
+2017/03/16 20:49:02,"completed work : Grid row(226), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(227), 3,0, 3, 0"
+2017/03/16 20:49:02,"completed work : Grid row(228), 6,0, 6, 0"
+2017/03/16 20:49:02,"completed work : Grid row(231), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(233), 3,0, 3, 0"
+2017/03/16 20:49:02,"completed work : Grid row(235), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(236), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(240), 3,0, 3, 0"
+2017/03/16 20:49:02,"completed work : Grid row(241), 5,0, 5, 0"
+2017/03/16 20:49:02,"completed work : Grid row(242), 8,0, 8, 0"
+2017/03/16 20:49:02,"completed work : Grid row(250), 1,0, 1, 0"
+2017/03/16 20:49:02,"completed work : Grid row(252), 8,0, 8, 0"
+2017/03/16 20:49:02,"completed work : Grid row(253), 1,0, 1, 0"
+2017/03/16 20:49:02,"completed work : Grid row(254), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(255), 9,0, 9, 0"
+2017/03/16 20:49:02,"completed work : Grid row(256), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(257), 6,0, 6, 0"
+2017/03/16 20:49:03,"completed work : Grid row(258), 3,0, 3, 0"
+2017/03/16 20:49:03,"completed work : Grid row(259), 8,0, 8, 0"
+2017/03/16 20:49:03,"completed work : Grid row(261), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(262), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(263), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(264), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(265), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(266), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(267), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(268), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(269), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(270), 6,0, 6, 0"
+2017/03/16 20:49:03,"completed work : Grid row(271), 3,0, 3, 0"
+2017/03/16 20:49:03,"completed work : Grid row(272), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(273), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(274), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(275), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(276), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(277), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(278), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(280), 3,0, 3, 0"
+2017/03/16 20:49:03,"completed work : Grid row(281), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(282), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(283), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(284), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(285), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(286), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(287), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(289), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(290), 1,0, 1, 0"
+2017/03/16 20:49:03,"completed work : Grid row(291), 8,0, 8, 0"
+2017/03/16 20:49:03,"completed work : Grid row(292), 2,0, 2, 0"
+2017/03/16 20:49:03,"completed work : Grid row(293), 7,0, 7, 0"
+2017/03/16 20:49:03,"completed work : Grid row(294), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(295), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(298), 4,0, 4, 0"
+2017/03/16 20:49:03,"completed work : Grid row(299), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(300), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(301), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(314), 6,0, 6, 0"
+2017/03/16 20:49:03,"completed work : Grid row(315), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(316), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(317), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(318), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(319), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(320), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(321), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(323), 6,0, 6, 0"
+2017/03/16 20:49:03,"completed work : Grid row(324), 3,0, 3, 0"
+2017/03/16 20:49:03,"completed work : Grid row(325), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(326), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(327), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(328), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(329), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(331), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(332), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(333), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(335), 3,0, 3, 0"
+2017/03/16 20:49:03,"completed work : Grid row(336), 6,0, 6, 0"
+2017/03/16 20:49:03,"completed work : Grid row(337), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(339), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(340), 3,0, 3, 0"
+2017/03/16 20:49:03,"completed work : Grid row(341), 6,0, 6, 0"
+2017/03/16 20:49:03,"completed work : Grid row(342), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(343), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(344), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(348), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(355), 6,0, 6, 0"
+2017/03/16 20:49:03,"completed work : Grid row(356), 6,0, 6, 0"
+2017/03/16 20:49:03,"completed work : Grid row(357), 3,0, 3, 0"
+2017/03/16 20:49:03,"completed work : Grid row(358), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(359), 9,0, 9, 0"
+2017/03/16 20:49:03,"completed work : Grid row(360), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(362), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(363), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(364), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(365), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(366), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(367), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(368), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(369), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(370), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(371), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(372), 7,0, 7, 0"
+2017/03/16 20:49:04,"completed work : Grid row(373), 8,0, 8, 0"
+2017/03/16 20:49:04,"completed work : Grid row(374), 1,0, 1, 0"
+2017/03/16 20:49:04,"completed work : Grid row(375), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(376), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(377), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(378), 8,0, 8, 0"
+2017/03/16 20:49:04,"completed work : Grid row(379), 1,0, 1, 0"
+2017/03/16 20:49:04,"completed work : Grid row(380), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(381), 2,0, 2, 0"
+2017/03/16 20:49:04,"completed work : Grid row(382), 7,0, 7, 0"
+2017/03/16 20:49:04,"completed work : Grid row(383), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(384), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(385), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(386), 4,0, 4, 0"
+2017/03/16 20:49:04,"completed work : Grid row(387), 3,0, 3, 0"
+2017/03/16 20:49:04,"completed work : Grid row(388), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(389), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(391), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(392), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(393), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(394), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(395), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(397), 3,0, 3, 0"
+2017/03/16 20:49:04,"completed work : Grid row(398), 6,0, 6, 0"
+2017/03/16 20:49:04,"completed work : Grid row(399), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(400), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(401), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(402), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(403), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(404), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(405), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(406), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(407), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(408), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(409), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(410), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(411), 9,0, 9, 0"
+2017/03/16 20:49:04,"completed work : Grid row(412), 9,0, 9, 0"
+2017/03/16 20:49:04,"Download Order : 229, 0, IPI_MCA17_01_R, 9213, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:49:04,"Check order again 1! 211, 9190"
+2017/03/16 20:49:05,number of zero SOID : 2
+2017/03/16 20:49:05,"Check order again 1! 211, 9190"
+2017/03/16 20:49:05,number of zero SOID : 2
+2017/03/16 20:49:05,"Check order again 1! 211, 9190"
+2017/03/16 20:49:05,number of zero SOID : 2
+2017/03/16 20:49:05,"Check order again 1! 211, 9190"
+2017/03/16 20:49:05,number of zero SOID : 2
+2017/03/16 20:49:05,"Check order again 1! 211, 9190"
+2017/03/16 20:49:05,number of zero SOID : 2
+2017/03/16 20:49:05,"Check order again 1! 211, 9190"
+2017/03/16 20:49:05,number of zero SOID : 2
+2017/03/16 20:49:05,"Check order again 1! 211, 9190"
+2017/03/16 20:49:05,number of zero SOID : 2
+2017/03/16 20:49:05,"Check order again 1! 228, 9212"
+2017/03/16 20:49:05,number of zero SOID : 2
+2017/03/16 20:49:05,"Check order again 1! 211, 9190"
+2017/03/16 20:49:05,number of zero SOID : 2
+2017/03/16 20:49:06,"Check order again 1! 211, 9190"
+2017/03/16 20:49:06,number of zero SOID : 2
+2017/03/16 20:49:06,"Check order again 1! 211, 9190"
+2017/03/16 20:49:06,number of zero SOID : 2
+2017/03/16 20:49:06,"Check order again 1! 211, 9190"
+2017/03/16 20:49:06,number of zero SOID : 2
+2017/03/16 20:49:06,"Check order again 1! 211, 9190"
+2017/03/16 20:49:06,number of zero SOID : 2
+2017/03/16 20:49:06,"Check order again 1! 211, 9190"
+2017/03/16 20:49:06,number of zero SOID : 1
+2017/03/16 20:49:06,"Check order again 1! 211, 9190"
+2017/03/16 20:49:06,number of zero SOID : 1
+2017/03/16 20:49:06,number of zero SOID : 1
+2017/03/16 20:49:06,"Check order again 1! 211, 9190"
+2017/03/16 20:49:06,number of zero SOID : 1
+2017/03/16 20:49:06,"Check order again 1! 211, 9190"
+2017/03/16 20:49:06,number of zero SOID : 2
+2017/03/16 20:49:06,"Check order again 1! 211, 9190"
+2017/03/16 20:49:07,number of zero SOID : 2
+2017/03/16 20:49:07,"Check order again 1! 211, 9190"
+2017/03/16 20:49:07,number of zero SOID : 2
+2017/03/16 20:49:07,"Check order again 1! 211, 9190"
+2017/03/16 20:49:07,number of zero SOID : 2
+2017/03/16 20:49:07,"Check order again 1! 211, 9190"
+2017/03/16 20:49:07,number of zero SOID : 3
+2017/03/16 20:49:07,"Check order again 1! 211, 9190"
+2017/03/16 20:49:07,number of zero SOID : 3
+2017/03/16 20:49:07,"Check order again 1! 211, 9190"
+2017/03/16 20:49:07,number of zero SOID : 3
+2017/03/16 20:49:07,"Check order again 1! 211, 9190"
+2017/03/16 20:49:07,number of zero SOID : 3
+2017/03/16 20:49:07,"Check order again 1! 211, 9190"
+2017/03/16 20:49:07,number of zero SOID : 3
+2017/03/16 20:49:07,"Check order again 1! 211, 9190"
+2017/03/16 20:49:07,number of zero SOID : 3
+2017/03/16 20:49:07,"Check order again 1! 211, 9190"
+2017/03/16 20:49:07,number of zero SOID : 3
+2017/03/16 20:49:08,"Check order again 1! 211, 9190"
+2017/03/16 20:49:08,number of zero SOID : 3
+2017/03/16 20:49:08,"Next Order : 244, SO_ID=9231, SORT_Key=8, Station=02"
+2017/03/16 20:49:08,"not found soid : 3, 0"
+2017/03/16 20:49:08,"SO_ID not found : 3, 0"
+2017/03/16 20:49:08,"Next Order : 244, SO_ID=9231, SORT_Key=8, Station=02"
+2017/03/16 20:49:08,"not found soid : 13, 0"
+2017/03/16 20:49:08,"SO_ID not found : 13, 0"
+2017/03/16 20:49:08,"not found soid : 15, 0"
+2017/03/16 20:49:08,"SO_ID not found : 15, 0"
+2017/03/16 20:49:08,number of download order : 2
+2017/03/16 20:49:08,number of zero SOID : 3
+2017/03/16 20:49:08,"1, Normal Act Count Row : 229, 6, 5, 6, 6, prs_qty=1, door=0"
+2017/03/16 20:49:08,iDoor value : 0
+2017/03/16 20:49:08,"1, Normal Work Start Time : 229, 16 20:49:07"
+2017/03/16 20:49:08,"2, Normal Act Count Row : 244, 2, 0, 2, 2, prs_qty=2, door=1"
+2017/03/16 20:49:08,iDoor value : 1
+2017/03/16 20:49:08,"Next Order : 245, SO_ID=9232, SORT_Key=9, Station=02"
+2017/03/16 20:49:08,"Check order again 1! 211, 9190"
+2017/03/16 20:49:09,"Check order again 1! 211, 9190"
+2017/03/16 20:49:09,"Check order again 1! 211, 9190"
+2017/03/16 20:49:09,"Check order again 1! 211, 9190"
+2017/03/16 20:49:09,"Check order again 1! 211, 9190"
+2017/03/16 20:49:09,"Check order again 1! 211, 9190"
+2017/03/16 20:49:09,"Check order again 1! 211, 9190"
+2017/03/16 20:49:09,"download work start : 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, "
+2017/03/16 20:49:09,"Check order again 1! 211, 9190"
+2017/03/16 20:49:09,"Check order again 1! 211, 9190"
+2017/03/16 20:49:09,"Check order again 1! 211, 9190"
+2017/03/16 20:49:10,"Check order again 1! 211, 9190"
+2017/03/16 20:49:10,"Check order again 1! 211, 9190"
+2017/03/16 20:49:10,"Check order again 1! 211, 9190"
+2017/03/16 20:49:10,"Check order again 1! 211, 9190"
+2017/03/16 20:49:10,"Check order again 1! 211, 9190"
+2017/03/16 20:49:10,"download work start : 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, "
+2017/03/16 20:49:10,"Check order again 1! 211, 9190"
+2017/03/16 20:49:10,"Check order again 1! 211, 9190"
+2017/03/16 20:49:10,"Check order again 1! 211, 9190"
+2017/03/16 20:49:11,"Check order again 1! 211, 9190"
+2017/03/16 20:49:11,"Next Order : 245, SO_ID=9232, SORT_Key=9, Station=02"
+2017/03/16 20:49:11,"not found soid : 3, 0"
+2017/03/16 20:49:11,"SO_ID not found : 3, 0"
+2017/03/16 20:49:11,"Next Order : 245, SO_ID=9232, SORT_Key=9, Station=02"
+2017/03/16 20:49:11,"not found soid : 11, 0"
+2017/03/16 20:49:11,"SO_ID not found : 11, 0"
+2017/03/16 20:49:11,"not found soid : 13, 0"
+2017/03/16 20:49:11,"SO_ID not found : 13, 0"
+2017/03/16 20:49:11,"not found soid : 15, 0"
+2017/03/16 20:49:11,"SO_ID not found : 15, 0"
+2017/03/16 20:49:11,number of download order : 3
+2017/03/16 20:49:11,"Download Order : 245, 0, IPI_MCA17_02_L, 9232, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:49:12,"Download Order : 245, 0, IPI_MCA17_02_L, 9232, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:49:13,"Download Order : 361, 1, IPI_MCA17_06_R, 9383, MS249037-1 9T, IU002 WHITE"
+2017/03/16 20:49:13,number of zero SOID : 2
+2017/03/16 20:49:13,"1, Normal Act Count Row : 229, 5, 3, 6, 6, prs_qty=2, door=0"
+2017/03/16 20:49:13,iDoor value : 0
+2017/03/16 20:49:13,"Alarm Inserted: 20170316, 9213, IPI_MCA17_01_R, 6"
+2017/03/16 20:49:13,Alarm Data Inserted : SOID = 9213
+2017/03/16 20:49:13,"Next Order : 230, SO_ID=9214, SORT_Key=10, Station=01"
+2017/03/16 20:49:13,number of zero SOID : 2
+2017/03/16 20:49:13,"10, Normal Act Count Row : 245, 7, 0, 7, 7, prs_qty=7, door=5"
+2017/03/16 20:49:13,iDoor value : 5
+2017/03/16 20:49:13,"Next Order : 246, SO_ID=9233, SORT_Key=10, Station=02"
+2017/03/16 20:49:14,"Check order again 1! 211, 9190"
+2017/03/16 20:49:14,"Check order again 1! 211, 9190"
+2017/03/16 20:49:14,"Check order again 1! 211, 9190"
+2017/03/16 20:49:14,"Check order again 1! 211, 9190"
+2017/03/16 20:49:14,"Check order again 1! 211, 9190"
+2017/03/16 20:49:14,"Check order again 1! 211, 9190"
+2017/03/16 20:49:14,"Check order again 1! 211, 9190"
+2017/03/16 20:49:14,"Check order again 1! 211, 9190"
+2017/03/16 20:49:15,"Check order again 1! 211, 9190"
+2017/03/16 20:49:15,"Check order again 1! 211, 9190"
+2017/03/16 20:49:15,"Check order again 1! 211, 9190"
+2017/03/16 20:49:15,"Check order again 1! 211, 9190"
+2017/03/16 20:49:15,"Check order again 1! 211, 9190"
+2017/03/16 20:49:15,"Check order again 1! 211, 9190"
+2017/03/16 20:49:15,"Check order again 1! 211, 9190"
+2017/03/16 20:49:15,"Check order again 1! 211, 9190"
+2017/03/16 20:49:16,"Check order again 1! 229, 9213"
+2017/03/16 20:49:16,"not found soid : 3, 0"
+2017/03/16 20:49:16,"SO_ID not found : 3, 0"
+2017/03/16 20:49:16,"not found soid : 11, 0"
+2017/03/16 20:49:16,"SO_ID not found : 11, 0"
+2017/03/16 20:49:16,number of download order : 1
+2017/03/16 20:49:17,"Download Order : 361, 1, IPI_MCA17_06_R, 9383, MS249037-1 9T, IU002 WHITE"
+2017/03/16 20:49:17,number of zero SOID : 3
+2017/03/16 20:49:17,"15, Normal Act Count Row : 304, 9, 0, 9, 9, prs_qty=9, door=7"
+2017/03/16 20:49:17,iDoor value : 7
+2017/03/16 20:49:17,"Next Order : 305, SO_ID=9313, SORT_Key=5, Station=04"
+2017/03/16 20:49:17,"Check order again 1! 211, 9190"
+2017/03/16 20:49:17,"Check order again 1! 211, 9190"
+2017/03/16 20:49:17,"Check order again 1! 211, 9190"
+2017/03/16 20:49:17,"Check order again 1! 211, 9190"
+2017/03/16 20:49:18,"Check order again 1! 211, 9190"
+2017/03/16 20:49:18,"Check order again 1! 211, 9190"
+2017/03/16 20:49:18,"Check order again 1! 211, 9190"
+2017/03/16 20:49:18,"Check order again 1! 229, 9213"
+2017/03/16 20:49:18,"Check order again 1! 229, 9213"
+2017/03/16 20:49:18,"Check order again 1! 245, 9232"
+2017/03/16 20:49:18,"Check order again 1! 245, 9232"
+2017/03/16 20:49:18,"not found soid : 3, 0"
+2017/03/16 20:49:18,"SO_ID not found : 3, 0"
+2017/03/16 20:49:19,"Check order again 1! 260, 9249"
+2017/03/16 20:49:19,"not found soid : 3, 0"
+2017/03/16 20:49:19,"SO_ID not found : 3, 0"
+2017/03/16 20:49:19,"Check order again 1! 260, 9249"
+2017/03/16 20:49:19,"not found soid : 3, 0"
+2017/03/16 20:49:19,"SO_ID not found : 3, 0"
+2017/03/16 20:49:19,"Check order again 1! 279, 9276"
+2017/03/16 20:49:19,"not found soid : 3, 0"
+2017/03/16 20:49:19,"SO_ID not found : 3, 0"
+2017/03/16 20:49:19,"Check order again 1! 279, 9276"
+2017/03/16 20:49:19,"not found soid : 3, 0"
+2017/03/16 20:49:19,"SO_ID not found : 3, 0"
+2017/03/16 20:49:19,"Check order again 1! 288, 9289"
+2017/03/16 20:49:19,"not found soid : 3, 0"
+2017/03/16 20:49:19,"SO_ID not found : 3, 0"
+2017/03/16 20:49:19,"not found soid : 11, 0"
+2017/03/16 20:49:19,"SO_ID not found : 11, 0"
+2017/03/16 20:49:19,number of download order : 1
+2017/03/16 20:49:20,"Download Order : 361, 1, IPI_MCA17_06_R, 9383, MS249037-1 9T, IU002 WHITE"
+2017/03/16 20:49:21,number of zero SOID : 2
+2017/03/16 20:49:21,"1, Normal Act Count Row : 229, 3, 0, 6, 6, prs_qty=3, door=0"
+2017/03/16 20:49:21,iDoor value : 0
+2017/03/16 20:49:21,"Next Order : 230, SO_ID=9214, SORT_Key=10, Station=01"
+2017/03/16 20:49:21,"Check order again 1! 211, 9190"
+2017/03/16 20:49:21,"Check order again 1! 211, 9190"
+2017/03/16 20:49:21,"Check order again 1! 211, 9190"
+2017/03/16 20:49:21,"Check order again 1! 211, 9190"
+2017/03/16 20:49:21,"Check order again 1! 211, 9190"
+2017/03/16 20:49:21,"Check order again 1! 211, 9190"
+2017/03/16 20:49:21,"Check order again 1! 211, 9190"
+2017/03/16 20:49:21,"Check order again 1! 211, 9190"
+2017/03/16 20:49:22,"Check order again 1! 211, 9190"
+2017/03/16 20:49:22,"Check order again 1! 211, 9190"
+2017/03/16 20:49:22,"Check order again 1! 211, 9190"
+2017/03/16 20:49:22,"Check order again 1! 211, 9190"
+2017/03/16 20:49:22,"Check order again 1! 211, 9190"
+2017/03/16 20:49:22,"Check order again 1! 211, 9190"
+2017/03/16 20:49:22,"Check order again 1! 211, 9190"
+2017/03/16 20:49:22,"Check order again 1! 211, 9190"
+2017/03/16 20:49:23,"Check order again 1! 211, 9190"
+2017/03/16 20:49:23,"Check order again 1! 211, 9190"
+2017/03/16 20:49:23,"Check order again 1! 229, 9213"
+2017/03/16 20:49:23,"Check order again 1! 229, 9213"
+2017/03/16 20:49:23,"Next Order : 230, SO_ID=9214, SORT_Key=10, Station=01"
+2017/03/16 20:49:23,"not found soid : 3, 0"
+2017/03/16 20:49:23,"SO_ID not found : 3, 0"
+2017/03/16 20:49:23,"Next Order : 230, SO_ID=9214, SORT_Key=10, Station=01"
+2017/03/16 20:49:23,"not found soid : 11, 0"
+2017/03/16 20:49:23,"SO_ID not found : 11, 0"
+2017/03/16 20:49:23,"not found soid : 15, 0"
+2017/03/16 20:49:23,"SO_ID not found : 15, 0"
+2017/03/16 20:49:23,number of download order : 3
+2017/03/16 20:49:24,"Download Order : 230, 0, IPI_MCA17_01_R, 9214, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:49:25,"Download Order : 230, 0, IPI_MCA17_01_R, 9214, MS249037-1 10T, IU002 WHITE"
+2017/03/16 20:49:26,"Download Order : 361, 1, IPI_MCA17_06_R, 9383, MS249037-1 9T, IU002 WHITE"
+2017/03/16 20:49:26,number of zero SOID : 3
+2017/03/16 20:49:26,number of zero SOID : 3
+2017/03/16 20:49:27,number of zero SOID : 3
+2017/03/16 20:49:27,number of zero SOID : 3
+2017/03/16 20:49:27,number of zero SOID : 3
+2017/03/16 20:49:27,number of zero SOID : 3
+2017/03/16 20:49:27,number of zero SOID : 3
+2017/03/16 20:49:27,number of zero SOID : 3
+2017/03/16 20:49:27,number of zero SOID : 3
+2017/03/16 20:49:27,number of zero SOID : 3
+2017/03/16 20:49:27,number of zero SOID : 3
+2017/03/16 20:49:27,number of zero SOID : 3
+2017/03/16 20:49:28,number of zero SOID : 3
+2017/03/16 20:49:28,number of zero SOID : 3
+2017/03/16 20:49:28,"1, Normal Act Count Row : 230, 3, 2, 3, 3, prs_qty=1, door=0"
+2017/03/16 20:49:28,iDoor value : 0
+2017/03/16 20:49:28,"1, Normal Work Start Time : 230, 16 20:49:27"
+2017/03/16 20:49:28,"9, Normal Act Count Row : 230, 3, 2, 3, 3, prs_qty=1, door=4"
+2017/03/16 20:49:28,iDoor value : 4
+2017/03/16 20:49:28,ERROR line 141-153 Variant or safe array index out of bounds
+2017/03/16 20:49:28,number of zero SOID : 3
+2017/03/16 20:49:28,"9, Normal Act Count Row : 230, 2, 0, 3, 3, prs_qty=2, door=4"
+2017/03/16 20:49:28,iDoor value : 4
+2017/03/16 20:49:28,"Check order again 1! 211, 9190"
+2017/03/16 20:49:28,"Check order again 1! 211, 9190"
+2017/03/16 20:49:28,"Check order again 1! 211, 9190"
+2017/03/16 20:49:28,"Check order again 1! 211, 9190"
+2017/03/16 20:49:28,"Check order again 1! 211, 9190"
+2017/03/16 20:49:29,"Check order again 1! 211, 9190"
+2017/03/16 20:49:29,"Check order again 1! 211, 9190"
+2017/03/16 20:49:29,"Check order again 1! 211, 9190"
+2017/03/16 20:49:29,"Check order again 1! 211, 9190"
+2017/03/16 20:49:29,"Check order again 1! 211, 9190"
+2017/03/16 20:49:29,"Check order again 1! 211, 9190"
+2017/03/16 20:49:29,"Check order again 1! 211, 9190"
+2017/03/16 20:49:29,"Check order again 1! 211, 9190"
+2017/03/16 20:49:30,"Check order again 1! 211, 9190"
+2017/03/16 20:49:30,"Check order again 1! 211, 9190"
+2017/03/16 20:49:30,"Check order again 1! 211, 9190"
+2017/03/16 20:49:30,"Check order again 1! 230, 9214"
+2017/03/16 20:49:30,"Check order again 1! 230, 9214"
+2017/03/16 20:49:30,"not found soid : 3, 0"
+2017/03/16 20:49:30,"SO_ID not found : 3, 0"
+2017/03/16 20:49:30,"Next Order : 346, SO_ID=9365, SORT_Key=3, Station=06"
+2017/03/16 20:49:30,"not found soid : 13, 0"
+2017/03/16 20:49:30,"SO_ID not found : 13, 0"
+2017/03/16 20:49:30,"not found soid : 15, 0"
+2017/03/16 20:49:30,"SO_ID not found : 15, 0"
+2017/03/16 20:49:30,number of download order : 1
+2017/03/16 20:49:31,"Download Order : 346, 1, IPI_MCA17_06_L, 9365, MS249037-1 10, IU002 WHITE"
+2017/03/16 20:49:31,number of zero SOID : 3
+2017/03/16 20:49:32,number of zero SOID : 2
+2017/03/16 20:49:32,number of zero SOID : 3
+2017/03/16 20:49:32,number of zero SOID : 3
+2017/03/16 20:49:32,number of zero SOID : 3
+2017/03/16 20:49:32,number of zero SOID : 3
+2017/03/16 20:49:32,number of zero SOID : 3
+2017/03/16 20:49:32,number of zero SOID : 3
+2017/03/16 20:49:32,number of zero SOID : 3
+2017/03/16 20:49:32,number of zero SOID : 3
+2017/03/16 20:49:33,number of zero SOID : 3
+2017/03/16 20:49:33,number of zero SOID : 3
+2017/03/16 20:49:33,number of zero SOID : 3
+2017/03/16 20:49:33,"10, Normal Act Count Row : 346, 6, 0, 6, 6, prs_qty=6, door=5"
+2017/03/16 20:49:33,iDoor value : 5
+2017/03/16 20:49:33,"Next Order : 347, SO_ID=9366, SORT_Key=4, Station=06"
+2017/03/16 20:49:33,"Check order again 1! 211, 9190"
+2017/03/16 20:49:33,"Check order again 1! 211, 9190"
+2017/03/16 20:49:33,"Check order again 1! 211, 9190"
+2017/03/16 20:49:33,"Check order again 1! 211, 9190"
+2017/03/16 20:49:33,"Check order again 1! 211, 9190"
+2017/03/16 20:49:34,"Check order again 1! 211, 9190"
+2017/03/16 20:49:34,"Check order again 1! 211, 9190"
+2017/03/16 20:49:34,"Check order again 1! 211, 9190"
+2017/03/16 20:49:34,"Check order again 1! 211, 9190"
+2017/03/16 20:49:34,"Check order again 1! 211, 9190"
+2017/03/16 20:49:34,"Check order again 1! 211, 9190"
+2017/03/16 20:49:34,"Check order again 1! 211, 9190"
+2017/03/16 20:49:34,"Check order again 1! 211, 9190"
+2017/03/16 20:49:34,"Check order again 1! 211, 9190"
+2017/03/16 20:49:35,"Check order again 1! 211, 9190"
+2017/03/16 20:49:35,"Check order again 1! 230, 9214"
+2017/03/16 20:49:35,"Check order again 1! 230, 9214"
+2017/03/16 20:49:35,"Check order again 1! 245, 9232"
+2017/03/16 20:49:35,"Check order again 1! 245, 9232"
+2017/03/16 20:49:35,"Next Order : 246, SO_ID=9233, SORT_Key=10, Station=02"
+2017/03/16 20:49:35,"not found soid : 3, 0"
+2017/03/16 20:49:35,"SO_ID not found : 3, 0"
+2017/03/16 20:49:35,"Next Order : 246, SO_ID=9233, SORT_Key=10, Station=02"
+2017/03/16 20:49:35,"not found soid : 13, 0"
+2017/03/16 20:49:35,"SO_ID not found : 13, 0"
+2017/03/16 20:49:35,"not found soid : 15, 0"
+2017/03/16 20:49:35,"SO_ID not found : 15, 0"
+2017/03/16 20:49:35,number of download order : 2
+2017/03/16 20:49:36,"Download Order : 246, 0, IPI_MCA17_02_L, 9233, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:49:37,"Download Order : 246, 0, IPI_MCA17_02_L, 9233, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:49:38,number of zero SOID : 3
+2017/03/16 20:49:38,number of zero SOID : 3
+2017/03/16 20:49:38,"9, Normal Act Count Row : 330, 3, 0, 9, 9, prs_qty=3, door=4"
+2017/03/16 20:49:38,iDoor value : 4
+2017/03/16 20:49:38,"Check order again 1! 211, 9190"
+2017/03/16 20:49:38,"Check order again 1! 211, 9190"
+2017/03/16 20:49:38,"Check order again 1! 211, 9190"
+2017/03/16 20:49:38,"Check order again 1! 211, 9190"
+2017/03/16 20:49:38,"Check order again 1! 211, 9190"
+2017/03/16 20:49:38,"Check order again 1! 211, 9190"
+2017/03/16 20:49:38,"Check order again 1! 211, 9190"
+2017/03/16 20:49:39,"Check order again 1! 211, 9190"
+2017/03/16 20:49:39,"Check order again 1! 211, 9190"
+2017/03/16 20:49:39,"Check order again 1! 211, 9190"
+2017/03/16 20:49:39,"Check order again 1! 211, 9190"
+2017/03/16 20:49:39,"Check order again 1! 211, 9190"
+2017/03/16 20:49:39,"Check order again 1! 211, 9190"
+2017/03/16 20:49:39,"Check order again 1! 211, 9190"
+2017/03/16 20:49:39,"Check order again 1! 211, 9190"
+2017/03/16 20:49:40,"Check order again 1! 230, 9214"
+2017/03/16 20:49:40,"Check order again 1! 230, 9214"
+2017/03/16 20:49:40,"Check order again 1! 246, 9233"
+2017/03/16 20:49:40,"Check order again 1! 246, 9233"
+2017/03/16 20:49:40,"not found soid : 3, 0"
+2017/03/16 20:49:40,"SO_ID not found : 3, 0"
+2017/03/16 20:49:40,"not found soid : 13, 0"
+2017/03/16 20:49:40,"SO_ID not found : 13, 0"
+2017/03/16 20:49:40,"not found soid : 15, 0"
+2017/03/16 20:49:40,"SO_ID not found : 15, 0"
+2017/03/16 20:49:40,number of download order : 0
+2017/03/16 20:49:40,number of zero SOID : 4
+2017/03/16 20:49:40,"10, Normal Act Count Row : 246, 9, 4, 9, 9, prs_qty=5, door=5"
+2017/03/16 20:49:40,iDoor value : 5
+2017/03/16 20:49:40,number of zero SOID : 3
+2017/03/16 20:49:41,number of zero SOID : 3
+2017/03/16 20:49:41,number of zero SOID : 3
+2017/03/16 20:49:41,number of zero SOID : 2
+2017/03/16 20:49:41,number of zero SOID : 3
+2017/03/16 20:49:41,number of zero SOID : 3
+2017/03/16 20:49:41,number of zero SOID : 3
+2017/03/16 20:49:41,number of zero SOID : 3
+2017/03/16 20:49:41,number of zero SOID : 3
+2017/03/16 20:49:41,number of zero SOID : 3
+2017/03/16 20:49:41,number of zero SOID : 3
+2017/03/16 20:49:42,number of zero SOID : 3
+2017/03/16 20:49:42,number of zero SOID : 3
+2017/03/16 20:49:42,number of zero SOID : 3
+2017/03/16 20:49:42,number of zero SOID : 3
+2017/03/16 20:49:42,number of zero SOID : 3
+2017/03/16 20:49:42,number of zero SOID : 3
+2017/03/16 20:49:42,number of zero SOID : 3
+2017/03/16 20:49:42,number of zero SOID : 3
+2017/03/16 20:49:42,number of zero SOID : 3
+2017/03/16 20:49:43,"2, Normal Act Count Row : 246, 9, 7, 9, 9, prs_qty=2, door=1"
+2017/03/16 20:49:43,iDoor value : 1
+2017/03/16 20:49:43,number of zero SOID : 3
+2017/03/16 20:49:43,"10, Normal Act Count Row : 246, 4, 3, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:49:43,iDoor value : 5
+2017/03/16 20:49:43,ERROR line 155-164 Variant or safe array index out of bounds
+2017/03/16 20:49:43,"Next Order : 247, SO_ID=9235, SORT_Key=11, Station=02"
+2017/03/16 20:49:43,number of zero SOID : 3
+2017/03/16 20:49:43,number of zero SOID : 3
+2017/03/16 20:49:43,number of zero SOID : 3
+2017/03/16 20:49:43,number of zero SOID : 3
+2017/03/16 20:49:43,number of zero SOID : 3
+2017/03/16 20:49:43,number of zero SOID : 3
+2017/03/16 20:49:43,number of zero SOID : 3
+2017/03/16 20:49:43,number of zero SOID : 3
+2017/03/16 20:49:44,number of zero SOID : 3
+2017/03/16 20:49:44,number of zero SOID : 3
+2017/03/16 20:49:44,number of zero SOID : 3
+2017/03/16 20:49:44,number of zero SOID : 3
+2017/03/16 20:49:44,number of zero SOID : 3
+2017/03/16 20:49:44,number of zero SOID : 3
+2017/03/16 20:49:44,number of zero SOID : 3
+2017/03/16 20:49:44,number of zero SOID : 3
+2017/03/16 20:49:44,number of zero SOID : 3
+2017/03/16 20:49:45,number of zero SOID : 3
+2017/03/16 20:49:45,number of zero SOID : 3
+2017/03/16 20:49:45,number of zero SOID : 3
+2017/03/16 20:49:45,number of zero SOID : 3
+2017/03/16 20:49:45,"2, Normal Act Count Row : 246, 7, 6, 9, 9, prs_qty=1, door=1"
+2017/03/16 20:49:45,iDoor value : 1
+2017/03/16 20:49:45,number of zero SOID : 3
+2017/03/16 20:49:45,"10, Normal Act Count Row : 246, 3, 2, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:49:45,iDoor value : 5
+2017/03/16 20:49:45,"Next Order : 247, SO_ID=9235, SORT_Key=11, Station=02"
+2017/03/16 20:49:45,number of zero SOID : 3
+2017/03/16 20:49:45,number of zero SOID : 3
+2017/03/16 20:49:45,number of zero SOID : 3
+2017/03/16 20:49:45,number of zero SOID : 3
+2017/03/16 20:49:46,number of zero SOID : 3
+2017/03/16 20:49:46,number of zero SOID : 3
+2017/03/16 20:49:46,number of zero SOID : 3
+2017/03/16 20:49:46,number of zero SOID : 3
+2017/03/16 20:49:46,number of zero SOID : 2
+2017/03/16 20:49:46,number of zero SOID : 3
+2017/03/16 20:49:46,number of zero SOID : 3
+2017/03/16 20:49:46,number of zero SOID : 3
+2017/03/16 20:49:46,number of zero SOID : 3
+2017/03/16 20:49:47,number of zero SOID : 3
+2017/03/16 20:49:47,number of zero SOID : 3
+2017/03/16 20:49:47,number of zero SOID : 3
+2017/03/16 20:49:47,number of zero SOID : 3
+2017/03/16 20:49:47,number of zero SOID : 3
+2017/03/16 20:49:47,number of zero SOID : 3
+2017/03/16 20:49:47,number of zero SOID : 3
+2017/03/16 20:49:47,number of zero SOID : 3
+2017/03/16 20:49:47,number of zero SOID : 3
+2017/03/16 20:49:47,"10, Normal Act Count Row : 246, 2, 1, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:49:47,iDoor value : 5
+2017/03/16 20:49:47,"Next Order : 247, SO_ID=9235, SORT_Key=11, Station=02"
+2017/03/16 20:49:48,number of zero SOID : 3
+2017/03/16 20:49:48,number of zero SOID : 3
+2017/03/16 20:49:48,number of zero SOID : 3
+2017/03/16 20:49:48,number of zero SOID : 3
+2017/03/16 20:49:48,number of zero SOID : 3
+2017/03/16 20:49:48,number of zero SOID : 3
+2017/03/16 20:49:48,number of zero SOID : 3
+2017/03/16 20:49:48,number of zero SOID : 3
+2017/03/16 20:49:48,number of zero SOID : 3
+2017/03/16 20:49:48,number of zero SOID : 3
+2017/03/16 20:49:49,number of zero SOID : 3
+2017/03/16 20:49:49,number of zero SOID : 3
+2017/03/16 20:49:49,number of zero SOID : 3
+2017/03/16 20:49:49,number of zero SOID : 3
+2017/03/16 20:49:49,number of zero SOID : 3
+2017/03/16 20:49:49,number of zero SOID : 3
+2017/03/16 20:49:49,number of zero SOID : 3
+2017/03/16 20:49:49,number of zero SOID : 3
+2017/03/16 20:49:49,number of zero SOID : 3
+2017/03/16 20:49:50,number of zero SOID : 3
+2017/03/16 20:49:50,number of zero SOID : 3
+2017/03/16 20:49:50,"2, Normal Act Count Row : 246, 6, 5, 9, 9, prs_qty=1, door=1"
+2017/03/16 20:49:50,iDoor value : 1
+2017/03/16 20:49:50,number of zero SOID : 3
+2017/03/16 20:49:50,"10, Normal Act Count Row : 246, 1, 0, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:49:50,iDoor value : 5
+2017/03/16 20:49:50,"Next Order : 247, SO_ID=9235, SORT_Key=11, Station=02"
+2017/03/16 20:49:50,"Check order again 1! 211, 9190"
+2017/03/16 20:49:50,"Check order again 1! 211, 9190"
+2017/03/16 20:49:50,"Check order again 1! 211, 9190"
+2017/03/16 20:49:50,"Check order again 1! 211, 9190"
+2017/03/16 20:49:50,"Check order again 1! 211, 9190"
+2017/03/16 20:49:51,"Check order again 1! 211, 9190"
+2017/03/16 20:49:51,"Check order again 1! 211, 9190"
+2017/03/16 20:49:51,"Check order again 1! 211, 9190"
+2017/03/16 20:49:51,"Check order again 1! 211, 9190"
+2017/03/16 20:49:51,"Check order again 1! 211, 9190"
+2017/03/16 20:49:51,"Check order again 1! 211, 9190"
+2017/03/16 20:49:51,"Check order again 1! 211, 9190"
+2017/03/16 20:49:51,"Check order again 1! 211, 9190"
+2017/03/16 20:49:51,"Check order again 1! 211, 9190"
+2017/03/16 20:49:52,"Check order again 1! 211, 9190"
+2017/03/16 20:49:52,"Check order again 1! 230, 9214"
+2017/03/16 20:49:52,"Check order again 1! 230, 9214"
+2017/03/16 20:49:52,"Check order again 1! 246, 9233"
+2017/03/16 20:49:52,"not found soid : 3, 0"
+2017/03/16 20:49:52,"SO_ID not found : 3, 0"
+2017/03/16 20:49:52,"not found soid : 13, 0"
+2017/03/16 20:49:52,"SO_ID not found : 13, 0"
+2017/03/16 20:49:52,"not found soid : 15, 0"
+2017/03/16 20:49:52,"SO_ID not found : 15, 0"
+2017/03/16 20:49:52,number of download order : 0
+2017/03/16 20:49:52,number of zero SOID : 4
+2017/03/16 20:49:52,number of zero SOID : 3
+2017/03/16 20:49:53,number of zero SOID : 3
+2017/03/16 20:49:53,number of zero SOID : 3
+2017/03/16 20:49:53,number of zero SOID : 3
+2017/03/16 20:49:53,number of zero SOID : 3
+2017/03/16 20:49:53,number of zero SOID : 3
+2017/03/16 20:49:53,number of zero SOID : 3
+2017/03/16 20:49:53,number of zero SOID : 3
+2017/03/16 20:49:53,number of zero SOID : 3
+2017/03/16 20:49:53,number of zero SOID : 3
+2017/03/16 20:49:54,number of zero SOID : 3
+2017/03/16 20:49:54,number of zero SOID : 3
+2017/03/16 20:49:54,number of zero SOID : 3
+2017/03/16 20:49:54,number of zero SOID : 3
+2017/03/16 20:49:54,number of zero SOID : 3
+2017/03/16 20:49:54,number of zero SOID : 3
+2017/03/16 20:49:54,number of zero SOID : 3
+2017/03/16 20:49:54,number of zero SOID : 3
+2017/03/16 20:49:54,number of zero SOID : 3
+2017/03/16 20:49:55,number of zero SOID : 3
+2017/03/16 20:49:55,number of zero SOID : 3
+2017/03/16 20:49:55,number of zero SOID : 4
+2017/03/16 20:49:55,number of zero SOID : 3
+2017/03/16 20:49:55,number of zero SOID : 3
+2017/03/16 20:49:55,number of zero SOID : 3
+2017/03/16 20:49:55,number of zero SOID : 3
+2017/03/16 20:49:55,number of zero SOID : 3
+2017/03/16 20:49:55,number of zero SOID : 3
+2017/03/16 20:49:56,number of zero SOID : 3
+2017/03/16 20:49:56,number of zero SOID : 2
+2017/03/16 20:49:56,number of zero SOID : 3
+2017/03/16 20:49:56,number of zero SOID : 3
+2017/03/16 20:49:56,number of zero SOID : 3
+2017/03/16 20:49:56,number of zero SOID : 3
+2017/03/16 20:49:56,number of zero SOID : 3
+2017/03/16 20:49:56,number of zero SOID : 3
+2017/03/16 20:49:56,number of zero SOID : 3
+2017/03/16 20:49:57,number of zero SOID : 3
+2017/03/16 20:49:57,number of zero SOID : 3
+2017/03/16 20:49:57,number of zero SOID : 3
+2017/03/16 20:49:57,number of zero SOID : 3
+2017/03/16 20:49:57,number of zero SOID : 3
+2017/03/16 20:49:57,number of zero SOID : 3
+2017/03/16 20:49:57,number of zero SOID : 4
+2017/03/16 20:49:57,number of zero SOID : 3
+2017/03/16 20:49:57,number of zero SOID : 3
+2017/03/16 20:49:57,number of zero SOID : 3
+2017/03/16 20:49:58,number of zero SOID : 3
+2017/03/16 20:49:58,number of zero SOID : 3
+2017/03/16 20:49:58,number of zero SOID : 3
+2017/03/16 20:49:58,number of zero SOID : 3
+2017/03/16 20:49:58,number of zero SOID : 2
+2017/03/16 20:49:58,number of zero SOID : 3
+2017/03/16 20:49:58,number of zero SOID : 3
+2017/03/16 20:49:58,number of zero SOID : 3
+2017/03/16 20:49:58,number of zero SOID : 3
+2017/03/16 20:49:59,number of zero SOID : 3
+2017/03/16 20:49:59,number of zero SOID : 3
+2017/03/16 20:49:59,number of zero SOID : 3
+2017/03/16 20:49:59,number of zero SOID : 3
+2017/03/16 20:49:59,number of zero SOID : 3
+2017/03/16 20:49:59,number of zero SOID : 3
+2017/03/16 20:49:59,number of zero SOID : 3
+2017/03/16 20:49:59,number of zero SOID : 3
+2017/03/16 20:49:59,number of zero SOID : 3
+2017/03/16 20:50:00,number of zero SOID : 3
+2017/03/16 20:50:00,number of zero SOID : 3
+2017/03/16 20:50:00,number of zero SOID : 3
+2017/03/16 20:50:00,number of zero SOID : 3
+2017/03/16 20:50:00,number of zero SOID : 2
+2017/03/16 20:50:00,number of zero SOID : 3
+2017/03/16 20:50:00,number of zero SOID : 3
+2017/03/16 20:50:00,number of zero SOID : 3
+2017/03/16 20:50:00,number of zero SOID : 3
+2017/03/16 20:50:01,number of zero SOID : 3
+2017/03/16 20:50:01,number of zero SOID : 3
+2017/03/16 20:50:01,number of zero SOID : 3
+2017/03/16 20:50:01,number of zero SOID : 3
+2017/03/16 20:50:01,number of zero SOID : 3
+2017/03/16 20:50:01,number of zero SOID : 3
+2017/03/16 20:50:01,number of zero SOID : 3
+2017/03/16 20:50:01,number of zero SOID : 3
+2017/03/16 20:50:01,number of zero SOID : 3
+2017/03/16 20:50:02,"completed work : Grid row(0), 9,6, 9, 6"
+2017/03/16 20:50:02,"completed work : Grid row(2), 9,1, 9, 1"
+2017/03/16 20:50:02,"completed work : Grid row(208), 9,0, 9, 0"
+2017/03/16 20:50:02,"completed work : Grid row(209), 9,0, 9, 0"
+2017/03/16 20:50:02,"completed work : Grid row(210), 9,0, 9, 0"
+2017/03/16 20:50:02,"completed work : Grid row(213), 9,0, 9, 0"
+2017/03/16 20:50:02,"completed work : Grid row(215), 9,0, 9, 0"
+2017/03/16 20:50:02,"completed work : Grid row(216), 5,0, 5, 0"
+2017/03/16 20:50:02,"completed work : Grid row(217), 4,0, 4, 0"
+2017/03/16 20:50:02,"completed work : Grid row(218), 9,0, 9, 0"
+2017/03/16 20:50:02,"completed work : Grid row(219), 9,0, 9, 0"
+2017/03/16 20:50:02,"completed work : Grid row(220), 9,0, 9, 0"
+2017/03/16 20:50:02,"completed work : Grid row(222), 3,0, 3, 0"
+2017/03/16 20:50:02,"completed work : Grid row(226), 9,0, 9, 0"
+2017/03/16 20:50:02,"completed work : Grid row(227), 3,0, 3, 0"
+2017/03/16 20:50:02,"completed work : Grid row(228), 6,0, 6, 0"
+2017/03/16 20:50:02,"completed work : Grid row(229), 6,0, 6, 0"
+2017/03/16 20:50:02,"completed work : Grid row(231), 9,0, 9, 0"
+2017/03/16 20:50:02,"completed work : Grid row(233), 3,0, 3, 0"
+2017/03/16 20:50:02,"completed work : Grid row(235), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(236), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(240), 3,0, 3, 0"
+2017/03/16 20:50:03,"completed work : Grid row(241), 5,0, 5, 0"
+2017/03/16 20:50:03,"completed work : Grid row(242), 8,0, 8, 0"
+2017/03/16 20:50:03,"completed work : Grid row(244), 2,0, 2, 0"
+2017/03/16 20:50:03,"completed work : Grid row(245), 7,0, 7, 0"
+2017/03/16 20:50:03,"completed work : Grid row(250), 1,0, 1, 0"
+2017/03/16 20:50:03,"completed work : Grid row(252), 8,0, 8, 0"
+2017/03/16 20:50:03,"completed work : Grid row(253), 1,0, 1, 0"
+2017/03/16 20:50:03,"completed work : Grid row(254), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(255), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(256), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(257), 6,0, 6, 0"
+2017/03/16 20:50:03,"completed work : Grid row(258), 3,0, 3, 0"
+2017/03/16 20:50:03,"completed work : Grid row(259), 8,0, 8, 0"
+2017/03/16 20:50:03,"completed work : Grid row(261), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(262), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(263), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(264), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(265), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(266), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(267), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(268), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(269), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(270), 6,0, 6, 0"
+2017/03/16 20:50:03,"completed work : Grid row(271), 3,0, 3, 0"
+2017/03/16 20:50:03,"completed work : Grid row(272), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(273), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(274), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(275), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(276), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(277), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(278), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(280), 3,0, 3, 0"
+2017/03/16 20:50:03,"completed work : Grid row(281), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(282), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(283), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(284), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(285), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(286), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(287), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(289), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(290), 1,0, 1, 0"
+2017/03/16 20:50:03,"completed work : Grid row(291), 8,0, 8, 0"
+2017/03/16 20:50:03,"completed work : Grid row(292), 2,0, 2, 0"
+2017/03/16 20:50:03,"completed work : Grid row(293), 7,0, 7, 0"
+2017/03/16 20:50:03,"completed work : Grid row(294), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(295), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(298), 4,0, 4, 0"
+2017/03/16 20:50:03,"completed work : Grid row(299), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(300), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(301), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(304), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(314), 6,0, 6, 0"
+2017/03/16 20:50:03,"completed work : Grid row(315), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(316), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(317), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(318), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(319), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(320), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(321), 9,0, 9, 0"
+2017/03/16 20:50:03,"completed work : Grid row(323), 6,0, 6, 0"
+2017/03/16 20:50:04,"completed work : Grid row(324), 3,0, 3, 0"
+2017/03/16 20:50:04,"completed work : Grid row(325), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(326), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(327), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(328), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(329), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(331), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(332), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(333), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(335), 3,0, 3, 0"
+2017/03/16 20:50:04,"completed work : Grid row(336), 6,0, 6, 0"
+2017/03/16 20:50:04,"completed work : Grid row(337), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(339), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(340), 3,0, 3, 0"
+2017/03/16 20:50:04,"completed work : Grid row(341), 6,0, 6, 0"
+2017/03/16 20:50:04,"completed work : Grid row(342), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(343), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(344), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(346), 6,0, 6, 0"
+2017/03/16 20:50:04,"completed work : Grid row(348), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(355), 6,0, 6, 0"
+2017/03/16 20:50:04,"completed work : Grid row(356), 6,0, 6, 0"
+2017/03/16 20:50:04,"completed work : Grid row(357), 3,0, 3, 0"
+2017/03/16 20:50:04,"completed work : Grid row(358), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(359), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(360), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(362), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(363), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(364), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(365), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(366), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(367), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(368), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(369), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(370), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(371), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(372), 7,0, 7, 0"
+2017/03/16 20:50:04,"completed work : Grid row(373), 8,0, 8, 0"
+2017/03/16 20:50:04,"completed work : Grid row(374), 1,0, 1, 0"
+2017/03/16 20:50:04,"completed work : Grid row(375), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(376), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(377), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(378), 8,0, 8, 0"
+2017/03/16 20:50:04,"completed work : Grid row(379), 1,0, 1, 0"
+2017/03/16 20:50:04,"completed work : Grid row(380), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(381), 2,0, 2, 0"
+2017/03/16 20:50:04,"completed work : Grid row(382), 7,0, 7, 0"
+2017/03/16 20:50:04,"completed work : Grid row(383), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(384), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(385), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(386), 4,0, 4, 0"
+2017/03/16 20:50:04,"completed work : Grid row(387), 3,0, 3, 0"
+2017/03/16 20:50:04,"completed work : Grid row(388), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(389), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(391), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(392), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(393), 9,0, 9, 0"
+2017/03/16 20:50:04,"completed work : Grid row(394), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(395), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(397), 3,0, 3, 0"
+2017/03/16 20:50:05,"completed work : Grid row(398), 6,0, 6, 0"
+2017/03/16 20:50:05,"completed work : Grid row(399), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(400), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(401), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(402), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(403), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(404), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(405), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(406), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(407), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(408), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(409), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(410), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(411), 9,0, 9, 0"
+2017/03/16 20:50:05,"completed work : Grid row(412), 9,0, 9, 0"
+2017/03/16 20:50:05,number of zero SOID : 3
+2017/03/16 20:50:05,number of zero SOID : 3
+2017/03/16 20:50:05,"Check order again 1! 211, 9190"
+2017/03/16 20:50:05,number of zero SOID : 3
+2017/03/16 20:50:05,"Check order again 1! 211, 9190"
+2017/03/16 20:50:05,number of zero SOID : 4
+2017/03/16 20:50:05,number of zero SOID : 4
+2017/03/16 20:50:06,"Check order again 1! 211, 9190"
+2017/03/16 20:50:06,number of zero SOID : 3
+2017/03/16 20:50:06,"Check order again 1! 211, 9190"
+2017/03/16 20:50:06,number of zero SOID : 3
+2017/03/16 20:50:06,"Check order again 1! 211, 9190"
+2017/03/16 20:50:06,number of zero SOID : 2
+2017/03/16 20:50:06,"Check order again 1! 211, 9190"
+2017/03/16 20:50:06,number of zero SOID : 2
+2017/03/16 20:50:06,"Check order again 1! 211, 9190"
+2017/03/16 20:50:06,number of zero SOID : 3
+2017/03/16 20:50:06,number of zero SOID : 3
+2017/03/16 20:50:06,"Check order again 1! 211, 9190"
+2017/03/16 20:50:06,number of zero SOID : 3
+2017/03/16 20:50:06,"Check order again 1! 211, 9190"
+2017/03/16 20:50:06,number of zero SOID : 2
+2017/03/16 20:50:06,"Check order again 1! 211, 9190"
+2017/03/16 20:50:06,number of zero SOID : 3
+2017/03/16 20:50:07,"Check order again 1! 211, 9190"
+2017/03/16 20:50:07,number of zero SOID : 3
+2017/03/16 20:50:07,"Check order again 1! 211, 9190"
+2017/03/16 20:50:07,number of zero SOID : 3
+2017/03/16 20:50:07,"Check order again 1! 211, 9190"
+2017/03/16 20:50:07,number of zero SOID : 3
+2017/03/16 20:50:07,"Check order again 1! 211, 9190"
+2017/03/16 20:50:07,number of zero SOID : 3
+2017/03/16 20:50:07,"Check order again 1! 211, 9190"
+2017/03/16 20:50:07,number of zero SOID : 3
+2017/03/16 20:50:07,"Check order again 1! 230, 9214"
+2017/03/16 20:50:07,number of zero SOID : 3
+2017/03/16 20:50:07,"Check order again 1! 211, 9190"
+2017/03/16 20:50:07,number of zero SOID : 3
+2017/03/16 20:50:07,number of zero SOID : 3
+2017/03/16 20:50:07,"Check order again 1! 211, 9190"
+2017/03/16 20:50:07,number of zero SOID : 3
+2017/03/16 20:50:07,"Check order again 1! 211, 9190"
+2017/03/16 20:50:08,number of zero SOID : 3
+2017/03/16 20:50:08,"Check order again 1! 211, 9190"
+2017/03/16 20:50:08,number of zero SOID : 3
+2017/03/16 20:50:08,"Check order again 1! 211, 9190"
+2017/03/16 20:50:08,number of zero SOID : 4
+2017/03/16 20:50:08,"Check order again 1! 211, 9190"
+2017/03/16 20:50:08,number of zero SOID : 4
+2017/03/16 20:50:08,"Check order again 1! 211, 9190"
+2017/03/16 20:50:08,number of zero SOID : 3
+2017/03/16 20:50:08,"Check order again 1! 211, 9190"
+2017/03/16 20:50:08,number of zero SOID : 3
+2017/03/16 20:50:08,"Check order again 1! 211, 9190"
+2017/03/16 20:50:08,number of zero SOID : 3
+2017/03/16 20:50:08,"Check order again 1! 211, 9190"
+2017/03/16 20:50:08,number of zero SOID : 2
+2017/03/16 20:50:08,number of zero SOID : 3
+2017/03/16 20:50:08,"Check order again 1! 211, 9190"
+2017/03/16 20:50:09,number of zero SOID : 3
+2017/03/16 20:50:09,"Check order again 1! 211, 9190"
+2017/03/16 20:50:09,number of zero SOID : 3
+2017/03/16 20:50:09,"Check order again 1! 211, 9190"
+2017/03/16 20:50:09,number of zero SOID : 2
+2017/03/16 20:50:09,number of zero SOID : 3
+2017/03/16 20:50:09,"Check order again 1! 211, 9190"
+2017/03/16 20:50:09,number of zero SOID : 3
+2017/03/16 20:50:09,"Check order again 1! 211, 9190"
+2017/03/16 20:50:09,number of zero SOID : 3
+2017/03/16 20:50:09,"Check order again 1! 211, 9190"
+2017/03/16 20:50:09,number of zero SOID : 3
+2017/03/16 20:50:09,"Check order again 1! 211, 9190"
+2017/03/16 20:50:09,number of zero SOID : 3
+2017/03/16 20:50:09,"Check order again 1! 211, 9190"
+2017/03/16 20:50:09,number of zero SOID : 3
+2017/03/16 20:50:09,"Next Order : 247, SO_ID=9235, SORT_Key=11, Station=02"
+2017/03/16 20:50:10,"not found soid : 3, 0"
+2017/03/16 20:50:10,"SO_ID not found : 3, 0"
+2017/03/16 20:50:10,"Next Order : 347, SO_ID=9366, SORT_Key=4, Station=06"
+2017/03/16 20:50:10,"not found soid : 13, 0"
+2017/03/16 20:50:10,"SO_ID not found : 13, 0"
+2017/03/16 20:50:10,"not found soid : 15, 0"
+2017/03/16 20:50:10,"SO_ID not found : 15, 0"
+2017/03/16 20:50:10,number of download order : 2
+2017/03/16 20:50:10,number of zero SOID : 3
+2017/03/16 20:50:10,"2, Normal Act Count Row : 247, 1, 0, 1, 1, prs_qty=1, door=1"
+2017/03/16 20:50:10,iDoor value : 1
+2017/03/16 20:50:10,"2, Normal Work Start Time : 247, 16 20:50:09"
+2017/03/16 20:50:10,"Next Order : 248, SO_ID=9236, SORT_Key=12, Station=02"
+2017/03/16 20:50:10,"Check order again 1! 211, 9190"
+2017/03/16 20:50:10,"Check order again 1! 211, 9190"
+2017/03/16 20:50:10,"Check order again 1! 211, 9190"
+2017/03/16 20:50:11,"Check order again 1! 211, 9190"
+2017/03/16 20:50:11,"Check order again 1! 211, 9190"
+2017/03/16 20:50:11,"Check order again 1! 211, 9190"
+2017/03/16 20:50:11,"Check order again 1! 211, 9190"
+2017/03/16 20:50:11,"download work start : 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, "
+2017/03/16 20:50:11,"Check order again 1! 211, 9190"
+2017/03/16 20:50:11,"Check order again 1! 211, 9190"
+2017/03/16 20:50:11,"Check order again 1! 211, 9190"
+2017/03/16 20:50:11,"Check order again 1! 211, 9190"
+2017/03/16 20:50:11,"Check order again 1! 211, 9190"
+2017/03/16 20:50:12,"Check order again 1! 211, 9190"
+2017/03/16 20:50:12,"Check order again 1! 211, 9190"
+2017/03/16 20:50:12,"Check order again 1! 211, 9190"
+2017/03/16 20:50:12,"Check order again 1! 211, 9190"
+2017/03/16 20:50:12,"download work start : 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, "
+2017/03/16 20:50:12,"Check order again 1! 211, 9190"
+2017/03/16 20:50:12,"Check order again 1! 211, 9190"
+2017/03/16 20:50:12,"Next Order : 248, SO_ID=9236, SORT_Key=12, Station=02"
+2017/03/16 20:50:12,"not found soid : 3, 0"
+2017/03/16 20:50:12,"SO_ID not found : 3, 0"
+2017/03/16 20:50:12,"Next Order : 347, SO_ID=9366, SORT_Key=4, Station=06"
+2017/03/16 20:50:12,"not found soid : 13, 0"
+2017/03/16 20:50:12,"SO_ID not found : 13, 0"
+2017/03/16 20:50:12,"not found soid : 15, 0"
+2017/03/16 20:50:12,"SO_ID not found : 15, 0"
+2017/03/16 20:50:12,number of download order : 2
+2017/03/16 20:50:13,"Download Order : 248, 0, IPI_MCA17_02_L, 9236, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:50:14,"Download Order : 347, 1, IPI_MCA17_06_L, 9366, MS249037-1 10, IU002 WHITE"
+2017/03/16 20:50:14,number of zero SOID : 2
+2017/03/16 20:50:14,number of zero SOID : 3
+2017/03/16 20:50:14,number of zero SOID : 3
+2017/03/16 20:50:14,number of zero SOID : 3
+2017/03/16 20:50:15,number of zero SOID : 3
+2017/03/16 20:50:15,number of zero SOID : 3
+2017/03/16 20:50:15,number of zero SOID : 3
+2017/03/16 20:50:15,number of zero SOID : 3
+2017/03/16 20:50:15,number of zero SOID : 3
+2017/03/16 20:50:15,number of zero SOID : 3
+2017/03/16 20:50:15,number of zero SOID : 3
+2017/03/16 20:50:15,"2, Normal Act Count Row : 248, 8, 7, 8, 8, prs_qty=1, door=1"
+2017/03/16 20:50:15,iDoor value : 1
+2017/03/16 20:50:15,"2, Normal Work Start Time : 248, 16 20:50:14"
+2017/03/16 20:50:15,number of zero SOID : 3
+2017/03/16 20:50:15,number of zero SOID : 3
+2017/03/16 20:50:15,number of zero SOID : 4
+2017/03/16 20:50:16,number of zero SOID : 4
+2017/03/16 20:50:16,number of zero SOID : 3
+2017/03/16 20:50:16,number of zero SOID : 3
+2017/03/16 20:50:16,number of zero SOID : 2
+2017/03/16 20:50:16,number of zero SOID : 2
+2017/03/16 20:50:16,number of zero SOID : 3
+2017/03/16 20:50:16,number of zero SOID : 2
+2017/03/16 20:50:16,number of zero SOID : 2
+2017/03/16 20:50:16,number of zero SOID : 2
+2017/03/16 20:50:17,number of zero SOID : 3
+2017/03/16 20:50:17,number of zero SOID : 3
+2017/03/16 20:50:17,number of zero SOID : 3
+2017/03/16 20:50:17,number of zero SOID : 3
+2017/03/16 20:50:17,number of zero SOID : 3
+2017/03/16 20:50:17,number of zero SOID : 3
+2017/03/16 20:50:17,number of zero SOID : 3
+2017/03/16 20:50:17,number of zero SOID : 3
+2017/03/16 20:50:17,number of zero SOID : 3
+2017/03/16 20:50:18,number of zero SOID : 3
+2017/03/16 20:50:18,"2, Normal Act Count Row : 248, 7, 6, 8, 8, prs_qty=1, door=1"
+2017/03/16 20:50:18,iDoor value : 1
+2017/03/16 20:50:18,number of zero SOID : 3
+2017/03/16 20:50:18,number of zero SOID : 3
+2017/03/16 20:50:18,number of zero SOID : 4
+2017/03/16 20:50:18,number of zero SOID : 4
+2017/03/16 20:50:18,"10, Normal Act Count Row : 347, 1, 0, 3, 3, prs_qty=1, door=5"
+2017/03/16 20:50:18,iDoor value : 5
+2017/03/16 20:50:18,"Next Order : 349, SO_ID=9368, SORT_Key=6, Station=06"
+2017/03/16 20:50:18,"Check order again 1! 211, 9190"
+2017/03/16 20:50:18,"Check order again 1! 211, 9190"
+2017/03/16 20:50:18,"Check order again 1! 211, 9190"
+2017/03/16 20:50:19,"Check order again 1! 211, 9190"
+2017/03/16 20:50:19,"Check order again 1! 211, 9190"
+2017/03/16 20:50:19,"Check order again 1! 211, 9190"
+2017/03/16 20:50:19,"Check order again 1! 211, 9190"
+2017/03/16 20:50:19,"Check order again 1! 211, 9190"
+2017/03/16 20:50:19,"Check order again 1! 211, 9190"
+2017/03/16 20:50:19,"Check order again 1! 211, 9190"
+2017/03/16 20:50:19,"Check order again 1! 211, 9190"
+2017/03/16 20:50:19,"Check order again 1! 211, 9190"
+2017/03/16 20:50:20,"Check order again 1! 230, 9214"
+2017/03/16 20:50:20,"Check order again 1! 230, 9214"
+2017/03/16 20:50:20,"Check order again 1! 248, 9236"
+2017/03/16 20:50:20,"not found soid : 3, 0"
+2017/03/16 20:50:20,"SO_ID not found : 3, 0"
+2017/03/16 20:50:20,"Check order again 1! 260, 9249"
+2017/03/16 20:50:20,"not found soid : 3, 0"
+2017/03/16 20:50:20,"SO_ID not found : 3, 0"
+2017/03/16 20:50:20,"Check order again 1! 260, 9249"
+2017/03/16 20:50:20,"not found soid : 3, 0"
+2017/03/16 20:50:20,"SO_ID not found : 3, 0"
+2017/03/16 20:50:20,"Check order again 1! 260, 9249"
+2017/03/16 20:50:20,"not found soid : 3, 0"
+2017/03/16 20:50:20,"SO_ID not found : 3, 0"
+2017/03/16 20:50:20,"Next Order : 349, SO_ID=9368, SORT_Key=6, Station=06"
+2017/03/16 20:50:20,"not found soid : 11, 0"
+2017/03/16 20:50:20,"SO_ID not found : 11, 0"
+2017/03/16 20:50:21,"not found soid : 13, 0"
+2017/03/16 20:50:21,"SO_ID not found : 13, 0"
+2017/03/16 20:50:21,"not found soid : 15, 0"
+2017/03/16 20:50:21,"SO_ID not found : 15, 0"
+2017/03/16 20:50:21,number of download order : 1
+2017/03/16 20:50:22,"Download Order : 349, 1, IPI_MCA17_06_L, 9368, MS249037-1 10, IU002 WHITE"
+2017/03/16 20:50:22,number of zero SOID : 3
+2017/03/16 20:50:22,number of zero SOID : 3
+2017/03/16 20:50:22,number of zero SOID : 3
+2017/03/16 20:50:22,number of zero SOID : 3
+2017/03/16 20:50:22,number of zero SOID : 3
+2017/03/16 20:50:22,number of zero SOID : 3
+2017/03/16 20:50:22,number of zero SOID : 3
+2017/03/16 20:50:22,"2, Normal Act Count Row : 248, 6, 5, 8, 8, prs_qty=1, door=1"
+2017/03/16 20:50:23,iDoor value : 1
+2017/03/16 20:50:23,"10, Normal Act Count Row : 349, 9, 5, 9, 9, prs_qty=4, door=5"
+2017/03/16 20:50:23,iDoor value : 5
+2017/03/16 20:50:23,number of zero SOID : 3
+2017/03/16 20:50:23,number of zero SOID : 3
+2017/03/16 20:50:23,number of zero SOID : 4
+2017/03/16 20:50:23,number of zero SOID : 4
+2017/03/16 20:50:23,number of zero SOID : 4
+2017/03/16 20:50:23,number of zero SOID : 2
+2017/03/16 20:50:23,number of zero SOID : 2
+2017/03/16 20:50:23,number of zero SOID : 2
+2017/03/16 20:50:23,number of zero SOID : 2
+2017/03/16 20:50:24,number of zero SOID : 3
+2017/03/16 20:50:24,number of zero SOID : 2
+2017/03/16 20:50:24,number of zero SOID : 2
+2017/03/16 20:50:24,number of zero SOID : 2
+2017/03/16 20:50:24,number of zero SOID : 3
+2017/03/16 20:50:24,number of zero SOID : 3
+2017/03/16 20:50:24,number of zero SOID : 3
+2017/03/16 20:50:24,number of zero SOID : 3
+2017/03/16 20:50:24,number of zero SOID : 3
+2017/03/16 20:50:25,number of zero SOID : 3
+2017/03/16 20:50:25,number of zero SOID : 3
+2017/03/16 20:50:25,number of zero SOID : 3
+2017/03/16 20:50:25,number of zero SOID : 3
+2017/03/16 20:50:25,"2, Normal Act Count Row : 248, 5, 4, 8, 8, prs_qty=1, door=1"
+2017/03/16 20:50:25,iDoor value : 1
+2017/03/16 20:50:25,"10, Normal Act Count Row : 349, 5, 4, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:50:25,iDoor value : 5
+2017/03/16 20:50:25,number of zero SOID : 3
+2017/03/16 20:50:25,number of zero SOID : 4
+2017/03/16 20:50:25,number of zero SOID : 4
+2017/03/16 20:50:25,number of zero SOID : 4
+2017/03/16 20:50:25,number of zero SOID : 4
+2017/03/16 20:50:26,number of zero SOID : 3
+2017/03/16 20:50:26,number of zero SOID : 2
+2017/03/16 20:50:26,number of zero SOID : 2
+2017/03/16 20:50:26,number of zero SOID : 2
+2017/03/16 20:50:26,number of zero SOID : 3
+2017/03/16 20:50:26,number of zero SOID : 2
+2017/03/16 20:50:26,number of zero SOID : 2
+2017/03/16 20:50:26,number of zero SOID : 2
+2017/03/16 20:50:26,number of zero SOID : 3
+2017/03/16 20:50:27,number of zero SOID : 3
+2017/03/16 20:50:27,number of zero SOID : 3
+2017/03/16 20:50:27,number of zero SOID : 3
+2017/03/16 20:50:27,number of zero SOID : 3
+2017/03/16 20:50:27,number of zero SOID : 3
+2017/03/16 20:50:27,number of zero SOID : 3
+2017/03/16 20:50:27,number of zero SOID : 3
+2017/03/16 20:50:27,number of zero SOID : 3
+2017/03/16 20:50:27,"2, Normal Act Count Row : 248, 4, 3, 8, 8, prs_qty=1, door=1"
+2017/03/16 20:50:27,iDoor value : 1
+2017/03/16 20:50:27,"Alarm Inserted: 20170316, 9236, IPI_MCA17_02_L, 8"
+2017/03/16 20:50:27,Alarm Data Inserted : SOID = 9236
+2017/03/16 20:50:27,"Next Order : 249, SO_ID=9237, SORT_Key=13, Station=02"
+2017/03/16 20:50:27,"10, Normal Act Count Row : 349, 4, 3, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:50:27,iDoor value : 5
+2017/03/16 20:50:27,ERROR line 155-164 Variant or safe array index out of bounds
+2017/03/16 20:50:27,"Next Order : 350, SO_ID=9369, SORT_Key=7, Station=06"
+2017/03/16 20:50:27,number of zero SOID : 3
+2017/03/16 20:50:28,number of zero SOID : 4
+2017/03/16 20:50:28,number of zero SOID : 4
+2017/03/16 20:50:28,number of zero SOID : 4
+2017/03/16 20:50:28,number of zero SOID : 4
+2017/03/16 20:50:28,number of zero SOID : 3
+2017/03/16 20:50:28,number of zero SOID : 2
+2017/03/16 20:50:28,number of zero SOID : 2
+2017/03/16 20:50:28,number of zero SOID : 2
+2017/03/16 20:50:28,number of zero SOID : 2
+2017/03/16 20:50:29,number of zero SOID : 2
+2017/03/16 20:50:29,number of zero SOID : 2
+2017/03/16 20:50:29,number of zero SOID : 2
+2017/03/16 20:50:29,number of zero SOID : 3
+2017/03/16 20:50:29,number of zero SOID : 3
+2017/03/16 20:50:29,number of zero SOID : 3
+2017/03/16 20:50:29,number of zero SOID : 3
+2017/03/16 20:50:29,number of zero SOID : 3
+2017/03/16 20:50:29,number of zero SOID : 3
+2017/03/16 20:50:30,number of zero SOID : 3
+2017/03/16 20:50:30,number of zero SOID : 3
+2017/03/16 20:50:30,number of zero SOID : 3
+2017/03/16 20:50:30,"2, Normal Act Count Row : 248, 3, 2, 8, 8, prs_qty=1, door=1"
+2017/03/16 20:50:30,iDoor value : 1
+2017/03/16 20:50:30,"Next Order : 249, SO_ID=9237, SORT_Key=13, Station=02"
+2017/03/16 20:50:30,"10, Normal Act Count Row : 349, 3, 2, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:50:30,iDoor value : 5
+2017/03/16 20:50:30,"Next Order : 350, SO_ID=9369, SORT_Key=7, Station=06"
+2017/03/16 20:50:30,number of zero SOID : 3
+2017/03/16 20:50:30,number of zero SOID : 3
+2017/03/16 20:50:30,number of zero SOID : 4
+2017/03/16 20:50:30,number of zero SOID : 4
+2017/03/16 20:50:30,number of zero SOID : 4
+2017/03/16 20:50:30,number of zero SOID : 4
+2017/03/16 20:50:31,number of zero SOID : 2
+2017/03/16 20:50:31,number of zero SOID : 2
+2017/03/16 20:50:31,number of zero SOID : 2
+2017/03/16 20:50:31,number of zero SOID : 2
+2017/03/16 20:50:31,number of zero SOID : 2
+2017/03/16 20:50:31,number of zero SOID : 2
+2017/03/16 20:50:31,number of zero SOID : 2
+2017/03/16 20:50:31,number of zero SOID : 2
+2017/03/16 20:50:31,number of zero SOID : 3
+2017/03/16 20:50:32,number of zero SOID : 3
+2017/03/16 20:50:32,number of zero SOID : 3
+2017/03/16 20:50:32,number of zero SOID : 3
+2017/03/16 20:50:32,number of zero SOID : 3
+2017/03/16 20:50:32,number of zero SOID : 3
+2017/03/16 20:50:32,number of zero SOID : 3
+2017/03/16 20:50:32,number of zero SOID : 3
+2017/03/16 20:50:32,number of zero SOID : 3
+2017/03/16 20:50:32,number of zero SOID : 3
+2017/03/16 20:50:33,number of zero SOID : 4
+2017/03/16 20:50:33,number of zero SOID : 4
+2017/03/16 20:50:33,number of zero SOID : 4
+2017/03/16 20:50:33,number of zero SOID : 4
+2017/03/16 20:50:33,number of zero SOID : 2
+2017/03/16 20:50:33,number of zero SOID : 2
+2017/03/16 20:50:33,number of zero SOID : 2
+2017/03/16 20:50:33,number of zero SOID : 2
+2017/03/16 20:50:33,number of zero SOID : 2
+2017/03/16 20:50:34,number of zero SOID : 2
+2017/03/16 20:50:34,number of zero SOID : 2
+2017/03/16 20:50:34,number of zero SOID : 2
+2017/03/16 20:50:34,number of zero SOID : 3
+2017/03/16 20:50:34,number of zero SOID : 3
+2017/03/16 20:50:34,number of zero SOID : 3
+2017/03/16 20:50:34,number of zero SOID : 3
+2017/03/16 20:50:34,number of zero SOID : 3
+2017/03/16 20:50:34,number of zero SOID : 3
+2017/03/16 20:50:34,number of zero SOID : 3
+2017/03/16 20:50:35,number of zero SOID : 3
+2017/03/16 20:50:35,"2, Normal Act Count Row : 248, 2, 1, 8, 8, prs_qty=1, door=1"
+2017/03/16 20:50:35,iDoor value : 1
+2017/03/16 20:50:35,"Next Order : 249, SO_ID=9237, SORT_Key=13, Station=02"
+2017/03/16 20:50:35,"10, Normal Act Count Row : 349, 2, 1, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:50:35,iDoor value : 5
+2017/03/16 20:50:35,"Next Order : 350, SO_ID=9369, SORT_Key=7, Station=06"
+2017/03/16 20:50:35,number of zero SOID : 3
+2017/03/16 20:50:35,number of zero SOID : 3
+2017/03/16 20:50:35,number of zero SOID : 4
+2017/03/16 20:50:35,number of zero SOID : 4
+2017/03/16 20:50:35,number of zero SOID : 4
+2017/03/16 20:50:35,number of zero SOID : 4
+2017/03/16 20:50:35,number of zero SOID : 3
+2017/03/16 20:50:35,number of zero SOID : 2
+2017/03/16 20:50:36,number of zero SOID : 2
+2017/03/16 20:50:36,number of zero SOID : 2
+2017/03/16 20:50:36,number of zero SOID : 1
+2017/03/16 20:50:36,number of zero SOID : 2
+2017/03/16 20:50:36,number of zero SOID : 2
+2017/03/16 20:50:36,number of zero SOID : 2
+2017/03/16 20:50:36,number of zero SOID : 2
+2017/03/16 20:50:36,number of zero SOID : 3
+2017/03/16 20:50:36,number of zero SOID : 3
+2017/03/16 20:50:37,number of zero SOID : 3
+2017/03/16 20:50:37,number of zero SOID : 3
+2017/03/16 20:50:37,number of zero SOID : 3
+2017/03/16 20:50:37,number of zero SOID : 3
+2017/03/16 20:50:37,number of zero SOID : 3
+2017/03/16 20:50:37,"2, Normal Act Count Row : 248, 1, 0, 8, 8, prs_qty=1, door=1"
+2017/03/16 20:50:37,iDoor value : 1
+2017/03/16 20:50:37,"Next Order : 249, SO_ID=9237, SORT_Key=13, Station=02"
+2017/03/16 20:50:37,"Check order again 1! 211, 9190"
+2017/03/16 20:50:37,"Check order again 1! 211, 9190"
+2017/03/16 20:50:37,"Check order again 1! 211, 9190"
+2017/03/16 20:50:38,"Check order again 1! 211, 9190"
+2017/03/16 20:50:38,"Check order again 1! 211, 9190"
+2017/03/16 20:50:38,"Check order again 1! 211, 9190"
+2017/03/16 20:50:38,"Check order again 1! 211, 9190"
+2017/03/16 20:50:38,"Check order again 1! 211, 9190"
+2017/03/16 20:50:38,"Check order again 1! 211, 9190"
+2017/03/16 20:50:38,"Check order again 1! 211, 9190"
+2017/03/16 20:50:38,"Check order again 1! 211, 9190"
+2017/03/16 20:50:38,"Check order again 1! 211, 9190"
+2017/03/16 20:50:39,"Check order again 1! 211, 9190"
+2017/03/16 20:50:39,"Check order again 1! 211, 9190"
+2017/03/16 20:50:39,"Check order again 1! 211, 9190"
+2017/03/16 20:50:39,"Check order again 1! 230, 9214"
+2017/03/16 20:50:39,"Check order again 1! 230, 9214"
+2017/03/16 20:50:39,"Check order again 1! 248, 9236"
+2017/03/16 20:50:39,"Check order again 1! 248, 9236"
+2017/03/16 20:50:39,"Next Order : 249, SO_ID=9237, SORT_Key=13, Station=02"
+2017/03/16 20:50:39,"not found soid : 3, 0"
+2017/03/16 20:50:39,"SO_ID not found : 3, 0"
+2017/03/16 20:50:40,"Next Order : 249, SO_ID=9237, SORT_Key=13, Station=02"
+2017/03/16 20:50:40,"not found soid : 13, 0"
+2017/03/16 20:50:40,"SO_ID not found : 13, 0"
+2017/03/16 20:50:40,"not found soid : 15, 0"
+2017/03/16 20:50:40,"SO_ID not found : 15, 0"
+2017/03/16 20:50:40,number of download order : 2
+2017/03/16 20:50:41,"Download Order : 249, 0, IPI_MCA17_02_L, 9237, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:50:42,"Download Order : 249, 0, IPI_MCA17_02_L, 9237, MS249037-1 12T, IU002 WHITE"
+2017/03/16 20:50:42,number of zero SOID : 3
+2017/03/16 20:50:42,number of zero SOID : 3
+2017/03/16 20:50:42,"2, Normal Act Count Row : 249, 4, 3, 4, 4, prs_qty=1, door=1"
+2017/03/16 20:50:42,iDoor value : 1
+2017/03/16 20:50:42,"Alarm Inserted: 20170316, 9237, IPI_MCA17_02_L, 4"
+2017/03/16 20:50:42,Alarm Data Inserted : SOID = 9237
+2017/03/16 20:50:42,"2, Normal Work Start Time : 249, 16 20:50:41"
+2017/03/16 20:50:42,"10, Normal Act Count Row : 249, 4, 3, 4, 4, prs_qty=1, door=5"
+2017/03/16 20:50:42,iDoor value : 5
+2017/03/16 20:50:42,ERROR line 155-164 Variant or safe array index out of bounds
+2017/03/16 20:50:42,ERROR line 141-153 Variant or safe array index out of bounds
+2017/03/16 20:50:42,number of zero SOID : 3
+2017/03/16 20:50:42,number of zero SOID : 3
+2017/03/16 20:50:42,number of zero SOID : 4
+2017/03/16 20:50:42,number of zero SOID : 4
+2017/03/16 20:50:43,number of zero SOID : 4
+2017/03/16 20:50:43,number of zero SOID : 3
+2017/03/16 20:50:43,"10, Normal Act Count Row : 249, 3, 2, 4, 4, prs_qty=1, door=5"
+2017/03/16 20:50:43,iDoor value : 5
+2017/03/16 20:50:43,number of zero SOID : 3
+2017/03/16 20:50:43,number of zero SOID : 2
+2017/03/16 20:50:43,number of zero SOID : 2
+2017/03/16 20:50:43,number of zero SOID : 2
+2017/03/16 20:50:43,number of zero SOID : 1
+2017/03/16 20:50:43,number of zero SOID : 2
+2017/03/16 20:50:43,number of zero SOID : 2
+2017/03/16 20:50:44,number of zero SOID : 2
+2017/03/16 20:50:44,number of zero SOID : 2
+2017/03/16 20:50:44,number of zero SOID : 3
+2017/03/16 20:50:44,number of zero SOID : 3
+2017/03/16 20:50:44,number of zero SOID : 3
+2017/03/16 20:50:44,number of zero SOID : 3
+2017/03/16 20:50:44,number of zero SOID : 3
+2017/03/16 20:50:44,number of zero SOID : 3
+2017/03/16 20:50:44,number of zero SOID : 3
+2017/03/16 20:50:45,number of zero SOID : 3
+2017/03/16 20:50:45,number of zero SOID : 3
+2017/03/16 20:50:45,number of zero SOID : 4
+2017/03/16 20:50:45,number of zero SOID : 4
+2017/03/16 20:50:45,number of zero SOID : 4
+2017/03/16 20:50:45,number of zero SOID : 3
+2017/03/16 20:50:45,"10, Normal Act Count Row : 249, 2, 1, 4, 4, prs_qty=1, door=5"
+2017/03/16 20:50:45,iDoor value : 5
+2017/03/16 20:50:45,number of zero SOID : 3
+2017/03/16 20:50:45,number of zero SOID : 2
+2017/03/16 20:50:45,number of zero SOID : 2
+2017/03/16 20:50:46,number of zero SOID : 2
+2017/03/16 20:50:46,number of zero SOID : 1
+2017/03/16 20:50:46,number of zero SOID : 2
+2017/03/16 20:50:46,number of zero SOID : 2
+2017/03/16 20:50:46,number of zero SOID : 2
+2017/03/16 20:50:46,number of zero SOID : 2
+2017/03/16 20:50:46,number of zero SOID : 3
+2017/03/16 20:50:46,number of zero SOID : 3
+2017/03/16 20:50:46,number of zero SOID : 3
+2017/03/16 20:50:47,number of zero SOID : 3
+2017/03/16 20:50:47,number of zero SOID : 3
+2017/03/16 20:50:47,number of zero SOID : 3
+2017/03/16 20:50:47,number of zero SOID : 3
+2017/03/16 20:50:47,number of zero SOID : 3
+2017/03/16 20:50:47,number of zero SOID : 4
+2017/03/16 20:50:47,number of zero SOID : 4
+2017/03/16 20:50:47,number of zero SOID : 4
+2017/03/16 20:50:47,number of zero SOID : 4
+2017/03/16 20:50:48,number of zero SOID : 4
+2017/03/16 20:50:48,"10, Normal Act Count Row : 249, 1, 0, 4, 4, prs_qty=1, door=5"
+2017/03/16 20:50:48,iDoor value : 5
+2017/03/16 20:50:48,"Check order again 1! 211, 9190"
+2017/03/16 20:50:48,"Check order again 1! 211, 9190"
+2017/03/16 20:50:48,"Check order again 1! 211, 9190"
+2017/03/16 20:50:48,"Check order again 1! 211, 9190"
+2017/03/16 20:50:48,"Check order again 1! 211, 9190"
+2017/03/16 20:50:48,"Check order again 1! 211, 9190"
+2017/03/16 20:50:48,"Check order again 1! 211, 9190"
+2017/03/16 20:50:49,"Check order again 1! 211, 9190"
+2017/03/16 20:50:49,"Check order again 1! 211, 9190"
+2017/03/16 20:50:49,"Check order again 1! 230, 9214"
+2017/03/16 20:50:49,"Check order again 1! 230, 9214"
+2017/03/16 20:50:49,"Check order again 1! 249, 9237"
+2017/03/16 20:50:49,"Check order again 1! 249, 9237"
+2017/03/16 20:50:49,"not found soid : 3, 0"
+2017/03/16 20:50:49,"SO_ID not found : 3, 0"
+2017/03/16 20:50:49,"Check order again 1! 260, 9249"
+2017/03/16 20:50:49,"not found soid : 3, 0"
+2017/03/16 20:50:49,"SO_ID not found : 3, 0"
+2017/03/16 20:50:49,"Check order again 1! 260, 9249"
+2017/03/16 20:50:50,"not found soid : 3, 0"
+2017/03/16 20:50:50,"SO_ID not found : 3, 0"
+2017/03/16 20:50:50,"Check order again 1! 260, 9249"
+2017/03/16 20:50:50,"not found soid : 3, 0"
+2017/03/16 20:50:50,"SO_ID not found : 3, 0"
+2017/03/16 20:50:50,"Check order again 1! 279, 9276"
+2017/03/16 20:50:50,"not found soid : 3, 0"
+2017/03/16 20:50:50,"SO_ID not found : 3, 0"
+2017/03/16 20:50:50,"Next Order : 350, SO_ID=9369, SORT_Key=7, Station=06"
+2017/03/16 20:50:50,"not found soid : 11, 0"
+2017/03/16 20:50:50,"SO_ID not found : 11, 0"
+2017/03/16 20:50:50,"not found soid : 15, 0"
+2017/03/16 20:50:50,"SO_ID not found : 15, 0"
+2017/03/16 20:50:50,number of download order : 1
+2017/03/16 20:50:51,"Download Order : 350, 1, IPI_MCA17_06_L, 9369, MS249037-1 10, IU002 WHITE"
+2017/03/16 20:50:51,number of zero SOID : 3
+2017/03/16 20:50:51,number of zero SOID : 3
+2017/03/16 20:50:51,number of zero SOID : 3
+2017/03/16 20:50:52,number of zero SOID : 3
+2017/03/16 20:50:52,number of zero SOID : 3
+2017/03/16 20:50:52,"10, Normal Act Count Row : 350, 9, 1, 9, 9, prs_qty=8, door=5"
+2017/03/16 20:50:52,iDoor value : 5
+2017/03/16 20:50:52,"Next Order : 351, SO_ID=9371, SORT_Key=8, Station=06"
+2017/03/16 20:50:52,number of zero SOID : 3
+2017/03/16 20:50:52,number of zero SOID : 4
+2017/03/16 20:50:52,number of zero SOID : 4
+2017/03/16 20:50:52,number of zero SOID : 4
+2017/03/16 20:50:52,number of zero SOID : 4
+2017/03/16 20:50:52,number of zero SOID : 4
+2017/03/16 20:50:52,number of zero SOID : 3
+2017/03/16 20:50:53,number of zero SOID : 2
+2017/03/16 20:50:53,number of zero SOID : 2
+2017/03/16 20:50:53,number of zero SOID : 1
+2017/03/16 20:50:53,number of zero SOID : 1
+2017/03/16 20:50:53,number of zero SOID : 2
+2017/03/16 20:50:53,number of zero SOID : 2
+2017/03/16 20:50:53,number of zero SOID : 2
+2017/03/16 20:50:53,number of zero SOID : 2
+2017/03/16 20:50:53,number of zero SOID : 3
+2017/03/16 20:50:53,number of zero SOID : 3
+2017/03/16 20:50:54,number of zero SOID : 3
+2017/03/16 20:50:54,number of zero SOID : 3
+2017/03/16 20:50:54,number of zero SOID : 3
+2017/03/16 20:50:54,number of zero SOID : 3
+2017/03/16 20:50:54,number of zero SOID : 3
+2017/03/16 20:50:54,"10, Normal Act Count Row : 350, 1, 0, 9, 9, prs_qty=1, door=5"
+2017/03/16 20:50:54,iDoor value : 5
+2017/03/16 20:50:54,"Next Order : 351, SO_ID=9371, SORT_Key=8, Station=06"
+2017/03/16 20:50:54,"Check order again 1! 211, 9190"
+2017/03/16 20:50:54,"Check order again 1! 211, 9190"
+2017/03/16 20:50:54,"Check order again 1! 211, 9190"
+2017/03/16 20:50:55,"Check order again 1! 211, 9190"
+2017/03/16 20:50:55,"Check order again 1! 211, 9190"
+2017/03/16 20:50:55,"Check order again 1! 211, 9190"
+2017/03/16 20:50:55,"Check order again 1! 211, 9190"
+2017/03/16 20:50:55,"Check order again 1! 211, 9190"
+2017/03/16 20:50:55,"Check order again 1! 211, 9190"
+2017/03/16 20:50:55,"Check order again 1! 211, 9190"
+2017/03/16 20:50:55,"Check order again 1! 211, 9190"
+2017/03/16 20:50:56,"Check order again 1! 211, 9190"
+2017/03/16 20:50:56,"Check order again 1! 211, 9190"
+2017/03/16 20:50:56,"Check order again 1! 211, 9190"
+2017/03/16 20:50:56,"Check order again 1! 211, 9190"
+2017/03/16 20:50:56,"Check order again 1! 230, 9214"
+2017/03/16 20:50:56,"Check order again 1! 230, 9214"
+2017/03/16 20:50:56,"Check order again 1! 249, 9237"
+2017/03/16 20:50:56,"Check order again 1! 249, 9237"
+2017/03/16 20:50:56,"not found soid : 3, 0"
+2017/03/16 20:50:56,"SO_ID not found : 3, 0"
+2017/03/16 20:50:57,"not found soid : 13, 0"
+2017/03/16 20:50:57,"SO_ID not found : 13, 0"
+2017/03/16 20:50:57,"not found soid : 15, 0"
+2017/03/16 20:50:57,"SO_ID not found : 15, 0"
+2017/03/16 20:50:57,number of download order : 0
+2017/03/16 20:50:57,number of zero SOID : 4
+2017/03/16 20:50:57,number of zero SOID : 4
+2017/03/16 20:50:57,number of zero SOID : 4
+2017/03/16 20:50:57,number of zero SOID : 4
+2017/03/16 20:50:57,number of zero SOID : 3
+2017/03/16 20:50:57,number of zero SOID : 3
+2017/03/16 20:50:57,number of zero SOID : 2
+2017/03/16 20:50:57,number of zero SOID : 2
+2017/03/16 20:50:58,number of zero SOID : 1
+2017/03/16 20:50:58,number of zero SOID : 1
+2017/03/16 20:50:58,number of zero SOID : 2
+2017/03/16 20:50:58,number of zero SOID : 2
+2017/03/16 20:50:58,number of zero SOID : 2
+2017/03/16 20:50:58,number of zero SOID : 2
+2017/03/16 20:50:58,number of zero SOID : 3
+2017/03/16 20:50:58,number of zero SOID : 3
+2017/03/16 20:50:58,number of zero SOID : 3
+2017/03/16 20:50:59,number of zero SOID : 3
+2017/03/16 20:50:59,number of zero SOID : 3
+2017/03/16 20:50:59,number of zero SOID : 3
+2017/03/16 20:50:59,number of zero SOID : 3
+2017/03/16 20:50:59,number of zero SOID : 3
+2017/03/16 20:50:59,number of zero SOID : 4
+2017/03/16 20:50:59,number of zero SOID : 4
+2017/03/16 20:50:59,number of zero SOID : 4
+2017/03/16 20:50:59,number of zero SOID : 4
+2017/03/16 20:51:00,number of zero SOID : 3
+2017/03/16 20:51:00,number of zero SOID : 3
+2017/03/16 20:51:00,number of zero SOID : 2
+2017/03/16 20:51:00,number of zero SOID : 2
+2017/03/16 20:51:00,number of zero SOID : 2
+2017/03/16 20:51:00,number of zero SOID : 1
+2017/03/16 20:51:00,number of zero SOID : 2
+2017/03/16 20:51:00,number of zero SOID : 2
+2017/03/16 20:51:00,number of zero SOID : 2
+2017/03/16 20:51:01,number of zero SOID : 2
+2017/03/16 20:51:01,number of zero SOID : 3
+2017/03/16 20:51:01,number of zero SOID : 3
+2017/03/16 20:51:01,number of zero SOID : 3
+2017/03/16 20:51:01,number of zero SOID : 3
+2017/03/16 20:51:01,number of zero SOID : 3
+2017/03/16 20:51:01,number of zero SOID : 3
+2017/03/16 20:51:01,number of zero SOID : 3
+2017/03/16 20:51:01,number of zero SOID : 3
+2017/03/16 20:51:02,number of zero SOID : 4
+2017/03/16 20:51:02,"completed work : Grid row(0), 9,6, 9, 6"
+2017/03/16 20:51:02,"completed work : Grid row(2), 9,1, 9, 1"
+2017/03/16 20:51:02,"completed work : Grid row(208), 9,0, 9, 0"
+2017/03/16 20:51:02,"completed work : Grid row(209), 9,0, 9, 0"
+2017/03/16 20:51:02,"completed work : Grid row(210), 9,0, 9, 0"
+2017/03/16 20:51:02,"completed work : Grid row(213), 9,0, 9, 0"
+2017/03/16 20:51:02,"completed work : Grid row(215), 9,0, 9, 0"
+2017/03/16 20:51:02,"completed work : Grid row(216), 5,0, 5, 0"
+2017/03/16 20:51:02,"completed work : Grid row(217), 4,0, 4, 0"
+2017/03/16 20:51:02,"completed work : Grid row(218), 9,0, 9, 0"
+2017/03/16 20:51:02,"completed work : Grid row(219), 9,0, 9, 0"
+2017/03/16 20:51:02,"completed work : Grid row(220), 9,0, 9, 0"
+2017/03/16 20:51:02,"completed work : Grid row(222), 3,0, 3, 0"
+2017/03/16 20:51:02,"completed work : Grid row(226), 9,0, 9, 0"
+2017/03/16 20:51:02,"completed work : Grid row(227), 3,0, 3, 0"
+2017/03/16 20:51:02,"completed work : Grid row(228), 6,0, 6, 0"
+2017/03/16 20:51:02,"completed work : Grid row(229), 6,0, 6, 0"
+2017/03/16 20:51:02,"completed work : Grid row(231), 9,0, 9, 0"
+2017/03/16 20:51:02,"completed work : Grid row(233), 3,0, 3, 0"
+2017/03/16 20:51:03,"completed work : Grid row(235), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(236), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(240), 3,0, 3, 0"
+2017/03/16 20:51:03,"completed work : Grid row(241), 5,0, 5, 0"
+2017/03/16 20:51:03,"completed work : Grid row(242), 8,0, 8, 0"
+2017/03/16 20:51:03,"completed work : Grid row(244), 2,0, 2, 0"
+2017/03/16 20:51:03,"completed work : Grid row(245), 7,0, 7, 0"
+2017/03/16 20:51:03,"completed work : Grid row(247), 1,0, 1, 0"
+2017/03/16 20:51:03,"completed work : Grid row(248), 8,0, 8, 0"
+2017/03/16 20:51:03,"completed work : Grid row(250), 1,0, 1, 0"
+2017/03/16 20:51:03,"completed work : Grid row(252), 8,0, 8, 0"
+2017/03/16 20:51:03,"completed work : Grid row(253), 1,0, 1, 0"
+2017/03/16 20:51:03,"completed work : Grid row(254), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(255), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(256), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(257), 6,0, 6, 0"
+2017/03/16 20:51:03,"completed work : Grid row(258), 3,0, 3, 0"
+2017/03/16 20:51:03,"completed work : Grid row(259), 8,0, 8, 0"
+2017/03/16 20:51:03,"completed work : Grid row(261), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(262), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(263), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(264), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(265), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(266), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(267), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(268), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(269), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(270), 6,0, 6, 0"
+2017/03/16 20:51:03,"completed work : Grid row(271), 3,0, 3, 0"
+2017/03/16 20:51:03,"completed work : Grid row(272), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(273), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(274), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(275), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(276), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(277), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(278), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(280), 3,0, 3, 0"
+2017/03/16 20:51:03,"completed work : Grid row(281), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(282), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(283), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(284), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(285), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(286), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(287), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(289), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(290), 1,0, 1, 0"
+2017/03/16 20:51:03,"completed work : Grid row(291), 8,0, 8, 0"
+2017/03/16 20:51:03,"completed work : Grid row(292), 2,0, 2, 0"
+2017/03/16 20:51:03,"completed work : Grid row(293), 7,0, 7, 0"
+2017/03/16 20:51:03,"completed work : Grid row(294), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(295), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(298), 4,0, 4, 0"
+2017/03/16 20:51:03,"completed work : Grid row(299), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(300), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(301), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(304), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(314), 6,0, 6, 0"
+2017/03/16 20:51:03,"completed work : Grid row(315), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(316), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(317), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(318), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(319), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(320), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(321), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(323), 6,0, 6, 0"
+2017/03/16 20:51:03,"completed work : Grid row(324), 3,0, 3, 0"
+2017/03/16 20:51:03,"completed work : Grid row(325), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(326), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(327), 9,0, 9, 0"
+2017/03/16 20:51:03,"completed work : Grid row(328), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(329), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(331), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(332), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(333), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(335), 3,0, 3, 0"
+2017/03/16 20:51:04,"completed work : Grid row(336), 6,0, 6, 0"
+2017/03/16 20:51:04,"completed work : Grid row(337), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(339), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(340), 3,0, 3, 0"
+2017/03/16 20:51:04,"completed work : Grid row(341), 6,0, 6, 0"
+2017/03/16 20:51:04,"completed work : Grid row(342), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(343), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(344), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(346), 6,0, 6, 0"
+2017/03/16 20:51:04,"completed work : Grid row(347), 3,0, 3, 0"
+2017/03/16 20:51:04,"completed work : Grid row(348), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(350), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(355), 6,0, 6, 0"
+2017/03/16 20:51:04,"completed work : Grid row(356), 6,0, 6, 0"
+2017/03/16 20:51:04,"completed work : Grid row(357), 3,0, 3, 0"
+2017/03/16 20:51:04,"completed work : Grid row(358), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(359), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(360), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(362), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(363), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(364), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(365), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(366), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(367), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(368), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(369), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(370), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(371), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(372), 7,0, 7, 0"
+2017/03/16 20:51:04,"completed work : Grid row(373), 8,0, 8, 0"
+2017/03/16 20:51:04,"completed work : Grid row(374), 1,0, 1, 0"
+2017/03/16 20:51:04,"completed work : Grid row(375), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(376), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(377), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(378), 8,0, 8, 0"
+2017/03/16 20:51:04,"completed work : Grid row(379), 1,0, 1, 0"
+2017/03/16 20:51:04,"completed work : Grid row(380), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(381), 2,0, 2, 0"
+2017/03/16 20:51:04,"completed work : Grid row(382), 7,0, 7, 0"
+2017/03/16 20:51:04,"completed work : Grid row(383), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(384), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(385), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(386), 4,0, 4, 0"
+2017/03/16 20:51:04,"completed work : Grid row(387), 3,0, 3, 0"
+2017/03/16 20:51:04,"completed work : Grid row(388), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(389), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(391), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(392), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(393), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(394), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(395), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(397), 3,0, 3, 0"
+2017/03/16 20:51:04,"completed work : Grid row(398), 6,0, 6, 0"
+2017/03/16 20:51:04,"completed work : Grid row(399), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(400), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(401), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(402), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(403), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(404), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(405), 9,0, 9, 0"
+2017/03/16 20:51:04,"completed work : Grid row(406), 9,0, 9, 0"
+2017/03/16 20:51:05,"completed work : Grid row(407), 9,0, 9, 0"
+2017/03/16 20:51:05,"completed work : Grid row(408), 9,0, 9, 0"
+2017/03/16 20:51:05,"completed work : Grid row(409), 9,0, 9, 0"
+2017/03/16 20:51:05,"completed work : Grid row(410), 9,0, 9, 0"
+2017/03/16 20:51:05,"completed work : Grid row(411), 9,0, 9, 0"
+2017/03/16 20:51:05,"completed work : Grid row(412), 9,0, 9, 0"
+2017/03/16 20:51:05,number of zero SOID : 4
+2017/03/16 20:51:05,number of zero SOID : 4
+2017/03/16 20:51:05,"Check order again 1! 211, 9190"
+2017/03/16 20:51:05,number of zero SOID : 4
+2017/03/16 20:51:05,"Check order again 1! 211, 9190"
+2017/03/16 20:51:05,number of zero SOID : 4
+2017/03/16 20:51:05,"Check order again 1! 211, 9190"
+2017/03/16 20:51:05,number of zero SOID : 3
+2017/03/16 20:51:05,"Check order again 1! 211, 9190"
+2017/03/16 20:51:05,number of zero SOID : 2
+2017/03/16 20:51:05,number of zero SOID : 2
+2017/03/16 20:51:05,"Check order again 1! 211, 9190"
+2017/03/16 20:51:06,number of zero SOID : 2
+2017/03/16 20:51:06,"Check order again 1! 211, 9190"
+2017/03/16 20:51:06,number of zero SOID : 1
+2017/03/16 20:51:06,"Check order again 1! 211, 9190"
+2017/03/16 20:51:06,number of zero SOID : 2
+2017/03/16 20:51:06,"Check order again 1! 211, 9190"
+2017/03/16 20:51:06,number of zero SOID : 2
+2017/03/16 20:51:06,"Check order again 1! 211, 9190"
+2017/03/16 20:51:06,number of zero SOID : 2
+2017/03/16 20:51:06,"Check order again 1! 211, 9190"
+2017/03/16 20:51:06,number of zero SOID : 2
+2017/03/16 20:51:06,"Check order again 1! 211, 9190"
+2017/03/16 20:51:06,number of zero SOID : 3
+2017/03/16 20:51:06,"Check order again 1! 211, 9190"
+2017/03/16 20:51:06,number of zero SOID : 3
+2017/03/16 20:51:06,"Check order again 1! 211, 9190"
+2017/03/16 20:51:06,number of zero SOID : 3
+2017/03/16 20:51:07,"Check order again 1! 230, 9214"
+2017/03/16 20:51:07,number of zero SOID : 3
+2017/03/16 20:51:07,number of zero SOID : 3
+2017/03/16 20:51:07,"Check order again 1! 211, 9190"
+2017/03/16 20:51:07,number of zero SOID : 3
+2017/03/16 20:51:07,"Check order again 1! 211, 9190"
+2017/03/16 20:51:07,number of zero SOID : 3
+2017/03/16 20:51:07,"Check order again 1! 211, 9190"
+2017/03/16 20:51:07,number of zero SOID : 3
+2017/03/16 20:51:07,"Check order again 1! 211, 9190"
+2017/03/16 20:51:07,number of zero SOID : 3
+2017/03/16 20:51:07,"Check order again 1! 211, 9190"
+2017/03/16 20:51:07,number of zero SOID : 4
+2017/03/16 20:51:07,"Check order again 1! 211, 9190"
+2017/03/16 20:51:07,number of zero SOID : 4
+2017/03/16 20:51:07,"Check order again 1! 211, 9190"
+2017/03/16 20:51:07,number of zero SOID : 4
+2017/03/16 20:51:07,"Check order again 1! 211, 9190"
+2017/03/16 20:51:08,number of zero SOID : 4
+2017/03/16 20:51:08,"Check order again 1! 211, 9190"
+2017/03/16 20:51:08,number of zero SOID : 4
+2017/03/16 20:51:08,"Check order again 1! 211, 9190"
+2017/03/16 20:51:08,number of zero SOID : 2
+2017/03/16 20:51:08,"Check order again 1! 211, 9190"
+2017/03/16 20:51:08,number of zero SOID : 2
+2017/03/16 20:51:08,"Check order again 1! 211, 9190"
+2017/03/16 20:51:08,number of zero SOID : 2
+2017/03/16 20:51:08,"Check order again 1! 211, 9190"
+2017/03/16 20:51:08,number of zero SOID : 1
+2017/03/16 20:51:08,"Check order again 1! 211, 9190"
+2017/03/16 20:51:08,number of zero SOID : 2
+2017/03/16 20:51:08,"Check order again 1! 211, 9190"
+2017/03/16 20:51:08,number of zero SOID : 2
+2017/03/16 20:51:08,"Check order again 1! 211, 9190"
+2017/03/16 20:51:08,number of zero SOID : 2
+2017/03/16 20:51:08,"Check order again 1! 211, 9190"
+2017/03/16 20:51:09,number of zero SOID : 2
+2017/03/16 20:51:09,"Check order again 1! 211, 9190"
+2017/03/16 20:51:09,number of zero SOID : 3
+2017/03/16 20:51:09,"Check order again 1! 211, 9190"
+2017/03/16 20:51:09,number of zero SOID : 3
+2017/03/16 20:51:09,"Check order again 1! 211, 9190"
+2017/03/16 20:51:09,number of zero SOID : 3
+2017/03/16 20:51:09,"not found soid : 3, 0"
+2017/03/16 20:51:09,"SO_ID not found : 3, 0"
+2017/03/16 20:51:09,"not found soid : 13, 0"
+2017/03/16 20:51:09,"SO_ID not found : 13, 0"
+2017/03/16 20:51:09,"not found soid : 15, 0"
+2017/03/16 20:51:09,"SO_ID not found : 15, 0"
+2017/03/16 20:51:09,number of download order : 0
+2017/03/16 20:51:09,number of zero SOID : 3
+2017/03/16 20:51:09,number of zero SOID : 3
+2017/03/16 20:51:09,number of zero SOID : 3
+2017/03/16 20:51:10,number of zero SOID : 3
+2017/03/16 20:51:10,number of zero SOID : 3
+2017/03/16 20:51:10,number of zero SOID : 3
+2017/03/16 20:51:10,number of zero SOID : 4
+2017/03/16 20:51:10,number of zero SOID : 4
+2017/03/16 20:51:10,number of zero SOID : 4
+2017/03/16 20:51:10,number of zero SOID : 4
+2017/03/16 20:51:10,number of zero SOID : 3
+2017/03/16 20:51:10,number of zero SOID : 2
+2017/03/16 20:51:11,number of zero SOID : 2
+2017/03/16 20:51:11,number of zero SOID : 2
+2017/03/16 20:51:11,number of zero SOID : 1
+2017/03/16 20:51:11,number of zero SOID : 2
+2017/03/16 20:51:11,number of zero SOID : 2
+2017/03/16 20:51:11,number of zero SOID : 2
+2017/03/16 20:51:11,number of zero SOID : 2
+2017/03/16 20:51:11,number of zero SOID : 3
+2017/03/16 20:51:11,number of zero SOID : 3
+2017/03/16 20:51:12,number of zero SOID : 3
+2017/03/16 20:51:12,number of zero SOID : 3
+2017/03/16 20:51:12,number of zero SOID : 3
+2017/03/16 20:51:12,number of zero SOID : 3
+2017/03/16 20:51:12,number of zero SOID : 3
+2017/03/16 20:51:12,number of zero SOID : 3
+2017/03/16 20:51:12,number of zero SOID : 4
+2017/03/16 20:51:12,number of zero SOID : 4
+2017/03/16 20:51:12,number of zero SOID : 4
+2017/03/16 20:51:13,number of zero SOID : 4
+2017/03/16 20:51:13,number of zero SOID : 3
+2017/03/16 20:51:13,number of zero SOID : 3
+2017/03/16 20:51:13,number of zero SOID : 2
+2017/03/16 20:51:13,number of zero SOID : 2
+2017/03/16 20:51:13,number of zero SOID : 2
+2017/03/16 20:51:13,number of zero SOID : 1
+2017/03/16 20:51:13,number of zero SOID : 2
+2017/03/16 20:51:13,number of zero SOID : 2
+2017/03/16 20:51:14,number of zero SOID : 2
+2017/03/16 20:51:14,number of zero SOID : 2
+2017/03/16 20:51:14,number of zero SOID : 3
+2017/03/16 20:51:14,number of zero SOID : 3
+2017/03/16 20:51:14,number of zero SOID : 3
+2017/03/16 20:51:14,number of zero SOID : 3
+2017/03/16 20:51:14,number of zero SOID : 3
+2017/03/16 20:51:14,number of zero SOID : 3
+2017/03/16 20:51:14,number of zero SOID : 3
+2017/03/16 20:51:15,number of zero SOID : 3
+2017/03/16 20:51:15,number of zero SOID : 4
+2017/03/16 20:51:15,number of zero SOID : 4
+2017/03/16 20:51:15,number of zero SOID : 4
+2017/03/16 20:51:15,number of zero SOID : 4
+2017/03/16 20:51:15,number of zero SOID : 3
+2017/03/16 20:51:15,number of zero SOID : 3
+2017/03/16 20:51:15,number of zero SOID : 2
+2017/03/16 20:51:15,number of zero SOID : 2
+2017/03/16 20:51:16,number of zero SOID : 1
+2017/03/16 20:51:16,number of zero SOID : 1
+2017/03/16 20:51:16,number of zero SOID : 2
+2017/03/16 20:51:16,number of zero SOID : 2
+2017/03/16 20:51:16,number of zero SOID : 2
+2017/03/16 20:51:16,number of zero SOID : 2
+2017/03/16 20:51:16,number of zero SOID : 3
+2017/03/16 20:51:16,number of zero SOID : 3
+2017/03/16 20:51:16,number of zero SOID : 3
+2017/03/16 20:51:16,number of zero SOID : 3
+2017/03/16 20:51:17,number of zero SOID : 3
+2017/03/16 20:51:17,number of zero SOID : 3
+2017/03/16 20:51:17,number of zero SOID : 3
+2017/03/16 20:51:17,number of zero SOID : 3
+2017/03/16 20:51:17,number of zero SOID : 4
+2017/03/16 20:51:17,number of zero SOID : 4
+2017/03/16 20:51:17,number of zero SOID : 4
+2017/03/16 20:51:17,number of zero SOID : 4
+2017/03/16 20:51:17,number of zero SOID : 4
+2017/03/16 20:51:18,number of zero SOID : 3
+2017/03/16 20:51:18,number of zero SOID : 2
+2017/03/16 20:51:18,number of zero SOID : 2
+2017/03/16 20:51:18,number of zero SOID : 1
+2017/03/16 20:51:18,number of zero SOID : 1
+2017/03/16 20:51:18,number of zero SOID : 2
+2017/03/16 20:51:18,number of zero SOID : 2
+2017/03/16 20:51:18,number of zero SOID : 2
+2017/03/16 20:51:18,number of zero SOID : 2
+2017/03/16 20:51:19,number of zero SOID : 3
+2017/03/16 20:51:19,number of zero SOID : 3
+2017/03/16 20:51:19,number of zero SOID : 3
+2017/03/16 20:51:19,number of zero SOID : 3
+2017/03/16 20:51:19,number of zero SOID : 3
+2017/03/16 20:51:19,number of zero SOID : 3
+2017/03/16 20:51:19,number of zero SOID : 3
+2017/03/16 20:51:19,number of zero SOID : 3
+2017/03/16 20:51:19,number of zero SOID : 4
+2017/03/16 20:51:20,number of zero SOID : 4
+2017/03/16 20:51:20,number of zero SOID : 4
+2017/03/16 20:51:20,number of zero SOID : 4
+2017/03/16 20:51:20,number of zero SOID : 3
+2017/03/16 20:51:20,number of zero SOID : 3
+2017/03/16 20:51:20,number of zero SOID : 2
+2017/03/16 20:51:20,number of zero SOID : 2
+2017/03/16 20:51:20,number of zero SOID : 1
+2017/03/16 20:51:20,number of zero SOID : 1
+2017/03/16 20:51:21,number of zero SOID : 2
+2017/03/16 20:51:21,number of zero SOID : 2
+2017/03/16 20:51:21,number of zero SOID : 2
+2017/03/16 20:51:21,number of zero SOID : 2
+2017/03/16 20:51:21,number of zero SOID : 3
+2017/03/16 20:51:21,number of zero SOID : 3
+2017/03/16 20:51:21,number of zero SOID : 3
+2017/03/16 20:51:21,number of zero SOID : 3
+2017/03/16 20:51:21,number of zero SOID : 3
+2017/03/16 20:51:22,number of zero SOID : 3
+2017/03/16 20:51:22,number of zero SOID : 3
+2017/03/16 20:51:22,number of zero SOID : 3
+2017/03/16 20:51:22,number of zero SOID : 3
+2017/03/16 20:51:22,number of zero SOID : 4
+2017/03/16 20:51:22,number of zero SOID : 4
+2017/03/16 20:51:22,number of zero SOID : 4
+2017/03/16 20:51:22,number of zero SOID : 3
+2017/03/16 20:51:22,number of zero SOID : 3
+2017/03/16 20:51:23,number of zero SOID : 2
+2017/03/16 20:51:23,number of zero SOID : 2
+2017/03/16 20:51:23,number of zero SOID : 1
+2017/03/16 20:51:23,number of zero SOID : 1
+2017/03/16 20:51:23,number of zero SOID : 2
+2017/03/16 20:51:23,number of zero SOID : 2
+2017/03/16 20:51:23,number of zero SOID : 2
+2017/03/16 20:51:23,number of zero SOID : 2
+2017/03/16 20:51:23,number of zero SOID : 3
+2017/03/16 20:51:23,number of zero SOID : 3
+2017/03/16 20:51:24,number of zero SOID : 3
+2017/03/16 20:51:24,number of zero SOID : 3
+2017/03/16 20:51:24,number of zero SOID : 3
+2017/03/16 20:51:24,number of zero SOID : 3
+2017/03/16 20:51:24,number of zero SOID : 3
+2017/03/16 20:51:24,number of zero SOID : 3
+2017/03/16 20:51:24,number of zero SOID : 3
+2017/03/16 20:51:24,number of zero SOID : 4
+2017/03/16 20:51:24,number of zero SOID : 4
+2017/03/16 20:51:25,number of zero SOID : 4
+2017/03/16 20:51:25,number of zero SOID : 3
+2017/03/16 20:51:25,number of zero SOID : 3
+2017/03/16 20:51:25,number of zero SOID : 2
+2017/03/16 20:51:25,number of zero SOID : 2
+2017/03/16 20:51:25,number of zero SOID : 2
+2017/03/16 20:51:25,number of zero SOID : 1
+2017/03/16 20:51:25,number of zero SOID : 2
+2017/03/16 20:51:25,number of zero SOID : 2
+2017/03/16 20:51:26,number of zero SOID : 2
+2017/03/16 20:51:26,number of zero SOID : 2
+2017/03/16 20:51:26,number of zero SOID : 3
+2017/03/16 20:51:26,number of zero SOID : 3
+2017/03/16 20:51:26,number of zero SOID : 3
+2017/03/16 20:51:26,number of zero SOID : 3
+2017/03/16 20:51:26,number of zero SOID : 3
+2017/03/16 20:51:26,number of zero SOID : 3
+2017/03/16 20:51:26,number of zero SOID : 3
+2017/03/16 20:51:27,number of zero SOID : 3
+2017/03/16 20:51:27,number of zero SOID : 4
+2017/03/16 20:51:27,number of zero SOID : 4
+2017/03/16 20:51:27,number of zero SOID : 4
+2017/03/16 20:51:27,number of zero SOID : 4
+2017/03/16 20:51:27,number of zero SOID : 3
+2017/03/16 20:51:27,number of zero SOID : 3
+2017/03/16 20:51:27,number of zero SOID : 2
+2017/03/16 20:51:27,number of zero SOID : 2
+2017/03/16 20:51:28,number of zero SOID : 2
+2017/03/16 20:51:28,number of zero SOID : 1
+2017/03/16 20:51:28,number of zero SOID : 2
+2017/03/16 20:51:28,number of zero SOID : 2
+2017/03/16 20:51:28,number of zero SOID : 2
+2017/03/16 20:51:28,number of zero SOID : 2
+2017/03/16 20:51:28,number of zero SOID : 3
+2017/03/16 20:51:28,number of zero SOID : 3
+2017/03/16 20:51:28,number of zero SOID : 3
+2017/03/16 20:51:29,number of zero SOID : 3
+2017/03/16 20:51:29,number of zero SOID : 3
+2017/03/16 20:51:29,number of zero SOID : 3
+2017/03/16 20:51:29,number of zero SOID : 3
+2017/03/16 20:51:29,number of zero SOID : 3
+2017/03/16 20:51:29,number of zero SOID : 4
+2017/03/16 20:51:29,number of zero SOID : 4
+2017/03/16 20:51:29,number of zero SOID : 4
+2017/03/16 20:51:29,number of zero SOID : 4
+2017/03/16 20:51:30,number of zero SOID : 3
+2017/03/16 20:51:30,number of zero SOID : 3
+2017/03/16 20:51:30,number of zero SOID : 2
+2017/03/16 20:51:30,number of zero SOID : 2
+2017/03/16 20:51:30,number of zero SOID : 2
+2017/03/16 20:51:30,number of zero SOID : 1
+2017/03/16 20:51:30,number of zero SOID : 2
+2017/03/16 20:51:30,number of zero SOID : 2
+2017/03/16 20:51:30,number of zero SOID : 2
+2017/03/16 20:51:30,number of zero SOID : 2
+2017/03/16 20:51:31,number of zero SOID : 3
+2017/03/16 20:51:31,number of zero SOID : 3
+2017/03/16 20:51:31,number of zero SOID : 3
+2017/03/16 20:51:31,number of zero SOID : 3
+2017/03/16 20:51:31,number of zero SOID : 3
+2017/03/16 20:51:31,number of zero SOID : 3
+2017/03/16 20:51:31,number of zero SOID : 3
+2017/03/16 20:51:31,number of zero SOID : 3
+2017/03/16 20:51:31,number of zero SOID : 4
+2017/03/16 20:51:32,number of zero SOID : 4
+2017/03/16 20:51:32,number of zero SOID : 4
+2017/03/16 20:51:32,number of zero SOID : 4
+2017/03/16 20:51:32,number of zero SOID : 4
+2017/03/16 20:51:32,number of zero SOID : 3
+2017/03/16 20:51:32,number of zero SOID : 2
+2017/03/16 20:51:32,number of zero SOID : 2
+2017/03/16 20:51:32,number of zero SOID : 1
+2017/03/16 20:51:32,number of zero SOID : 1
+2017/03/16 20:51:33,number of zero SOID : 2
+2017/03/16 20:51:33,number of zero SOID : 2
+2017/03/16 20:51:33,number of zero SOID : 2
+2017/03/16 20:51:33,number of zero SOID : 2
+2017/03/16 20:51:33,number of zero SOID : 3
+2017/03/16 20:51:33,number of zero SOID : 3
+2017/03/16 20:51:33,number of zero SOID : 3
+2017/03/16 20:51:33,number of zero SOID : 3
+2017/03/16 20:51:33,number of zero SOID : 3
+2017/03/16 20:51:34,number of zero SOID : 3
+2017/03/16 20:51:34,number of zero SOID : 3
+2017/03/16 20:51:34,number of zero SOID : 3
+2017/03/16 20:51:34,number of zero SOID : 4
+2017/03/16 20:51:34,number of zero SOID : 4
+2017/03/16 20:51:34,number of zero SOID : 4
+2017/03/16 20:51:34,number of zero SOID : 4
+2017/03/16 20:51:34,number of zero SOID : 4
+2017/03/16 20:51:34,number of zero SOID : 3
+2017/03/16 20:51:35,number of zero SOID : 2
+2017/03/16 20:51:35,number of zero SOID : 2
+2017/03/16 20:51:35,number of zero SOID : 1
+2017/03/16 20:51:35,number of zero SOID : 1
+2017/03/16 20:51:35,number of zero SOID : 2
+2017/03/16 20:51:35,number of zero SOID : 2
+2017/03/16 20:51:35,number of zero SOID : 2
+2017/03/16 20:51:35,number of zero SOID : 2
+2017/03/16 20:51:35,number of zero SOID : 3
+2017/03/16 20:51:36,number of zero SOID : 3
+2017/03/16 20:51:36,number of zero SOID : 3
+2017/03/16 20:51:36,number of zero SOID : 3
+2017/03/16 20:51:36,number of zero SOID : 3
+2017/03/16 20:51:36,number of zero SOID : 3
+2017/03/16 20:51:36,number of zero SOID : 3
+2017/03/16 20:51:36,number of zero SOID : 3
+2017/03/16 20:51:36,number of zero SOID : 4
+2017/03/16 20:51:36,number of zero SOID : 4
+2017/03/16 20:51:37,number of zero SOID : 4
+2017/03/16 20:51:37,number of zero SOID : 4
+2017/03/16 20:51:37,number of zero SOID : 3
+2017/03/16 20:51:37,number of zero SOID : 3
+2017/03/16 20:51:37,number of zero SOID : 2
+2017/03/16 20:51:37,number of zero SOID : 2
+2017/03/16 20:51:37,number of zero SOID : 1
+2017/03/16 20:51:37,number of zero SOID : 1
+2017/03/16 20:51:37,number of zero SOID : 2
+2017/03/16 20:51:37,number of zero SOID : 2
+2017/03/16 20:51:38,number of zero SOID : 2
+2017/03/16 20:51:38,number of zero SOID : 2
+2017/03/16 20:51:38,number of zero SOID : 3
+2017/03/16 20:51:38,number of zero SOID : 3
+2017/03/16 20:51:38,number of zero SOID : 3
+2017/03/16 20:51:38,number of zero SOID : 3
+2017/03/16 20:51:38,number of zero SOID : 3
+2017/03/16 20:51:38,number of zero SOID : 3
+2017/03/16 20:51:38,number of zero SOID : 3
+2017/03/16 20:51:39,number of zero SOID : 3
+2017/03/16 20:51:39,number of zero SOID : 3
+2017/03/16 20:51:39,number of zero SOID : 4
+2017/03/16 20:51:39,number of zero SOID : 4
+2017/03/16 20:51:39,number of zero SOID : 4
+2017/03/16 20:51:39,number of zero SOID : 3
+2017/03/16 20:51:39,number of zero SOID : 3
+2017/03/16 20:51:39,number of zero SOID : 2
+2017/03/16 20:51:39,number of zero SOID : 2
+2017/03/16 20:51:40,number of zero SOID : 1
+2017/03/16 20:51:40,number of zero SOID : 1
+2017/03/16 20:51:40,number of zero SOID : 2
+2017/03/16 20:51:40,number of zero SOID : 2
+2017/03/16 20:51:40,number of zero SOID : 2
+2017/03/16 20:51:40,number of zero SOID : 2
+2017/03/16 20:51:40,number of zero SOID : 3
+2017/03/16 20:51:40,number of zero SOID : 3
+2017/03/16 20:51:40,number of zero SOID : 3
+2017/03/16 20:51:41,number of zero SOID : 3
+2017/03/16 20:51:41,number of zero SOID : 3
+2017/03/16 20:51:41,number of zero SOID : 3
+2017/03/16 20:51:41,number of zero SOID : 3
+2017/03/16 20:51:41,number of zero SOID : 3
+2017/03/16 20:51:41,number of zero SOID : 3
+2017/03/16 20:51:41,number of zero SOID : 4
+2017/03/16 20:51:41,number of zero SOID : 4
+2017/03/16 20:51:41,number of zero SOID : 4
+2017/03/16 20:51:42,number of zero SOID : 3
+2017/03/16 20:51:42,number of zero SOID : 3
+2017/03/16 20:51:42,number of zero SOID : 2
+2017/03/16 20:51:42,number of zero SOID : 2
+2017/03/16 20:51:42,number of zero SOID : 2
+2017/03/16 20:51:42,number of zero SOID : 1
+2017/03/16 20:51:42,number of zero SOID : 2
+2017/03/16 20:51:42,number of zero SOID : 2
+2017/03/16 20:51:42,number of zero SOID : 2
+2017/03/16 20:51:43,number of zero SOID : 2
+2017/03/16 20:51:43,number of zero SOID : 3
+2017/03/16 20:51:43,number of zero SOID : 3
+2017/03/16 20:51:43,number of zero SOID : 3
+2017/03/16 20:51:43,number of zero SOID : 3
+2017/03/16 20:51:43,number of zero SOID : 3
+2017/03/16 20:51:43,number of zero SOID : 3
+2017/03/16 20:51:43,number of zero SOID : 3
+2017/03/16 20:51:43,number of zero SOID : 3
+2017/03/16 20:51:44,number of zero SOID : 4
+2017/03/16 20:51:44,number of zero SOID : 4
+2017/03/16 20:51:44,number of zero SOID : 4
+2017/03/16 20:51:44,number of zero SOID : 4
+2017/03/16 20:51:44,number of zero SOID : 3
+2017/03/16 20:51:44,number of zero SOID : 3
+2017/03/16 20:51:44,number of zero SOID : 2
+2017/03/16 20:51:44,number of zero SOID : 2
+2017/03/16 20:51:44,number of zero SOID : 2
+2017/03/16 20:51:44,number of zero SOID : 1
+2017/03/16 20:51:45,number of zero SOID : 2
+2017/03/16 20:51:45,number of zero SOID : 2
+2017/03/16 20:51:45,number of zero SOID : 2
+2017/03/16 20:51:45,number of zero SOID : 2
+2017/03/16 20:51:45,number of zero SOID : 3
+2017/03/16 20:51:45,number of zero SOID : 3
+2017/03/16 20:51:45,number of zero SOID : 3
+2017/03/16 20:51:45,number of zero SOID : 3
+2017/03/16 20:51:45,number of zero SOID : 3
+2017/03/16 20:51:46,number of zero SOID : 3
+2017/03/16 20:51:46,number of zero SOID : 3
+2017/03/16 20:51:46,number of zero SOID : 3
+2017/03/16 20:51:46,number of zero SOID : 4
+2017/03/16 20:51:46,number of zero SOID : 4
+2017/03/16 20:51:46,number of zero SOID : 4
+2017/03/16 20:51:46,number of zero SOID : 4
+2017/03/16 20:51:46,number of zero SOID : 4
+2017/03/16 20:51:46,number of zero SOID : 3
+2017/03/16 20:51:47,number of zero SOID : 2
+2017/03/16 20:51:47,number of zero SOID : 2
+2017/03/16 20:51:47,number of zero SOID : 1
+2017/03/16 20:51:47,number of zero SOID : 1
+2017/03/16 20:51:47,number of zero SOID : 2
+2017/03/16 20:51:47,number of zero SOID : 2
+2017/03/16 20:51:47,number of zero SOID : 2
+2017/03/16 20:51:47,number of zero SOID : 2
+2017/03/16 20:51:47,number of zero SOID : 3
+2017/03/16 20:51:48,number of zero SOID : 3
+2017/03/16 20:51:48,number of zero SOID : 3
+2017/03/16 20:51:48,number of zero SOID : 3
+2017/03/16 20:51:48,number of zero SOID : 3
+2017/03/16 20:51:48,number of zero SOID : 3
+2017/03/16 20:51:48,number of zero SOID : 3
+2017/03/16 20:51:48,number of zero SOID : 3
+2017/03/16 20:51:48,number of zero SOID : 4
+2017/03/16 20:51:48,number of zero SOID : 4
+2017/03/16 20:51:49,number of zero SOID : 4
+2017/03/16 20:51:49,number of zero SOID : 4
+2017/03/16 20:51:49,number of zero SOID : 4
+2017/03/16 20:51:49,number of zero SOID : 3
+2017/03/16 20:51:49,number of zero SOID : 2
+2017/03/16 20:51:49,number of zero SOID : 2
+2017/03/16 20:51:49,number of zero SOID : 1
+2017/03/16 20:51:49,number of zero SOID : 1
+2017/03/16 20:51:49,number of zero SOID : 2
+2017/03/16 20:51:50,number of zero SOID : 2
+2017/03/16 20:51:50,number of zero SOID : 2
+2017/03/16 20:51:50,number of zero SOID : 2
+2017/03/16 20:51:50,number of zero SOID : 3
+2017/03/16 20:51:50,number of zero SOID : 3
+2017/03/16 20:51:50,number of zero SOID : 3
+2017/03/16 20:51:50,number of zero SOID : 3
+2017/03/16 20:51:50,number of zero SOID : 3
+2017/03/16 20:51:50,number of zero SOID : 3
+2017/03/16 20:51:51,number of zero SOID : 3
+2017/03/16 20:51:51,number of zero SOID : 3
+2017/03/16 20:51:51,number of zero SOID : 3
+2017/03/16 20:51:51,number of zero SOID : 4
+2017/03/16 20:51:51,number of zero SOID : 4
+2017/03/16 20:51:51,number of zero SOID : 4
+2017/03/16 20:51:51,number of zero SOID : 3
+2017/03/16 20:51:51,number of zero SOID : 3
+2017/03/16 20:51:51,number of zero SOID : 2
+2017/03/16 20:51:51,number of zero SOID : 2
+2017/03/16 20:51:52,number of zero SOID : 1
+2017/03/16 20:51:52,number of zero SOID : 1
+2017/03/16 20:51:52,number of zero SOID : 2
+2017/03/16 20:51:52,number of zero SOID : 2
+2017/03/16 20:51:52,number of zero SOID : 2
+2017/03/16 20:51:52,number of zero SOID : 2
+2017/03/16 20:51:52,number of zero SOID : 3
+2017/03/16 20:51:52,number of zero SOID : 3
+2017/03/16 20:51:52,number of zero SOID : 3
+2017/03/16 20:51:53,number of zero SOID : 3
+2017/03/16 20:51:53,number of zero SOID : 3
+2017/03/16 20:51:53,number of zero SOID : 3
+2017/03/16 20:51:53,number of zero SOID : 3
+2017/03/16 20:51:53,number of zero SOID : 3
+2017/03/16 20:51:53,number of zero SOID : 3
+2017/03/16 20:51:53,number of zero SOID : 4
+2017/03/16 20:51:53,number of zero SOID : 4
+2017/03/16 20:51:53,number of zero SOID : 4
+2017/03/16 20:51:54,number of zero SOID : 3
+2017/03/16 20:51:54,number of zero SOID : 3
+2017/03/16 20:51:54,number of zero SOID : 2
+2017/03/16 20:51:54,number of zero SOID : 2
+2017/03/16 20:51:54,number of zero SOID : 2
+2017/03/16 20:51:54,number of zero SOID : 1
+2017/03/16 20:51:54,number of zero SOID : 2
+2017/03/16 20:51:54,number of zero SOID : 2
+2017/03/16 20:51:54,number of zero SOID : 2
+2017/03/16 20:51:55,number of zero SOID : 2
+2017/03/16 20:51:55,number of zero SOID : 3
+2017/03/16 20:51:55,number of zero SOID : 3
+2017/03/16 20:51:55,number of zero SOID : 3
+2017/03/16 20:51:55,number of zero SOID : 3
+2017/03/16 20:51:55,number of zero SOID : 3
+2017/03/16 20:51:55,number of zero SOID : 3
+2017/03/16 20:51:55,number of zero SOID : 3
+2017/03/16 20:51:55,number of zero SOID : 3
+2017/03/16 20:51:56,number of zero SOID : 4
+2017/03/16 20:51:56,number of zero SOID : 4
+2017/03/16 20:51:56,number of zero SOID : 4
+2017/03/16 20:51:56,number of zero SOID : 4
+2017/03/16 20:51:56,number of zero SOID : 3
+2017/03/16 20:51:56,number of zero SOID : 3
+2017/03/16 20:51:56,number of zero SOID : 2
+2017/03/16 20:51:56,number of zero SOID : 2
+2017/03/16 20:51:56,number of zero SOID : 2
+2017/03/16 20:51:57,number of zero SOID : 1
+2017/03/16 20:51:57,number of zero SOID : 2
+2017/03/16 20:51:57,number of zero SOID : 2
+2017/03/16 20:51:57,number of zero SOID : 2
+2017/03/16 20:51:57,number of zero SOID : 2
+2017/03/16 20:51:57,number of zero SOID : 3
+2017/03/16 20:51:57,number of zero SOID : 3
+2017/03/16 20:51:57,number of zero SOID : 3
+2017/03/16 20:51:57,number of zero SOID : 3
+2017/03/16 20:51:58,number of zero SOID : 3
+2017/03/16 20:51:58,number of zero SOID : 3
+2017/03/16 20:51:58,number of zero SOID : 3
+2017/03/16 20:51:58,number of zero SOID : 3
+2017/03/16 20:51:58,number of zero SOID : 4
+2017/03/16 20:51:58,number of zero SOID : 4
+2017/03/16 20:51:58,number of zero SOID : 4
+2017/03/16 20:51:58,number of zero SOID : 4
+2017/03/16 20:51:58,number of zero SOID : 4
+2017/03/16 20:51:58,number of zero SOID : 3
+2017/03/16 20:51:59,number of zero SOID : 2
+2017/03/16 20:51:59,number of zero SOID : 2
+2017/03/16 20:51:59,number of zero SOID : 1
+2017/03/16 20:51:59,number of zero SOID : 1
+2017/03/16 20:51:59,number of zero SOID : 2
+2017/03/16 20:51:59,number of zero SOID : 2
+2017/03/16 20:51:59,number of zero SOID : 2
+2017/03/16 20:51:59,number of zero SOID : 2
+2017/03/16 20:51:59,number of zero SOID : 3
+2017/03/16 20:52:00,number of zero SOID : 3
+2017/03/16 20:52:00,number of zero SOID : 3
+2017/03/16 20:52:00,number of zero SOID : 3
+2017/03/16 20:52:00,number of zero SOID : 3
+2017/03/16 20:52:00,number of zero SOID : 3
+2017/03/16 20:52:00,number of zero SOID : 3
+2017/03/16 20:52:00,number of zero SOID : 3
+2017/03/16 20:52:00,number of zero SOID : 3
+2017/03/16 20:52:00,number of zero SOID : 4
+2017/03/16 20:52:01,number of zero SOID : 4
+2017/03/16 20:52:01,number of zero SOID : 4
+2017/03/16 20:52:01,number of zero SOID : 4
+2017/03/16 20:52:01,number of zero SOID : 3
+2017/03/16 20:52:01,number of zero SOID : 2
+2017/03/16 20:52:01,number of zero SOID : 2
+2017/03/16 20:52:01,number of zero SOID : 1
+2017/03/16 20:52:01,number of zero SOID : 1
+2017/03/16 20:52:01,number of zero SOID : 2
+2017/03/16 20:52:02,"completed work : Grid row(0), 9,6, 9, 6"
+2017/03/16 20:52:02,"completed work : Grid row(2), 9,1, 9, 1"
+2017/03/16 20:52:02,"completed work : Grid row(208), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(209), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(210), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(213), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(215), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(216), 5,0, 5, 0"
+2017/03/16 20:52:02,"completed work : Grid row(217), 4,0, 4, 0"
+2017/03/16 20:52:02,"completed work : Grid row(218), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(219), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(220), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(222), 3,0, 3, 0"
+2017/03/16 20:52:02,"completed work : Grid row(226), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(227), 3,0, 3, 0"
+2017/03/16 20:52:02,"completed work : Grid row(228), 6,0, 6, 0"
+2017/03/16 20:52:02,"completed work : Grid row(229), 6,0, 6, 0"
+2017/03/16 20:52:02,"completed work : Grid row(231), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(233), 3,0, 3, 0"
+2017/03/16 20:52:02,"completed work : Grid row(235), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(236), 9,0, 9, 0"
+2017/03/16 20:52:02,"completed work : Grid row(240), 3,0, 3, 0"
+2017/03/16 20:52:02,"completed work : Grid row(241), 5,0, 5, 0"
+2017/03/16 20:52:02,"completed work : Grid row(242), 8,0, 8, 0"
+2017/03/16 20:52:02,"completed work : Grid row(244), 2,0, 2, 0"
+2017/03/16 20:52:02,"completed work : Grid row(245), 7,0, 7, 0"
+2017/03/16 20:52:02,"completed work : Grid row(247), 1,0, 1, 0"
+2017/03/16 20:52:03,"completed work : Grid row(248), 8,0, 8, 0"
+2017/03/16 20:52:03,"completed work : Grid row(250), 1,0, 1, 0"
+2017/03/16 20:52:03,"completed work : Grid row(252), 8,0, 8, 0"
+2017/03/16 20:52:03,"completed work : Grid row(253), 1,0, 1, 0"
+2017/03/16 20:52:03,"completed work : Grid row(254), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(255), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(256), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(257), 6,0, 6, 0"
+2017/03/16 20:52:03,"completed work : Grid row(258), 3,0, 3, 0"
+2017/03/16 20:52:03,"completed work : Grid row(259), 8,0, 8, 0"
+2017/03/16 20:52:03,"completed work : Grid row(261), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(262), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(263), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(264), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(265), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(266), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(267), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(268), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(269), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(270), 6,0, 6, 0"
+2017/03/16 20:52:03,"completed work : Grid row(271), 3,0, 3, 0"
+2017/03/16 20:52:03,"completed work : Grid row(272), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(273), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(274), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(275), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(276), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(277), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(278), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(280), 3,0, 3, 0"
+2017/03/16 20:52:03,"completed work : Grid row(281), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(282), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(283), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(284), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(285), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(286), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(287), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(289), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(290), 1,0, 1, 0"
+2017/03/16 20:52:03,"completed work : Grid row(291), 8,0, 8, 0"
+2017/03/16 20:52:03,"completed work : Grid row(292), 2,0, 2, 0"
+2017/03/16 20:52:03,"completed work : Grid row(293), 7,0, 7, 0"
+2017/03/16 20:52:03,"completed work : Grid row(294), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(295), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(298), 4,0, 4, 0"
+2017/03/16 20:52:03,"completed work : Grid row(299), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(300), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(301), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(304), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(314), 6,0, 6, 0"
+2017/03/16 20:52:03,"completed work : Grid row(315), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(316), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(317), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(318), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(319), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(320), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(321), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(323), 6,0, 6, 0"
+2017/03/16 20:52:03,"completed work : Grid row(324), 3,0, 3, 0"
+2017/03/16 20:52:03,"completed work : Grid row(325), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(326), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(327), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(328), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(329), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(331), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(332), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(333), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(335), 3,0, 3, 0"
+2017/03/16 20:52:03,"completed work : Grid row(336), 6,0, 6, 0"
+2017/03/16 20:52:03,"completed work : Grid row(337), 9,0, 9, 0"
+2017/03/16 20:52:03,"completed work : Grid row(339), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(340), 3,0, 3, 0"
+2017/03/16 20:52:04,"completed work : Grid row(341), 6,0, 6, 0"
+2017/03/16 20:52:04,"completed work : Grid row(342), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(343), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(344), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(346), 6,0, 6, 0"
+2017/03/16 20:52:04,"completed work : Grid row(347), 3,0, 3, 0"
+2017/03/16 20:52:04,"completed work : Grid row(348), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(350), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(355), 6,0, 6, 0"
+2017/03/16 20:52:04,"completed work : Grid row(356), 6,0, 6, 0"
+2017/03/16 20:52:04,"completed work : Grid row(357), 3,0, 3, 0"
+2017/03/16 20:52:04,"completed work : Grid row(358), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(359), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(360), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(362), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(363), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(364), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(365), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(366), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(367), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(368), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(369), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(370), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(371), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(372), 7,0, 7, 0"
+2017/03/16 20:52:04,"completed work : Grid row(373), 8,0, 8, 0"
+2017/03/16 20:52:04,"completed work : Grid row(374), 1,0, 1, 0"
+2017/03/16 20:52:04,"completed work : Grid row(375), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(376), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(377), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(378), 8,0, 8, 0"
+2017/03/16 20:52:04,"completed work : Grid row(379), 1,0, 1, 0"
+2017/03/16 20:52:04,"completed work : Grid row(380), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(381), 2,0, 2, 0"
+2017/03/16 20:52:04,"completed work : Grid row(382), 7,0, 7, 0"
+2017/03/16 20:52:04,"completed work : Grid row(383), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(384), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(385), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(386), 4,0, 4, 0"
+2017/03/16 20:52:04,"completed work : Grid row(387), 3,0, 3, 0"
+2017/03/16 20:52:04,"completed work : Grid row(388), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(389), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(391), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(392), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(393), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(394), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(395), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(397), 3,0, 3, 0"
+2017/03/16 20:52:04,"completed work : Grid row(398), 6,0, 6, 0"
+2017/03/16 20:52:04,"completed work : Grid row(399), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(400), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(401), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(402), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(403), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(404), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(405), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(406), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(407), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(408), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(409), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(410), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(411), 9,0, 9, 0"
+2017/03/16 20:52:04,"completed work : Grid row(412), 9,0, 9, 0"
+2017/03/16 20:52:05,number of zero SOID : 2
+2017/03/16 20:52:05,"Check order again 1! 211, 9190"
+2017/03/16 20:52:05,number of zero SOID : 2
+2017/03/16 20:52:05,"Check order again 1! 211, 9190"
+2017/03/16 20:52:05,number of zero SOID : 2
+2017/03/16 20:52:05,"Check order again 1! 211, 9190"
+2017/03/16 20:52:05,number of zero SOID : 3
+2017/03/16 20:52:05,"Check order again 1! 211, 9190"
+2017/03/16 20:52:05,number of zero SOID : 3
+2017/03/16 20:52:05,"Check order again 1! 230, 9214"
+2017/03/16 20:52:05,number of zero SOID : 3
+2017/03/16 20:52:05,number of zero SOID : 3
+2017/03/16 20:52:05,"Check order again 1! 211, 9190"
+2017/03/16 20:52:05,number of zero SOID : 3
+2017/03/16 20:52:06,"Check order again 1! 211, 9190"
+2017/03/16 20:52:06,number of zero SOID : 3
+2017/03/16 20:52:06,"Check order again 1! 211, 9190"
+2017/03/16 20:52:06,number of zero SOID : 3
+2017/03/16 20:52:06,"Check order again 1! 211, 9190"
+2017/03/16 20:52:06,number of zero SOID : 3
+2017/03/16 20:52:06,"Check order again 1! 211, 9190"
+2017/03/16 20:52:06,number of zero SOID : 4
+2017/03/16 20:52:06,"Check order again 1! 211, 9190"
+2017/03/16 20:52:06,number of zero SOID : 4
+2017/03/16 20:52:06,"Check order again 1! 211, 9190"
+2017/03/16 20:52:06,number of zero SOID : 4
+2017/03/16 20:52:06,"Check order again 1! 211, 9190"
+2017/03/16 20:52:06,number of zero SOID : 4
+2017/03/16 20:52:06,"Check order again 1! 211, 9190"
+2017/03/16 20:52:06,number of zero SOID : 4
+2017/03/16 20:52:06,"Check order again 1! 211, 9190"
+2017/03/16 20:52:06,number of zero SOID : 3
+2017/03/16 20:52:07,number of zero SOID : 2
+2017/03/16 20:52:07,"Check order again 1! 211, 9190"
+2017/03/16 20:52:07,number of zero SOID : 2
+2017/03/16 20:52:07,"Check order again 1! 211, 9190"
+2017/03/16 20:52:07,number of zero SOID : 1
+2017/03/16 20:52:07,"Check order again 1! 211, 9190"
+2017/03/16 20:52:07,number of zero SOID : 1
+2017/03/16 20:52:07,"Check order again 1! 211, 9190"
+2017/03/16 20:52:07,number of zero SOID : 2
+2017/03/16 20:52:07,"Check order again 1! 211, 9190"
+2017/03/16 20:52:07,number of zero SOID : 2
+2017/03/16 20:52:07,"Check order again 1! 211, 9190"
+2017/03/16 20:52:07,number of zero SOID : 2
+2017/03/16 20:52:07,"Check order again 1! 211, 9190"
+2017/03/16 20:52:07,number of zero SOID : 2
+2017/03/16 20:52:07,"Check order again 1! 211, 9190"
+2017/03/16 20:52:07,number of zero SOID : 3
+2017/03/16 20:52:08,"Check order again 1! 211, 9190"
+2017/03/16 20:52:08,number of zero SOID : 3
+2017/03/16 20:52:08,"not found soid : 3, 0"
+2017/03/16 20:52:08,"SO_ID not found : 3, 0"
+2017/03/16 20:52:08,"Next Order : 351, SO_ID=9371, SORT_Key=8, Station=06"
+2017/03/16 20:52:08,"not found soid : 13, 0"
+2017/03/16 20:52:08,"SO_ID not found : 13, 0"
+2017/03/16 20:52:08,"not found soid : 15, 0"
+2017/03/16 20:52:08,"SO_ID not found : 15, 0"
+2017/03/16 20:52:08,number of download order : 1
+2017/03/16 20:52:08,number of zero SOID : 3
+2017/03/16 20:52:08,"10, Normal Act Count Row : 351, 9, 0, 9, 9, prs_qty=9, door=5"
+2017/03/16 20:52:08,iDoor value : 5
+2017/03/16 20:52:08,"Next Order : 352, SO_ID=9373, SORT_Key=9, Station=06"
+2017/03/16 20:52:08,"Check order again 1! 211, 9190"
+2017/03/16 20:52:09,"Check order again 1! 211, 9190"
+2017/03/16 20:52:09,"Check order again 1! 211, 9190"
+2017/03/16 20:52:09,"Check order again 1! 211, 9190"
+2017/03/16 20:52:09,"Check order again 1! 211, 9190"
+2017/03/16 20:52:09,"Check order again 1! 211, 9190"
+2017/03/16 20:52:09,"download work start : 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, "
+2017/03/16 20:52:09,"Check order again 1! 211, 9190"
+2017/03/16 20:52:09,"Check order again 1! 211, 9190"
+2017/03/16 20:52:09,"Check order again 1! 211, 9190"
+2017/03/16 20:52:10,"Check order again 1! 211, 9190"
+2017/03/16 20:52:10,"Check order again 1! 211, 9190"
+2017/03/16 20:52:10,"Check order again 1! 211, 9190"
+2017/03/16 20:52:10,"Check order again 1! 211, 9190"
+2017/03/16 20:52:10,"Check order again 1! 211, 9190"
+2017/03/16 20:52:10,"download work start : 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, "
+2017/03/16 20:52:10,"Check order again 1! 211, 9190"
+2017/03/16 20:52:10,"Check order again 1! 211, 9190"
+2017/03/16 20:52:10,"Check order again 1! 211, 9190"
+2017/03/16 20:52:10,"Check order again 1! 211, 9190"
+2017/03/16 20:52:11,"not found soid : 3, 0"
+2017/03/16 20:52:11,"SO_ID not found : 3, 0"
+2017/03/16 20:52:11,"Next Order : 352, SO_ID=9373, SORT_Key=9, Station=06"
+2017/03/16 20:52:11,"not found soid : 13, 0"
+2017/03/16 20:52:11,"SO_ID not found : 13, 0"
+2017/03/16 20:52:11,"not found soid : 15, 0"
+2017/03/16 20:52:11,"SO_ID not found : 15, 0"
+2017/03/16 20:52:11,number of download order : 1
+2017/03/16 20:52:11,"Download Order : 352, 1, IPI_MCA17_06_L, 9373, MS249037-1 10, IU002 WHITE"
+2017/03/16 20:52:11,number of zero SOID : 3
+2017/03/16 20:52:11,number of zero SOID : 4
+2017/03/16 20:52:11,number of zero SOID : 4
+2017/03/16 20:52:12,number of zero SOID : 4
+2017/03/16 20:52:12,number of zero SOID : 4
+2017/03/16 20:52:12,number of zero SOID : 3
+2017/03/16 20:52:12,number of zero SOID : 2
+2017/03/16 20:52:12,number of zero SOID : 2
+2017/03/16 20:52:12,number of zero SOID : 2
+2017/03/16 20:52:12,number of zero SOID : 1
+2017/03/16 20:52:12,number of zero SOID : 2
+2017/03/16 20:52:12,number of zero SOID : 2
+2017/03/16 20:52:13,number of zero SOID : 2
+2017/03/16 20:52:13,number of zero SOID : 2
+2017/03/16 20:52:13,number of zero SOID : 3
+2017/03/16 20:52:13,number of zero SOID : 3
+2017/03/16 20:52:13,number of zero SOID : 3
+2017/03/16 20:52:13,number of zero SOID : 3
+2017/03/16 20:52:13,number of zero SOID : 3
+2017/03/16 20:52:13,number of zero SOID : 3
+2017/03/16 20:52:13,number of zero SOID : 3
+2017/03/16 20:52:13,"10, Normal Act Count Row : 352, 9, 0, 9, 9, prs_qty=9, door=5"
+2017/03/16 20:52:13,iDoor value : 5
+2017/03/16 20:52:14,"Next Order : 353, SO_ID=9374, SORT_Key=10, Station=06"
+2017/03/16 20:52:14,"Check order again 1! 211, 9190"
+2017/03/16 20:52:14,"Check order again 1! 211, 9190"
+2017/03/16 20:52:14,"Check order again 1! 211, 9190"
+2017/03/16 20:52:14,"Check order again 1! 211, 9190"
+2017/03/16 20:52:14,"Check order again 1! 211, 9190"
+2017/03/16 20:52:14,"Check order again 1! 211, 9190"
+2017/03/16 20:52:14,"Check order again 1! 211, 9190"
+2017/03/16 20:52:14,"Check order again 1! 211, 9190"
+2017/03/16 20:52:15,"Check order again 1! 211, 9190"
+2017/03/16 20:52:15,"Check order again 1! 211, 9190"
+2017/03/16 20:52:15,"Check order again 1! 211, 9190"
+2017/03/16 20:52:15,"Check order again 1! 211, 9190"
+2017/03/16 20:52:15,"Check order again 1! 211, 9190"
+2017/03/16 20:52:15,"Check order again 1! 211, 9190"
+2017/03/16 20:52:15,"Check order again 1! 211, 9190"
+2017/03/16 20:52:15,"Check order again 1! 230, 9214"
+2017/03/16 20:52:15,"Check order again 1! 230, 9214"
+2017/03/16 20:52:16,"Check order again 1! 249, 9237"
+2017/03/16 20:52:16,"Check order again 1! 249, 9237"
+2017/03/16 20:52:16,"not found soid : 3, 0"
+2017/03/16 20:52:16,"SO_ID not found : 3, 0"
+2017/03/16 20:52:16,"not found soid : 13, 0"
+2017/03/16 20:52:16,"SO_ID not found : 13, 0"
+2017/03/16 20:52:16,"not found soid : 15, 0"
+2017/03/16 20:52:16,"SO_ID not found : 15, 0"
+2017/03/16 20:52:16,number of download order : 0
+2017/03/16 20:52:16,number of zero SOID : 4
+2017/03/16 20:52:16,number of zero SOID : 4
+2017/03/16 20:52:16,number of zero SOID : 4
+2017/03/16 20:52:16,number of zero SOID : 4
+2017/03/16 20:52:17,number of zero SOID : 3
+2017/03/16 20:52:17,number of zero SOID : 3
+2017/03/16 20:52:17,number of zero SOID : 2
+2017/03/16 20:52:17,number of zero SOID : 2
+2017/03/16 20:52:17,number of zero SOID : 1
+2017/03/16 20:52:17,number of zero SOID : 1
+2017/03/16 20:52:17,number of zero SOID : 2
+2017/03/16 20:52:17,number of zero SOID : 2
+2017/03/16 20:52:17,number of zero SOID : 2
+2017/03/16 20:52:18,number of zero SOID : 2
+2017/03/16 20:52:18,number of zero SOID : 3
+2017/03/16 20:52:18,number of zero SOID : 3
+2017/03/16 20:52:18,number of zero SOID : 3
+2017/03/16 20:52:18,number of zero SOID : 3
+2017/03/16 20:52:18,number of zero SOID : 3
+2017/03/16 20:52:18,number of zero SOID : 3
+2017/03/16 20:52:18,number of zero SOID : 3
+2017/03/16 20:52:18,number of zero SOID : 4
+2017/03/16 20:52:19,number of zero SOID : 4
+2017/03/16 20:52:19,number of zero SOID : 4
+2017/03/16 20:52:19,number of zero SOID : 4
+2017/03/16 20:52:19,number of zero SOID : 4
+2017/03/16 20:52:19,number of zero SOID : 3
+2017/03/16 20:52:19,number of zero SOID : 3
+2017/03/16 20:52:19,number of zero SOID : 2
+2017/03/16 20:52:19,number of zero SOID : 2
+2017/03/16 20:52:19,number of zero SOID : 1
+2017/03/16 20:52:20,number of zero SOID : 1
+2017/03/16 20:52:20,number of zero SOID : 2
+2017/03/16 20:52:20,number of zero SOID : 2
+2017/03/16 20:52:20,number of zero SOID : 2
+2017/03/16 20:52:20,number of zero SOID : 2
+2017/03/16 20:52:20,number of zero SOID : 3
+2017/03/16 20:52:20,number of zero SOID : 3
+2017/03/16 20:52:20,number of zero SOID : 3
+2017/03/16 20:52:20,number of zero SOID : 3
+2017/03/16 20:52:20,number of zero SOID : 3
+2017/03/16 20:52:21,number of zero SOID : 3
+2017/03/16 20:52:21,number of zero SOID : 3
+2017/03/16 20:52:21,number of zero SOID : 3
+2017/03/16 20:52:21,number of zero SOID : 4
+2017/03/16 20:52:21,number of zero SOID : 4
+2017/03/16 20:52:21,number of zero SOID : 4
+2017/03/16 20:52:21,number of zero SOID : 4
+2017/03/16 20:52:21,number of zero SOID : 3
+2017/03/16 20:52:21,number of zero SOID : 3
+2017/03/16 20:52:22,number of zero SOID : 2
+2017/03/16 20:52:22,number of zero SOID : 1
+2017/03/16 20:52:22,number of zero SOID : 1
+2017/03/16 20:52:22,number of zero SOID : 1
+2017/03/16 20:52:22,number of zero SOID : 2
+2017/03/16 20:52:22,number of zero SOID : 2
+2017/03/16 20:52:22,number of zero SOID : 2
+2017/03/16 20:52:22,number of zero SOID : 2
+2017/03/16 20:52:22,number of zero SOID : 3
+2017/03/16 20:52:23,number of zero SOID : 3
+2017/03/16 20:52:23,number of zero SOID : 3
+2017/03/16 20:52:23,number of zero SOID : 3
+2017/03/16 20:52:23,number of zero SOID : 3
+2017/03/16 20:52:23,number of zero SOID : 3
+2017/03/16 20:52:23,number of zero SOID : 3
+2017/03/16 20:52:23,number of zero SOID : 3
+2017/03/16 20:52:23,number of zero SOID : 4
+2017/03/16 20:52:23,number of zero SOID : 4
+2017/03/16 20:52:24,number of zero SOID : 4
+2017/03/16 20:52:24,number of zero SOID : 4
+2017/03/16 20:52:24,number of zero SOID : 3
+2017/03/16 20:52:24,number of zero SOID : 3
+2017/03/16 20:52:24,number of zero SOID : 2
+2017/03/16 20:52:24,number of zero SOID : 1
+2017/03/16 20:52:24,number of zero SOID : 1
+2017/03/16 20:52:24,number of zero SOID : 1
+2017/03/16 20:52:24,number of zero SOID : 2
+2017/03/16 20:52:25,number of zero SOID : 2
+2017/03/16 20:52:25,number of zero SOID : 2
+2017/03/16 20:52:25,number of zero SOID : 2
+2017/03/16 20:52:25,number of zero SOID : 3
+2017/03/16 20:52:25,number of zero SOID : 3
+2017/03/16 20:52:25,number of zero SOID : 3
+2017/03/16 20:52:25,number of zero SOID : 3
+2017/03/16 20:52:25,number of zero SOID : 3
+2017/03/16 20:52:25,number of zero SOID : 3
+2017/03/16 20:52:26,number of zero SOID : 3
+2017/03/16 20:52:26,number of zero SOID : 3
+2017/03/16 20:52:26,number of zero SOID : 4
+2017/03/16 20:52:26,number of zero SOID : 4
+2017/03/16 20:52:26,number of zero SOID : 4
+2017/03/16 20:52:26,number of zero SOID : 3
+2017/03/16 20:52:26,number of zero SOID : 3
+2017/03/16 20:52:26,number of zero SOID : 3
+2017/03/16 20:52:26,number of zero SOID : 2
+2017/03/16 20:52:27,number of zero SOID : 2
+2017/03/16 20:52:27,number of zero SOID : 2
+2017/03/16 20:52:27,number of zero SOID : 2
+2017/03/16 20:52:27,number of zero SOID : 2
+2017/03/16 20:52:27,number of zero SOID : 2
+2017/03/16 20:52:27,number of zero SOID : 2
+2017/03/16 20:52:27,number of zero SOID : 2
+2017/03/16 20:52:27,number of zero SOID : 3
+2017/03/16 20:52:27,number of zero SOID : 3
+2017/03/16 20:52:27,number of zero SOID : 3
+2017/03/16 20:52:28,number of zero SOID : 3
+2017/03/16 20:52:28,number of zero SOID : 3
+2017/03/16 20:52:28,number of zero SOID : 3
+2017/03/16 20:52:28,number of zero SOID : 3
+2017/03/16 20:52:28,number of zero SOID : 3
+2017/03/16 20:52:28,number of zero SOID : 3
+2017/03/16 20:52:28,number of zero SOID : 3
+2017/03/16 20:52:28,number of zero SOID : 4
+2017/03/16 20:52:28,number of zero SOID : 4
+2017/03/16 20:52:29,number of zero SOID : 4
+2017/03/16 20:52:29,number of zero SOID : 4
+2017/03/16 20:52:29,number of zero SOID : 2
+2017/03/16 20:52:29,number of zero SOID : 2
+2017/03/16 20:52:29,number of zero SOID : 2
+2017/03/16 20:52:29,number of zero SOID : 2
+2017/03/16 20:52:29,number of zero SOID : 3
+2017/03/16 20:52:29,"7, Normal Act Count Row : 304, 9, 3, 9, 9, prs_qty=6, door=3"
+2017/03/16 20:52:29,iDoor value : 3
+2017/03/16 20:52:29,ERROR line 155-164 Variant or safe array index out of bounds
+2017/03/16 20:52:29,"Next Order : 305, SO_ID=9313, SORT_Key=5, Station=04"
+2017/03/16 20:52:29,number of zero SOID : 2
+2017/03/16 20:52:29,number of zero SOID : 2
+2017/03/16 20:52:30,number of zero SOID : 2
+2017/03/16 20:52:30,number of zero SOID : 3
+2017/03/16 20:52:30,number of zero SOID : 3
+2017/03/16 20:52:30,number of zero SOID : 3
+2017/03/16 20:52:30,number of zero SOID : 3
+2017/03/16 20:52:30,number of zero SOID : 3
+2017/03/16 20:52:30,number of zero SOID : 3
+2017/03/16 20:52:30,number of zero SOID : 3
+2017/03/16 20:52:30,number of zero SOID : 3
+2017/03/16 20:52:31,number of zero SOID : 3
+2017/03/16 20:52:31,number of zero SOID : 3
+2017/03/16 20:52:31,number of zero SOID : 4
+2017/03/16 20:52:31,number of zero SOID : 4
+2017/03/16 20:52:31,number of zero SOID : 4
+2017/03/16 20:52:31,number of zero SOID : 4
+2017/03/16 20:52:31,number of zero SOID : 3
+2017/03/16 20:52:31,number of zero SOID : 2
+2017/03/16 20:52:31,number of zero SOID : 2
+2017/03/16 20:52:32,number of zero SOID : 2
+2017/03/16 20:52:32,number of zero SOID : 2
+2017/03/16 20:52:32,number of zero SOID : 2
+2017/03/16 20:52:32,number of zero SOID : 2
+2017/03/16 20:52:32,number of zero SOID : 2
+2017/03/16 20:52:32,number of zero SOID : 3
+2017/03/16 20:52:32,number of zero SOID : 3
+2017/03/16 20:52:32,number of zero SOID : 3
+2017/03/16 20:52:32,number of zero SOID : 3
+2017/03/16 20:52:33,number of zero SOID : 3
+2017/03/16 20:52:33,number of zero SOID : 3
+2017/03/16 20:52:33,number of zero SOID : 3
+2017/03/16 20:52:33,number of zero SOID : 3
+2017/03/16 20:52:33,number of zero SOID : 3
+2017/03/16 20:52:33,number of zero SOID : 3
+2017/03/16 20:52:33,number of zero SOID : 4
