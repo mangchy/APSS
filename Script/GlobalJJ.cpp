@@ -208,7 +208,7 @@ int getGridRowFromSOID(String tarMachine, int aOrderPos, int aSOID)
 int getGridRow(String tarMachine, int aOrderPos)
 {
 	//int imin_sort_key = 999999999;
-	int imin_soid = 999999999999;
+	int imin_soid = 999999999;
 	int row_cnt2 = frmScreen1.dhGrid1.GetRowCount;
 	int row_result = -1;
 	for(int grid_row2=0; grid_row2<row_cnt2; grid_row2++)
@@ -684,16 +684,11 @@ void checkMoldChange(int aCurrentRow)
 {
 	int row_cnt = frmScreen1.dhGrid1.GetRowCount;
 	
-	String version_id  	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_VERSION_ID);	//IPI_MCA17_01_L
-	String mold_size   	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_MOLDSIZE);		//MS249037-1 11
-	String station   	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_STATION);
 	String nor_plncnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_NORPLNCNT);
 	String osd_plncnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_OSNDPLNCNT);
 	String nor_actcnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_NORACTCNT);
 	String osd_actcnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_OSNDACTCNT);
-	String soid		    = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_SO_ID);
-
-	int istation 	= StrToInt(station) - 1;
+	
 	int inor_plncnt = StrToInt(nor_plncnt);
 	int iosd_plncnt = StrToInt(osd_plncnt);
     int inor_actcnt = StrToInt(nor_actcnt);
@@ -713,7 +708,12 @@ void checkMoldChange(int aCurrentRow)
 	}
 	else//check mold type      <= 3
 	{
-		int remain_count2 = remain_count;
+		String station   	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_STATION);
+		String version_id  	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_VERSION_ID);	//IPI_MCA17_01_L
+		String mold_size   	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_MOLDSIZE);		//MS249037-1 11
+	
+		int istation 		= StrToInt(station) - 1;
+		int remain_count2   = remain_count;
 		for(int grid_row=aCurrentRow+1; grid_row<row_cnt; grid_row++)
 		{		
 			String version_id2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_VERSION_ID);			
@@ -754,6 +754,8 @@ void checkMoldChange(int aCurrentRow)
 				}
 				else if(remain_count2 == 3)
 				{
+					String soid = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_SO_ID);
+					
 					SQLalarmInsert(soid, Now, ALARM_MOLDCHANGE, ALARM_MOLDCHANGE_D);
 					return;
 				}
