@@ -106,7 +106,7 @@ void srcSQL()
 			sqlquery += ") K ";
 			//sqlquery += "ORDER BY VERSION_ID, RESOURCE_CD,  SORT_KEY ";
 			//sqlquery += "ORDER BY SORT_KEY, STATION_CD,  SO_ID, STATION_TYPE" ; 
-			sqlquery += "ORDER BY STATION_CD, VERSION_ID, RESOURCE_CD, SORT_KEY" ; 
+			sqlquery += "STATION_CD, VERSION_ID, RESOURCE_CD, SORT_KEY" ; 
 		
 		//ShowMessage(sqlquery);
 		 
@@ -163,7 +163,7 @@ void srcSQL()
 				iosdplncnt, 		//8
 				iosdactcnt, 
 				sInjector_cd, 
-				Copy(s8, 9, Length(s14)),
+				Copy(s14, 9, Length(s14)),
 				Copy(s15, 9, Length(s15)), //RST_END_DATE
 				s1, //SO_ID
 				"", 
