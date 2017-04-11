@@ -23,6 +23,7 @@ int    gBarcodeSide 	= 0;
 #define STATION_NUM 	16		//LP 2ea ....test(L, R)
 #define MACHINE_NUM		3
 
+
 int 		gDownloadNum;
 int 		gDownloadedIdx;
 int 		gDownloadData[ALL_ORDERS];
@@ -459,6 +460,7 @@ int checkFinish(int aRow, int aStation, int aAct, int aOSD)
 	//ShowMessage(Format("check finish, %d, %d, %d", [aStation, aAct, aOSD]));
 	if((aAct == 0) && (aOSD == 0)) 
 	{
+		
 		string sort_key = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_SORT_KEY);	
 		int isort_key = StrToIntDef(sort_key, 0);
 		//ShowMessage(Format("row 1, %d, %d, %d, %d", [aStation, gWorkingRow[aStation], aAct,  gWorkingNormal[aStation]]));
@@ -761,7 +763,7 @@ void SQLActDtRead(int soid)
 				sqlquery_ActDt += "SUM(CASE REASON WHEN  '00' THEN CNT_QTY ELSE 0 END) AS RST_CNT, ";
 				sqlquery_ActDt += "SUM(CASE REASON WHEN  '00' THEN 0 ELSE CNT_QTY END) AS RST_OSND_CNT ";
 				sqlquery_ActDt += "FROM DATA_RST ";
-				sqlquery_ActDt += "WHERE SO_ID = '" + IntToStr(soid) + "' ";
+				sqlquery_ActDt += "WHERE SO_ID = " + IntToStr(soid) ;
 				sqlquery_ActDt += "GROUP BY SO_ID";
 		DBScriptClear(namedb);
         DBScriptSQL(namedb, sqlquery_ActDt);
