@@ -1,1 +1,0 @@
-<atSCADA_Screen xmlns="http://www.w3.org/2001/XMLSchema-instance"><Background Style="3" Brush.Color="-16777201" Brush.Style="0" Gradient.Color="12632256" Gradient.ColorCount="128" Gradient.EndColor="16777215" Gradient.Style="1" Image.FileName="image\screen_1.jpg" Image.TileMode="2"/><DFM_File>frmScreen1_4.dfm</DFM_File></atSCADA_Screen>

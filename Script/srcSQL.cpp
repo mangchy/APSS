@@ -164,9 +164,9 @@ void srcSQL()
 				iosdactcnt, 
 				sInjector_cd, 
 				Copy(s8, 9, Length(s14)),
-				Copy(s15, 9, Length(s15)),
-				s1,//SOID
-				"",//Remark 
+				Copy(s15, 9, Length(s15)), //RST_END_DATE
+				s1, //SO_ID
+				"", 
 				sort_key, 
 				s3, 
 				station_cd,
