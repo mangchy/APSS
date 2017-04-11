@@ -451,6 +451,7 @@ String GetSelectedGrid()
 	return Copy(soid_sql, 1, Length(soid_sql) - 2);
 }
 
+
 //=======================================================================================
 //ready to next order
 int checkFinish(int aRow, int aStation, int aAct, int aOSD)
@@ -645,6 +646,11 @@ void insertFinishSQL(String aSoid)
 	}
 }
 
+//=======================================================================================
+void checkMoldChange(int aRow)
+{
+
+}
 
 //=======================================================================================
 //barcode
@@ -737,7 +743,9 @@ void SQLalarmInsert(int soid, TDateTime aStartTime)
 		ShowMessage(sqlquery + "\r\n" + ExceptionMessage);
 	}
 }
-	//=======================================================================================
+
+
+//=======================================================================================
 void SQLActDtRead(int soid)
 {
 	try
@@ -771,6 +779,7 @@ void SQLActDtRead(int soid)
 		ShowMessage(sqlquery_ActDt + "\r\n" + ExceptionMessage);
 	}
 }
+
 
 //=======================================================================================
 {
