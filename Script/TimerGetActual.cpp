@@ -138,7 +138,7 @@ void TimerGetActual()
 					
 					frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);
 								
-					checkMoldChange(iGridRow);					
+					checkMoldChange(iGridRow, DOOR_MANUAL);					
 					
 					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) return;
 				}

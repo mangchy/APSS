@@ -1,4 +1,4 @@
-#include "GlobalScripts.pas", "JJUtils.cpp"
+#include "GlobalScripts.pas", "JJUtils.cpp", "LPComm.cpp"
 
 string gSvr_type = ""; //"SQL SERVER";
 string gSvr 	 = ""; //"(local)";
@@ -89,6 +89,10 @@ int			grefreshDatabase = 0;//2:30 pm automatically  refresh VersionID and reload
 #define ALARM_MOLDCHANGE_D	"Mold Change"
 #define ALARM_ENDORDER_D	"End Order"
 #define ALARM_DOWNTIME_D	"Down Time"
+
+//=============================================================
+#define DOOR_MANUAL			0
+#define DOOR_AUTO			1
 
 
 int 		gTagPRSQTY[ALL_ORDERS];
@@ -680,7 +684,8 @@ void insertFinishSQL(String aSoid)
 //=======================================================================================
 //Station => IPI-MCA17-01-L 
 //Mold    => MS004767-JJME006006A
-void checkMoldChange(int aCurrentRow)
+//aAutoManualMode  => remain count ? 0 -> Auto or Manual
+void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 {
 	int row_cnt = frmScreen1.dhGrid1.GetRowCount;
 	
@@ -702,10 +707,6 @@ void checkMoldChange(int aCurrentRow)
 	{
 		return;
 	}
-	else if(remain_count <= 0)//finished order
-	{
-	
-	}
 	else//check mold type      <= 3
 	{
 		String station   	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_STATION);
@@ -714,7 +715,7 @@ void checkMoldChange(int aCurrentRow)
 	
 		int istation 		= StrToInt(station) - 1;
 		int remain_count2   = remain_count;
-		for(int grid_row=aCurrentRow+1; grid_row<row_cnt; grid_row++)
+		for(int grid_row=aCurrentRow+1; grid_row<row_cnt; grid_row++)//find next order and check mold
 		{		
 			String version_id2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_VERSION_ID);			
 			if(version_id != version_id2) 
@@ -727,13 +728,13 @@ void checkMoldChange(int aCurrentRow)
 			{				
 				String nor_plncnt2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_NORPLNCNT);
 				String osd_plncnt2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_OSNDPLNCNT);
-				String nor_actcnt2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_NORACTCNT);
-				String osd_actcnt2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_OSNDACTCNT);
+				//String nor_actcnt2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_NORACTCNT);
+				//String osd_actcnt2 = frmScreen1.dhGrid1.GetCellData(grid_row, COLUMN_OSNDACTCNT);
 				
 				int inor_plncnt2 = StrToInt(nor_plncnt2);
 				int iosd_plncnt2 = StrToInt(osd_plncnt2);
-				int inor_actcnt2 = StrToInt(nor_actcnt2);
-				int iosd_actcnt2 = StrToInt(osd_actcnt2);
+				//int inor_actcnt2 = StrToInt(nor_actcnt2);
+				//int iosd_actcnt2 = StrToInt(osd_actcnt2);
 			
 				int sum_pln2 = inor_plncnt2 + iosd_plncnt2;
 				remain_count2 += sum_pln2;
@@ -748,11 +749,17 @@ void checkMoldChange(int aCurrentRow)
 			}
 			else//different mold
 			{
-				if(remain_count2 > 3)
+				if(remain_count == 0)
 				{
+					SetDebug(Format("#%d station, Door : set Auto, %d", [istation+1, aAutoManualMode]));	
+					LP_SetAutoManual(istation, aAutoManualMode);
 					return;
 				}
-				else if(remain_count2 == 3)
+				else if(remain_count2 > 3)
+				{
+					return;//none action
+				}
+				else if(remain_count2 == 3)//save to alarm table
 				{
 					String soid = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_SO_ID);
 					
@@ -761,9 +768,15 @@ void checkMoldChange(int aCurrentRow)
 				}
 				else
 				{
-				
+					return;
 				}
 			}
+		}
+		
+		if(remain_count2 == 3)//save to alarm table
+		{
+			String soid2 = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_SO_ID);			
+			SQLalarmInsert(soid2, Now, ALARM_MOLDCHANGE, ALARM_MOLDCHANGE_D);
 		}
 	}
 }
@@ -808,6 +821,7 @@ int compareMold(String aMold_id, String aMold_cd, String aMold_size)
 	
 	return rlt;
 }
+
 //=======================================================================================
 //aStartTime=Now
 void SQLalarmInsert(String aSoid, TDateTime aStartTime, String aAlarmType, String aAlarmDescript)

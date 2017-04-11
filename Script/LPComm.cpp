@@ -9,6 +9,7 @@ void OnDownloadResult(Variant aResult, Variant aRxValues)
 	//TimerDownload.Enabled = true;
 }
 
+//=============================================================
 //station : start 0, direction : left=0, right=1
 void LP_SendData(int LPTag, int station, int direction, string moldcd, string mcs, string shift, int tar, int count, int osdtar, int osdcount, Variant so_id )
 {
@@ -94,6 +95,7 @@ void LP_SendData(int LPTag, int station, int direction, string moldcd, string mc
 	}
 }
 
+//=============================================================
 void LP_SetTime(int LPTag, int aHour, int aMin)
 {
 	Variant tx = VarArrayCreate([0, 128], varInteger);
@@ -130,17 +132,18 @@ void LP_SetMoldChingSatusON(int LPTag,int orders)
     SetModBusTagValueWithResult(LPTag, 1, mb_addr, wmode, offset, tx, nil, 2000);
 }*/
 
+//=============================================================
 void LP_ReadWork()
 {
 	Variant tx = VarArrayCreate([0, 128], varInteger);
 	int mb_addr = 300;
     int wmode = 2;
-    int xsize = 8;
-	
+    int xsize = 8;	
 	
     SetModBusTagValueWithResult(WI1, 1, mb_addr, wmode, xsize, tx, nil, 2000);
 }
 
+//=============================================================
 void LP_ShiftData(int LPTag, int aShift)
 {
 	Variant tx = VarArrayCreate([0, 128], varInteger);
@@ -153,7 +156,7 @@ void LP_ShiftData(int LPTag, int aShift)
 	SetModBusTagValueWithResult(LPTag, 1, mb_addr, wmode, xsize, tx, nil, 2000);//tag13
 }
 
-
+//=============================================================
 void LP_Shift(int tag, string aData)
 {
 	Variant tx = VarArrayCreate([0, 128], varInteger);
@@ -165,6 +168,22 @@ void LP_Shift(int tag, string aData)
 	tx[0] = (iDecode >> 8) && 0xff;
 	tx[1] = (iDecode) && 0xff;
 	SetModBusTagValueWithResult(tag, 1, mb_addr, wmode, xsize, tx, nil, 2000);//tag13
+}
+
+
+//=============================================================
+//aStation : 0 ~ 7
+//aData : 0-OFF, 1-ON
+void LP_SetAutoManual(int aStation, int aData)
+{
+	Variant tx = VarArrayCreate([0, 128], varInteger);
+	int mb_addr = 420 + aStation;
+    int wmode = 2;
+    int xsize = 2;
+	
+	tx[0] = (aData >> 8) && 0xff;
+	tx[1] = (aData) && 0xff;
+	SetModBusTagValueWithResult(WI1, 1, mb_addr, wmode, xsize, tx, nil, 2000);//tag13
 }
 
 {

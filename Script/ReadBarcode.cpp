@@ -3,6 +3,7 @@
 #include "GlobalScripts.pas"
 //==================================
 String sMold_CD, sMold_Size;
+int iGridRow;
 void ReadBarcode()
 {
 	TDateTime dt = GetTagUpdateTime(TagBarcode);
@@ -25,9 +26,8 @@ void ReadBarcode()
 			gBarcodeStation = StrToIntDef(sStation, 0);
 			
 			string sSide = Copy(sBarcode, 14, 2);
-			gBarcodeSide = StrToIntDef(sSide, 0);	
+			gBarcodeSide = StrToIntDef(sSide, 0);				
 			
-			int iGridRow;
 			for(int i=0; i<ALL_ORDERS; i++)
 			{
 				iGridRow = gWorkingRow[i];
@@ -58,7 +58,10 @@ void ReadBarcode()
 			
 			SetDebug(Format("Mold barcode : %s, %s, %s, %d", [sBarcode, sMold_CD, sMold_Size, found]));	
 			
-			
+			if(found)//found MOLD of DATA_MOLD table
+			{
+				checkMoldChange(iGridRow, DOOR_AUTO);
+			}			
 		} 		
     }	
 }
