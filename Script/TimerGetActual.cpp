@@ -118,10 +118,9 @@ void TimerGetActual()
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATESTART, start_time, false);
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATEEND, end_time, false);
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);	
-				if(iCalcAct == 0)
-				{	
-					
-					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) return;						
+				if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1)
+				{						
+					return;						
 				}	
 				else
 				{
@@ -137,8 +136,6 @@ void TimerGetActual()
 					iCalcOSD   = gWorkingOSnD[i] - StrToIntDef(gOSD, 0);
 					
 					frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);
-								
-					checkMoldChange(iGridRow, DOOR_MANUAL);					
 					
 					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) return;
 				}
