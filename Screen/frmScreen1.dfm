@@ -1,8 +1,8 @@
 object frmScreen1: TfrmScreen1
   Tag = 61652032
   AlignWithMargins = True
-  Left = -345
-  Top = 178
+  Left = 16
+  Top = 180
   BorderStyle = bsNone
   Caption = 'Screen1'
   ClientHeight = 764
@@ -1391,7 +1391,7 @@ object frmScreen1: TfrmScreen1
     Options = []
     ParentFont = False
     ShowClockFormat = 'yyyy-mm-dd hh:nn:ss'
-    Caption = 'Version : 2017.03.29'
+    Caption = 'Version : 2017.04.12'
   end
   object dhGrid1: TdhGrid
     Left = 6

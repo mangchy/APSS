@@ -2,7 +2,7 @@
 
 #include "GlobalScripts.pas", "GlobalJJ.cpp"
 //==================================
-String sMold_CD, sMold_Size;
+String sMold_CD, sMold_Size, sGridMoldData;
 int iGridRow;
 void ReadBarcode()
 {
@@ -42,10 +42,12 @@ void ReadBarcode()
 					gBarcodeStep = 1;
 					
 					String sInfo = frmScreen1.dhGrid1.GetCellData(iGridRow, COLUMN_MOLDSIZE);//mold id     MS249037-1 10, MS249037-1 10T      
-					int pos 	= Pos(" ", sInfo);
-					sMold_CD   	= Copy(sInfo, 1, pos-1);
-					sMold_Size 	= Copy(sInfo, pos+1, Length(sInfo));
-					SetDebug(Format("  => row %d, Machine barcode : %s, %s, Station-%s, Dir-%s, Grid Data-%s, CD-%s, Size-%s", [iGridRow, sBarcode, gBarcodeMCA, sStation, sSide, sInfo, sMold_CD, sMold_Size]));	
+					sGridMoldData= sInfo;
+					int pos1 	= Pos("-", sInfo);
+					sMold_CD   	= Copy(sInfo, 1, pos1-1);
+					pos1 		= Pos(" ", sInfo);
+					sMold_Size 	= Copy(sInfo, pos1+1, Length(sInfo));
+					SetDebug(Format("  => row %d, Machine barcode : %s, %s, Station=%s, Dir=%s, Grid Data=%s, CD=%s, Size=%s", [iGridRow, sBarcode, gBarcodeMCA, sStation, sSide, sInfo, sMold_CD, sMold_Size]));	
 					break;
 				}
 			}
@@ -59,11 +61,23 @@ void ReadBarcode()
 			gMoldID[gBarcodeStation-1] = sBarcode;
 			int found = findMoldFromDataMold(sBarcode, sMold_CD, sMold_Size);
 			
-			SetDebug(Format("Mold barcode : %s, %s, %s, %d", [sBarcode, sMold_CD, sMold_Size, found]));	
+			SetDebug(Format("Mold barcode : barcode=%s, grid=%s, %s, %s, %d", [sBarcode, sGridMoldData, sMold_CD, sMold_Size, found]));	
 			
 			//if(found)//found MOLD of DATA_MOLD table
 			{
-				checkMoldChange(iGridRow, DOOR_AUTO);
+				//grid=MS249037-1 11, barcode=MS249037-JJME013013A
+				
+				int pos2 = Pos("-", sBarcode);
+				String sMold_CD2   = Copy(sBarcode, 1, pos2-1);
+				int len = Length(sBarcode);
+				String sMold_Size2 = Copy(sBarcode, len-3, 3);
+				if(sMold_Size2[1] == "0") sMold_Size2 = Copy(sMold_Size2, 2, 2);//if "09T" => 9T
+				
+				SetDebug(Format(" => same? : %s=?%s, %s=?%s", [sMold_CD, sMold_CD2, sMold_Size, sMold_Size2]));	
+				if((sMold_CD == sMold_CD2) && (sMold_Size == sMold_Size2))
+				{
+					checkMoldChange(iGridRow, DOOR_AUTO);
+				}
 			}			
 		} 		
     }	
