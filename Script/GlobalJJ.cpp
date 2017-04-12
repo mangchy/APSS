@@ -710,8 +710,8 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 	
 	if(remain_count > 3)//continue work
 	{
-		LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
-		SetDebug(Format("Continue work : row - %d, remain count - %d", [aCurrentRow, remain_count]));
+		LP_SetAutoManual(istation, DOOR_AUTO, gDoorAMDescript[DOOR_AUTO]);
+		SetDebug(Format("Continue work : row=%d, remain count=%d", [aCurrentRow, remain_count]));
 		return;
 	}
 	else//check mold type      <= 3
@@ -745,7 +745,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 				remain_count2 += sum_pln2;
 				if(remain_count2 > 3)
 				{
-					LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
+					LP_SetAutoManual(istation, DOOR_AUTO, gDoorAMDescript[DOOR_AUTO]);
 					return;
 				}
 				else// if(remain_count2 < 3)
@@ -781,7 +781,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 		
 		if(remain_count2 == 3)//save to alarm table
 		{
-			LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
+			LP_SetAutoManual(istation, DOOR_AUTO, gDoorAMDescript[DOOR_AUTO]);
 			
 			String soid2 = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_SO_ID);			
 			SQLalarmInsert(soid2, Now, ALARM_MOLDCHANGE, ALARM_MOLDCHANGE_D);

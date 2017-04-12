@@ -72,6 +72,7 @@ void ReadBarcode()
 				int len = Length(sBarcode);
 				String sMold_Size2 = Copy(sBarcode, len-3, 3);
 				if(sMold_Size2[1] == "0") sMold_Size2 = Copy(sMold_Size2, 2, 2);//if "09T" => 9T
+				if(sMold_Size2[1] == "0") sMold_Size2 = Copy(sMold_Size2, 2, 1);//if "009" => 9
 				
 				SetDebug(Format(" => same? : %s=?%s, %s=?%s", [sMold_CD, sMold_CD2, sMold_Size, sMold_Size2]));	
 				if((sMold_CD == sMold_CD2) && (sMold_Size == sMold_Size2))
