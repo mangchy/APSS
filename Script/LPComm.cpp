@@ -185,7 +185,7 @@ void LP_SetAutoManual(int aStation, int aData, String aDataDescript)
 	tx[1] = (aData) && 0xff;
 	SetModBusTagValueWithResult(WI1, 1, mb_addr, wmode, xsize, tx, nil, 2000);//tag13
 	
-	SetDebug(Format("#%d station, Door : set Auto/Manaul, %d, %s", [aStation+1, aData, aDataDescript]));//gDoorAMDescript[aData]]));	
+	SetDebug(Format("#%d station, Door : set Auto/Manaul, %d=%s", [aStation+1, aData, aDataDescript]));//gDoorAMDescript[aData]]));	
 }
 
 //=============================================================

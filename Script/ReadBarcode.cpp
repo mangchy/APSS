@@ -45,7 +45,7 @@ void ReadBarcode()
 					int pos 	= Pos(" ", sInfo);
 					sMold_CD   	= Copy(sInfo, 1, pos-1);
 					sMold_Size 	= Copy(sInfo, pos+1, Length(sInfo));
-					SetDebug(Format("%d, Machine barcode : %s, %s, %s, %s, %s, %s, %s", [iGridRow, sBarcode, gBarcodeMCA, sStation, sSide, sInfo, sMold_CD, sMold_Size]));	
+					SetDebug(Format("  => row %d, Machine barcode : %s, %s, Station-%s, Dir-%s, Grid Data-%s, CD-%s, Size-%s", [iGridRow, sBarcode, gBarcodeMCA, sStation, sSide, sInfo, sMold_CD, sMold_Size]));	
 					break;
 				}
 			}
