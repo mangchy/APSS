@@ -1,7 +1,8 @@
 #language C++Script
 
-#include "GlobalScripts.pas", "GlobalJJ.cpp"
+#include "GlobalScripts.pas"
 
+//=============================================================
 void OnDownloadResult(Variant aResult, Variant aRxValues)
 {
 	//SetDebug("")
@@ -173,7 +174,7 @@ void LP_Shift(int tag, string aData)
 //=============================================================
 //aStation : 0 ~ 7
 //aData : 0-OFF, 1-ON
-void LP_SetAutoManual(int aStation, int aData)
+void LP_SetAutoManual(int aStation, int aData, String aDataDescript)
 {
 	Variant tx = VarArrayCreate([0, 128], varInteger);
 	int mb_addr = 420 + aStation;
@@ -184,7 +185,7 @@ void LP_SetAutoManual(int aStation, int aData)
 	tx[1] = (aData) && 0xff;
 	SetModBusTagValueWithResult(WI1, 1, mb_addr, wmode, xsize, tx, nil, 2000);//tag13
 	
-	SetDebug(Format("#%d station, Door : set Auto/Manaul, %d, %s", [aStation+1, aData, gDoorAMDescript[aData]]));	
+	SetDebug(Format("#%d station, Door : set Auto/Manaul, %d, %s", [aStation+1, aData, aDataDescript]));//gDoorAMDescript[aData]]));	
 }
 
 //=============================================================

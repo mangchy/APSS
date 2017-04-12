@@ -138,8 +138,8 @@ string gAct 		= "";
 string gOSD 		= "";
 
 String gMoldID[STATION_NUM];	//barcode data = mold_id
-const String gDoorStatusDescript[2] = {"Open", "Close"};
-const String gDoorAMDescript[2] = {"Auto", "Manual"};
+String gDoorStatusDescript[2];// = {"Open", "Close"};
+String gDoorAMDescript[2];// = {"Auto", "Manual"};
 
 //=======================================================================================
 void SetUpdateTagTime()
@@ -692,11 +692,13 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 {
 	int row_cnt = frmScreen1.dhGrid1.GetRowCount;
 	
+	String station   	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_STATION);
 	String nor_plncnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_NORPLNCNT);
 	String osd_plncnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_OSNDPLNCNT);
 	String nor_actcnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_NORACTCNT);
 	String osd_actcnt   = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_OSNDACTCNT);
 	
+	int istation 	= StrToInt(station) - 1;
 	int inor_plncnt = StrToInt(nor_plncnt);
 	int iosd_plncnt = StrToInt(osd_plncnt);
     int inor_actcnt = StrToInt(nor_actcnt);
@@ -708,16 +710,15 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 	
 	if(remain_count > 3)//continue work
 	{
+		LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
 		SetDebug(Format("Continue work : row - %d, remain count - %d", [aCurrentRow, remain_count]));
 		return;
 	}
 	else//check mold type      <= 3
 	{
-		String station   	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_STATION);
 		String version_id  	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_VERSION_ID);	//IPI_MCA17_01_L
 		String mold_size   	= frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_MOLDSIZE);		//MS249037-1 11
 	
-		int istation 		= StrToInt(station) - 1;
 		int remain_count2   = remain_count;
 		for(int grid_row=aCurrentRow+1; grid_row<row_cnt; grid_row++)//find next order and check mold
 		{		
@@ -744,6 +745,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 				remain_count2 += sum_pln2;
 				if(remain_count2 > 3)
 				{
+					LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
 					return;
 				}
 				else// if(remain_count2 < 3)
@@ -756,7 +758,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 				if(remain_count == 0)
 				{
 					//SetDebug(Format("#%d station, Door : set Auto, %d", [istation+1, aAutoManualMode]));	
-					LP_SetAutoManual(istation, aAutoManualMode);
+					LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
 					return;
 				}
 				else if(remain_count2 > 3)
@@ -779,6 +781,8 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 		
 		if(remain_count2 == 3)//save to alarm table
 		{
+			LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
+			
 			String soid2 = frmScreen1.dhGrid1.GetCellData(aCurrentRow, COLUMN_SO_ID);			
 			SQLalarmInsert(soid2, Now, ALARM_MOLDCHANGE, ALARM_MOLDCHANGE_D);
 		}
@@ -917,8 +921,11 @@ void SQLActDtRead(int soid)
 
 //=======================================================================================
 {
-	//gDoorStatusDescript[0] = "Open";
-	//gDoorStatusDescript[1] = "Close";
+	gDoorStatusDescript[0] = "Open";
+	gDoorStatusDescript[1] = "Close";
+
+	gDoorAMDescript[0] = "Auto";
+	gDoorAMDescript[1] = "Manual";
 
 	for(int i=0; i<ALL_ORDERS; i++)
     {
