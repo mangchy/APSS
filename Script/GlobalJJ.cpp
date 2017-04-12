@@ -497,6 +497,7 @@ int checkFinish(int aRow, int aStation, int aAct, int aOSD)
 	//ShowMessage(Format("check finish, %d, %d, %d", [aStation, aAct, aOSD]));
 	if((aAct == 0) && (aOSD == 0)) 
 	{		
+		SetColorRow(aRow, COLOR_WORK_FINISH);
 		string sort_key = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_SORT_KEY);	
 		int isort_key = StrToIntDef(sort_key, 0);
 		//ShowMessage(Format("row 1, %d, %d, %d, %d", [aStation, gWorkingRow[aStation], aAct,  gWorkingNormal[aStation]]));
@@ -757,7 +758,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 			{
 				if(remain_count == 0)
 				{
-					//SetDebug(Format("#%d station, Door : set Auto, %d", [istation+1, aAutoManualMode]));	
+					setDebug(Format("#%d station, Door : set Auto, %d", [istation+1, aAutoManualMode]));	
 					LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
 					return;
 				}

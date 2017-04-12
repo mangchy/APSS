@@ -120,7 +120,7 @@ void TimerGetActual()
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);	
 				if(iCalcAct == 0)
 				{	
-					SetColorRow(iGridRow, COLOR_WORK_FINISH);
+					
 					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) return;						
 				}	
 				else

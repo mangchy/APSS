@@ -1,16 +1,4 @@
-uses 'GlobalScripts.pas', 'UpdateDateTime.cpp', 'DownloadNext.cpp', 'DownloadWork.cpp', 'TimerGetActual.cpp', 'TimerSetCheck.cpp', 'InitSetup.cpp', 'OnTimerAllClear2.cpp', 'DownloadInitOrder.cpp', 'SetRepaintGrid.cpp', 'ReadBarcode.cpp', 'TimerSetSyncTimeLP.cpp', 'RefreshSRC.cpp', 'SetFilterGrid.cpp', 'SetFilterGrid.cpp', 'UpdateVersionID.cpp', 'GetSelectOrder.cpp', 'SetFinishOrders.cpp', 'srcSQL.cpp', 'send.cpp', 'SetStop.cpp', 'ClearDebugMessage.cpp', 'SaveLogFile.cpp', 'SetAllDataItems.cpp', 'SetSyncTimeLP.cpp', 'SetMachineTag.cpp', 'SetMachineTag.cpp', 'SetMachineTag.cpp', 'InitStationOrder.cpp';
-
-procedure OnTimerRefresh(Sender:TObject);
-begin
-    if TerminateApp = true then
-    begin
-    	TimerRefresh.Enabled := false;
-    	exit
-    end;
-
-    RefreshSRC;
-
-end;
+uses 'GlobalScripts.pas', 'UpdateDateTime.cpp', 'DownloadNext.cpp', 'DownloadWork.cpp', 'TimerGetActual.cpp', 'TimerSetCheck.cpp', 'InitSetup.cpp', 'OnTimerAllClear2.cpp', 'DownloadInitOrder.cpp', 'SetRepaintGrid.cpp', 'ReadBarcode.cpp', 'TimerSetSyncTimeLP.cpp', 'SetFilterGrid.cpp', 'SetFilterGrid.cpp', 'UpdateVersionID.cpp', 'GetSelectOrder.cpp', 'SetFinishOrders.cpp', 'srcSQL.cpp', 'send.cpp', 'SetStop.cpp', 'ClearDebugMessage.cpp', 'SaveLogFile.cpp', 'SetAllDataItems.cpp', 'SetSyncTimeLP.cpp', 'SetMachineTag.cpp', 'SetMachineTag.cpp', 'SetMachineTag.cpp', 'InitStationOrder.cpp';
 
 procedure OnTimerSyncTimeLP(Sender:TObject);
 begin
@@ -252,17 +240,6 @@ begin
         TimerSyncTimeLP.Enabled  := false;
         TimerSyncTimeLP.OnTimer  := @OnTimerSyncTimeLP;
         TimerSyncTimeLP.Interval := 500;
-    end;
-
-
-    if TimerRefresh = nil then TimerRefresh := TTimer.Create(nil);
-
-    if TimeCheckRefresh = nil then TimeCheckRefresh := TdhTimeCheck.Create;
-    begin
-        TimerRefresh.Name     := 'TimerRefresh';
-        TimerRefresh.Enabled  := false;
-        TimerRefresh.OnTimer  := @OnTimerRefresh;
-        TimerRefresh.Interval := 18000000;
     end;
 
 end;

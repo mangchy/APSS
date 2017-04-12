@@ -23,8 +23,6 @@ var
     TimeCheckReadBarcode  : TdhTimeCheck;
     TimerSyncTimeLP : TTimer;
     TimeCheckSyncTimeLP  : TdhTimeCheck;
-    TimerRefresh : TTimer;
-    TimeCheckRefresh  : TdhTimeCheck;
 
 
 begin
