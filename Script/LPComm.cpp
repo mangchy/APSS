@@ -1,6 +1,6 @@
 #language C++Script
 
-#include "GlobalScripts.pas"
+#include "GlobalScripts.pas", "GlobalJJ.cpp"
 
 void OnDownloadResult(Variant aResult, Variant aRxValues)
 {
@@ -170,7 +170,6 @@ void LP_Shift(int tag, string aData)
 	SetModBusTagValueWithResult(tag, 1, mb_addr, wmode, xsize, tx, nil, 2000);//tag13
 }
 
-
 //=============================================================
 //aStation : 0 ~ 7
 //aData : 0-OFF, 1-ON
@@ -184,8 +183,11 @@ void LP_SetAutoManual(int aStation, int aData)
 	tx[0] = (aData >> 8) && 0xff;
 	tx[1] = (aData) && 0xff;
 	SetModBusTagValueWithResult(WI1, 1, mb_addr, wmode, xsize, tx, nil, 2000);//tag13
+	
+	SetDebug(Format("#%d station, Door : set Auto/Manaul, %d, %s", [aStation+1, aData, gDoorAMDescript[aData]]));	
 }
 
+//=============================================================
 {
 	
 }

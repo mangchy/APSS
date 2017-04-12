@@ -23,6 +23,8 @@ int    gBarcodeSide 	= 0;
 #define STATION_NUM 	16		//LP 2ea ....test(L, R)
 #define MACHINE_NUM		3
 
+#define LP_TOTALNUM		LP_NUM * MACHINE_NUM
+
 
 int 		gDownloadNum;
 int 		gDownloadedIdx;
@@ -105,7 +107,7 @@ int 		gTagMold[ALL_ORDERS];
 int 		gTagColor[ALL_ORDERS];
 int 		gTagTimeWrite[ALL_ORDERS];
 
-int			gTagWrite[6];//LP 2 * 3
+int			gTagWrite[LP_TOTALNUM];//LP 2 * 3
 
 
 int			gLPSOIDZeroNum;
@@ -130,13 +132,14 @@ int			gDoorStatus[DOOR_NUM];
 #define DOOR_OPEN			0
 #define DOOR_CLOSE			1
 
-string gRstStartDt = "";
-string gRstEndDt = "";
-string gAct = "";
-string gOSD = "";
+string gRstStartDt 	= "";
+string gRstEndDt 	= "";
+string gAct 		= "";
+string gOSD 		= "";
 
 String gMoldID[STATION_NUM];	//barcode data = mold_id
-String gDoorStatusDescript[2];
+const String gDoorStatusDescript[2] = {"Open", "Close"};
+const String gDoorAMDescript[2] = {"Auto", "Manual"};
 
 //=======================================================================================
 void SetUpdateTagTime()
@@ -752,7 +755,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 			{
 				if(remain_count == 0)
 				{
-					SetDebug(Format("#%d station, Door : set Auto, %d", [istation+1, aAutoManualMode]));	
+					//SetDebug(Format("#%d station, Door : set Auto, %d", [istation+1, aAutoManualMode]));	
 					LP_SetAutoManual(istation, aAutoManualMode);
 					return;
 				}
@@ -914,8 +917,8 @@ void SQLActDtRead(int soid)
 
 //=======================================================================================
 {
-	gDoorStatusDescript[0] = "Open";
-	gDoorStatusDescript[1] = "Close";
+	//gDoorStatusDescript[0] = "Open";
+	//gDoorStatusDescript[1] = "Close";
 
 	for(int i=0; i<ALL_ORDERS; i++)
     {
