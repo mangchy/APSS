@@ -705,6 +705,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 	
 	if(remain_count > 3)//continue work
 	{
+		SetDebug(Format("Continue work : row - %d, remain count - %d", [aCurrentRow, remain_count]));
 		return;
 	}
 	else//check mold type      <= 3
@@ -783,7 +784,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 
 //=======================================================================================
 //barcode
-int compareMold(String aMold_id, String aMold_cd, String aMold_size)
+int findMoldFromDataMold(String aMold_id, String aMold_cd, String aMold_size)
 {
 	int rlt = 0;
 	try
@@ -856,7 +857,7 @@ void SQLalarmInsert(String aSoid, TDateTime aStartTime, String aAlarmType, Strin
 		sqlquery += "INSERT INTO DATA_ALARM ";
 		sqlquery += "(ALARM_YMD, FROM_RES_CD, ALARM_SEQ, ALARM_TYPE, TO_RES_CD, BY_SO_ID, DESCRIPTION, START_DT, END_DT, STATUS_CD, ACTION_CD, REMARK) ";
 		sqlquery += "VALUES ";
-		sqlquery += "('" + currdate + "', '" + sRES_CD + "', '" + intToStr(cntRow) + "', aAlarmType, 'MOLD-SHOP', '" + aSoid + "', '" + aAlarmDescript + "', '" + sStartTime + "', NULL, 'N', 'S', NULL)";
+		sqlquery += "('" + currdate + "', '" + sRES_CD + "', '" + intToStr(cntRow) + "', '" + aAlarmType + "', 'MOLD-SHOP', '" + aSoid + "', '" + aAlarmDescript + "', '" + sStartTime + "', NULL, 'N', 'S', NULL)";
    	   
 		//ShowMessage(sqlquery);   
 		
@@ -866,7 +867,7 @@ void SQLalarmInsert(String aSoid, TDateTime aStartTime, String aAlarmType, Strin
 		
 		DBDisconnect(namedb, true); 
 		
-		SetDebug(Format("Alarm Inserted: %s, %d, %s, %s", [currdate, aSoid, sRES_CD, sPrsQTY]));
+		SetDebug(Format("Alarm Inserted: %s, %s, %s, %s", [currdate, aSoid, sRES_CD, sPrsQTY]));
 	}
 	except
 	{

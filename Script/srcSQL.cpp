@@ -106,7 +106,7 @@ void srcSQL()
 			sqlquery += ") K ";
 			//sqlquery += "ORDER BY VERSION_ID, RESOURCE_CD,  SORT_KEY ";
 			//sqlquery += "ORDER BY SORT_KEY, STATION_CD,  SO_ID, STATION_TYPE" ; 
-			sqlquery += "STATION_CD, VERSION_ID, RESOURCE_CD, SORT_KEY" ; 
+			sqlquery += "ORDER BY STATION_CD, VERSION_ID, RESOURCE_CD, SORT_KEY" ; 
 		
 		//ShowMessage(sqlquery);
 		 
