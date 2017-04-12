@@ -126,6 +126,7 @@ void TimerGetActual()
 				{
 					int iDBCount = iDBnor_actcnt - iAct;
 					SetDebug(Format("insert db : %d(%d-%d)", [iDBCount, iDBnor_actcnt, iAct]), clRed);
+					
 					InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBCount, gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], dtEnd);
 					
 					SQLActDtRead(gWorkingSOID[i]);
