@@ -125,7 +125,7 @@ void TimerGetActual()
 				else
 				{
 					int iDBCount = iDBnor_actcnt - iAct;
-					SetDebug(Format("insert db : %d(%d-%d)", [iDBCount, iDBnor_actcnt, iAct]), clRed);
+					SetDebug(Format("insert db : %d, %d(%d-%d)", [gWorkingSOID[i], iDBCount, iDBnor_actcnt, iAct]), clRed);
 					
 					InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBCount, gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], dtEnd);
 					
@@ -140,7 +140,11 @@ void TimerGetActual()
 					
 					frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);
 					
-					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) return;
+					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) 
+					{
+						SetDebug(Format("finish order : %d, Nor=%d(%s), OSnD=%d(%s)", [gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD]), clRed);
+						return;
+					}
 				}
 			}
 			else if((gWorkingOSnDPln[i] != iosnd_act) && (iOSD == 0))//os&d count

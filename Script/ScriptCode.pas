@@ -180,7 +180,7 @@ begin
         TimerCheck.Name     := 'TimerCheck';
         TimerCheck.Enabled  := false;
         TimerCheck.OnTimer  := @OnTimerCheck;
-        TimerCheck.Interval := 1000;
+        TimerCheck.Interval := 300;
     end;
 
     InitSetup;
