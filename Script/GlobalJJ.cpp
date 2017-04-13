@@ -492,7 +492,7 @@ String GetSelectedGrid()
 
 //=======================================================================================
 //ready to next order
-int checkFinish(int aRow, int aStation, int aAct, int aOSD)
+int checkFinish(int aRow, int aStation, int aAct, int aOSD)//, int DoorAutoManual=DOOR_MANUAL)
 {
 	
 	//ShowMessage(Format("check finish, %d, %d, %d", [aStation, aAct, aOSD]));
@@ -502,7 +502,7 @@ int checkFinish(int aRow, int aStation, int aAct, int aOSD)
 		
 		SetColorRow(aRow, COLOR_WORK_FINISH);
 		
-		checkMoldChange(aRow, DOOR_MANUAL);					
+		//checkMoldChange(aRow, DoorAutoManual);//DOOR_MANUAL);					
 		
 		string sort_key = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_SORT_KEY);	
 		int isort_key = StrToIntDef(sort_key, 0);

@@ -105,11 +105,11 @@ void TimerGetActual()
 				
 				SetDebug(Format("SOID=%d, Normal Act Count Row : %d, %d, %d, %d, %d, prs_qty=%d, door=%d", [gWorkingSOID[i], iGridRow, iDBnor_actcnt, iAct, gTagPRSQTY[i], gWorkingNormalPln[i], prs_qty, iDoor]));
 				
-				gWorkingNormal[i] = gWorkingNormalPln[i] - iAct;
-	
-				TDateTime dtEnd = Now();
-				//SQLActDtRead(gWorkingSOID[i]);
+				gWorkingNormal[i] = gWorkingNormalPln[i] - iAct;	
 				
+				checkMoldChange(aRow, DOOR_MANUAL);
+				
+				//SQLActDtRead(gWorkingSOID[i]);
 				//if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1)
 				//{						
 				//	SetDebug(Format("insert db : %d, %d(%d-%d)", [gWorkingSOID[i], iCalcAct]), clRed);
@@ -122,10 +122,11 @@ void TimerGetActual()
 					if(iDBSaveActCount < 0)
 					{
 						SetDebug(Format("SOID=%d, error count : %d(%d-%d)", [gWorkingSOID[i], iDBSaveActCount, iDBnor_actcnt, iAct]), clRed);
-						checkFinish(iGridRow, i, 0, 0);
+						checkFinish(iGridRow, i, 0, 0, DOOR_AUTO;
 						return;
 					}
-					InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBSaveActCount, gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], dtEnd);
+					
+					InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBSaveActCount, gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], Now);
 					
 					SQLActDtRead(gWorkingSOID[i]);
 					String start_time = Copy(gRstStartDt, 9, Length(gRstStartDt));
@@ -134,9 +135,8 @@ void TimerGetActual()
 					frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATEEND, end_time, false);
 					frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);
 					
-					int iCalcAct   = gWorkingNormalPln[i] - StrToIntDef(gAct, 0);
-					int iCalcOSD   = gWorkingOSnD[i] - StrToIntDef(gOSD, 0);
-					
+					int iCalcAct = gWorkingNormalPln[i] - StrToIntDef(gAct, 0);
+					int iCalcOSD = gWorkingOSnD[i] - StrToIntDef(gOSD, 0);					
 					
 					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) 
 					{
@@ -156,10 +156,14 @@ void TimerGetActual()
 							
 				SetDebug(Format("SOID=%d, OS&D Act Count Row : %d, %d, prs_qty2=%d, door=%d", [gWorkingSOID[i], iGridRow, gWorkingOSnDPln[i], prs_qty2, iDoor]));
 				
-				TDateTime dtEnd2 = Now();
-				InsertWorkCountToDB(gWorkingSOID[i], prs_qty2, gWorkingOSnD[i], gZone, REASON_OSND_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], dtEnd2);
+				InsertWorkCountToDB(gWorkingSOID[i], prs_qty2, gWorkingOSnD[i], gZone, REASON_OSND_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], Now);
 				
-				if(checkFinish(iGridRow, i, iAct, iOSD) == 1) return;
+				checkMoldChange(aRow, DOOR_MANUAL);
+				if(checkFinish(iGridRow, i, iAct, iOSD) == 1) 
+				{
+					SetDebug(Format("SOID=%d, finish order : Nor=%d(%s), OSnD=%d(%s)", [gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD]), clRed);
+					return;
+				}
 			}	
 			
 		}
