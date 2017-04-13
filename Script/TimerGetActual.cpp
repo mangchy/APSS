@@ -116,13 +116,13 @@ void TimerGetActual()
 				//	return;						
 				//}	
 				//else
-				{	
+				//{	
 					SetDebug(Format("SOID=%d, insert db : %d(%d-%d)", [gWorkingSOID[i], iDBSaveActCount, iDBnor_actcnt, iAct]), clRed);
 					
 					if(iDBSaveActCount < 0)
 					{
 						SetDebug(Format("SOID=%d, error count : %d(%d-%d)", [gWorkingSOID[i], iDBSaveActCount, iDBnor_actcnt, iAct]), clRed);
-						checkFinish(iGridRow, i, 0, 0)
+						checkFinish(iGridRow, i, 0, 0);
 						return;
 					}
 					InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBSaveActCount, gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], dtEnd);
@@ -143,7 +143,7 @@ void TimerGetActual()
 						SetDebug(Format("SOID=%d, finish order : Nor=%d(%s), OSnD=%d(%s)", [gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD]), clRed);
 						return;
 					}
-				}
+				//}
 			}
 			else if((gWorkingOSnDPln[i] != iosnd_act) && (iOSD == 0))//os&d count
 			{
