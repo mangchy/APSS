@@ -360,7 +360,7 @@ int getNextOrderRow(String aMachine, int aRow)
 		//if((isort_key < isort_key2) && (side == side2) && (pln_sum > act_sum))
 		if((soid < soid2) && (side == side2) && (pln_sum > act_sum))
 		{
-			SetDebug(Format("Next Order : %d, SO_ID=%s, SORT_Key=%s, Station=%s", [grid_row2, soid2, sort_key2, station2]));	
+			SetDebug(Format("#%d, SO_ID=%s, Next Order : Row=%d, SORT_Key=%s", [istation2+1, soid2, grid_row2, sort_key2]));	
 			return grid_row2;
 		}
 	}
@@ -489,23 +489,25 @@ String GetSelectedGrid()
 	return Copy(soid_sql, 1, Length(soid_sql) - 2);
 }
 
+void GetDebugactCount(int aRow, String aSub="")
+{
+	string soid = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_SO_ID);	
+	string act_cnt = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_NORACTCNT);	
+	SetDebug(Format("--------------Act Cnt : SOID=%s, Row=%d, Act=%s, %s", [soid, aRow, act_cnt, aSub]), clRed);
+}
 
 //=======================================================================================
 //ready to next order, aStation => start 0
-int checkFinish(int soid, int aRow, int aStation, int aAct, int aOSD)//, int DoorAutoManual=DOOR_MANUAL)
+int checkFinish(int soid, int aRow, int aStation, int aAct, int aOSD)
 {	
-	//ShowMessage(Format("check finish, %d, %d, %d", [aStation, aAct, aOSD]));
 	if((aAct == 0) && (aOSD == 0)) 
 	{		
 		TimerGetAct.Enabled = false;
 		
 		SetColorRow(aRow, COLOR_WORK_FINISH);
 		
-		//checkMoldChange(aRow, DoorAutoManual);//DOOR_MANUAL);					
-		
 		string sort_key = frmScreen1.dhGrid1.GetCellData(aRow, COLUMN_SORT_KEY);	
-		int isort_key = StrToIntDef(sort_key, 0);
-		//ShowMessage(Format("row 1, %d, %d, %d, %d", [aStation, gWorkingRow[aStation], aAct,  gWorkingNormal[aStation]]));
+		int isort_key   = StrToIntDef(sort_key, 0);
 		
 		gWorkingRow[aStation] = -1;
 		
@@ -895,7 +897,7 @@ void SQLActDtRead(int soid)
 	try
 	{
 		gRstStartDt = "";
-		gRstEndDt = "";
+		gRstEndDt   = "";
 		string namedb = "SQLActDtRead";
 
 		boolean opend = DBConnect(namedb, gSvr_type, gSvr, gPort, gUid, gPwd, gDbname);
@@ -917,6 +919,8 @@ void SQLActDtRead(int soid)
 		//===================================================2/3
 		DBDisconnect(namedb, true); 
 		//===================================================3/3
+		
+		SetDebug(Format("SOID=%d, Read Act Count From DB : %s, %s", [soid, gAct, gOSD]));
 	}
 	except
 	{

@@ -10,20 +10,11 @@ void DownloadWork()
 
 	if(grid_row < 0)
 	{
-		/*/if(gDownloadedIdx == gDownloadNum)
-		{
-			frmScreen1_1.Close;
-			TimerDownloadWork.Enabled = false;
-
-			TimerGetAct.Enabled = true;
-		}
-		return;*/
 		String ss = "";
 		for(int i=0; i<STATION_NUM; i++)
 		{
 			ss += Format("%d, ", [gDownloadData[i]]);
 		}
-		//ShowMessage(Format("download work start : %d, %d, %s", [gDownloadedIdx, gDownloadNum, ss]));
 		SetDebug(Format("download work start : %d, %d, %s", [gDownloadedIdx, gDownloadNum, ss]));
 	}
 
@@ -53,11 +44,9 @@ void DownloadWork()
 	int iTagNum = Int(istation/4);
 	int tagAddr = gTagWrite[iTagNum];//4 -> 1 2 3 4, 5 6 7 8, 9 10 11 12, 13 14 15 16
     
-	//ShowMessage("Send");
-	SetDebug(Format("Download Order : %d, %d, %s, %s, %s, %s", [grid_row, iTagNum, version_id, so_id, moldsize, moldcolor]));
+	SetDebug(Format("Station=%d, SOID=%s, Download Order : Row=%d, %d, %s, %s, %s", [istation+1, so_id, grid_row, iTagNum, version_id, moldsize, moldcolor]));
 	LP_SendData(tagAddr, istation, iside, moldsize, moldcolor, shift, inor_plncnt, inor_plncnt-inor_actcnt, iosd_plncnt, iosd_plncnt-iosd_actcnt, vso_id);
 
-//ShowMessage(Format("download : %d", [grid_row]));
 	//change grid row color -> yellow(progressing work meaning)	
 	for(int col=0; col<COLUMN_MAX; col++)
 	{
@@ -68,9 +57,9 @@ void DownloadWork()
     gDownloadedIdx++;
 	frmScreen1_1.dhProgress1.UserValue = gDownloadedIdx;
     
-    frmScreen1_1.dhLabel1.Caption = Format("%d/%d, Station : %d, Side : %s", [frmScreen1_1.dhProgress1.UserValue, frmScreen1_1.dhProgress1.MaxValue, istation, side]);
+    frmScreen1_1.dhLabel1.Caption = Format("%d/%d, Station=%d, Side=%s", [frmScreen1_1.dhProgress1.UserValue, frmScreen1_1.dhProgress1.MaxValue, istation, side]);
 	
-	//ShowMessage(Format("download work : %d, %d", [gDownloadedIdx, gDownloadNum]));
+	SetDebug(Format("Downloaded Order : %d/%d", [gDownloadedIdx, gDownloadNum]));
 	if(gDownloadedIdx == gDownloadNum)
 	{
 		int iLP = LP_NUM;//MACHINE_NUM*
@@ -79,14 +68,22 @@ void DownloadWork()
 		{
 			LP_ShiftData(gTagWrite[i], shift2);
 		}
-		
+//GetDebugactCount(grid_row, "Download 1");
+
 		gLPSOIDZeroNum = UpdateSOID();
 		SetUpdateTagTime();
-		
+//GetDebugactCount(grid_row, "Download 2");
+
 		frmScreen1_1.Close;
         TimerDownloadWork.Enabled = false;
 		
 		TimerGetAct.Enabled = true;
+
+//for(int sta=0; sta<STATION_NUM; sta++)		
+//{
+//SetDebug(Format("working Row : %d, Row=%d", [sta, gWorkingRow[sta]]));		/
+//}
+		SetDebug("Timer Get Act = enable");
 	}
 }
 
