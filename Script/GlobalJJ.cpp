@@ -44,8 +44,8 @@ int			gWorkingOSnDPln[ALL_ORDERS];//1L,R,2L,R,......
 int			gWorkingOSnD[ALL_ORDERS];//1L,R,2L,R,......
 int			gWorkingSOID[ALL_ORDERS];//
 
-int			gCurrentStation;
-int			gCurrentSortKey;
+int			gCurrentStation = -1;
+int			gCurrentSortKey = -1;
 
 int			gQueryWithCompleted = 0;
 
@@ -206,7 +206,7 @@ int getGridRowFromSOID(String tarMachine, int aOrderPos, int aSOID)
 			if(aSOID == StrToIntDef(so_id, -1)) return grid_row;
 		}
 	}
-	SetDebug(Format("not found soid : %d, %d", [aOrderPos, aSOID]), clRed);
+	SetDebug(Format("SOID=%d, not found soid : %d", [aSOID, aOrderPos]), clRed);
 	return -1;
 }
 
@@ -491,10 +491,9 @@ String GetSelectedGrid()
 
 
 //=======================================================================================
-//ready to next order
-int checkFinish(int aRow, int aStation, int aAct, int aOSD)//, int DoorAutoManual=DOOR_MANUAL)
-{
-	
+//ready to next order, aStation => start 0
+int checkFinish(int soid, int aRow, int aStation, int aAct, int aOSD)//, int DoorAutoManual=DOOR_MANUAL)
+{	
 	//ShowMessage(Format("check finish, %d, %d, %d", [aStation, aAct, aOSD]));
 	if((aAct == 0) && (aOSD == 0)) 
 	{		
@@ -514,6 +513,8 @@ int checkFinish(int aRow, int aStation, int aAct, int aOSD)//, int DoorAutoManua
 		gCurrentStation = aStation;
 		gCurrentSortKey = isort_key;
 
+		SetDebug(Format("SOID=%d, compeleted order : station=%d, sortkey=%d", [soid, gCurrentStation, gCurrentSortKey]), clRed);
+		
 		frmScreen1_2.Show();
 		TimerCheck.Enabled = true;  
 		
@@ -879,7 +880,7 @@ void SQLalarmInsert(String aSoid, TDateTime aStartTime, String aAlarmType, Strin
 		
 		DBDisconnect(namedb, true); 
 		
-		SetDebug(Format("Alarm Inserted: %s, %s, %s, %s", [currdate, aSoid, sRES_CD, sPrsQTY]));
+		SetDebug(Format("SOID=%s, Alarm Inserted: %s, %s, %s, %s", [aSoid, currdate, aSoid, sRES_CD, sPrsQTY]));
 	}
 	except
 	{

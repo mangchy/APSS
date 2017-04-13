@@ -122,7 +122,7 @@ void TimerGetActual()
 					if(iDBSaveActCount < 0)
 					{
 						SetDebug(Format("SOID=%d, error count : %d(%d-%d)", [gWorkingSOID[i], iDBSaveActCount, iDBnor_actcnt, iAct]), clRed);
-						checkFinish(iGridRow, i, 0, 0, DOOR_AUTO;
+						checkFinish(gWorkingSOID[i], iGridRow, i, 0, 0, DOOR_AUTO;
 						return;
 					}
 					
@@ -138,9 +138,9 @@ void TimerGetActual()
 					int iCalcAct = gWorkingNormalPln[i] - StrToIntDef(gAct, 0);
 					int iCalcOSD = gWorkingOSnD[i] - StrToIntDef(gOSD, 0);					
 					
-					if(checkFinish(iGridRow, i, iCalcAct, iCalcOSD) == 1) 
+					if(checkFinish(gWorkingSOID[i], iGridRow, i, iCalcAct, iCalcOSD) == 1) 
 					{
-						SetDebug(Format("SOID=%d, finish order : Nor=%d(%s), OSnD=%d(%s)", [gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD]), clRed);
+						SetDebug(Format("SOID=%d, finish order : Nor=%d(%s), OSnD=%d(%s)", [gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD]));
 						return;
 					}
 				//}
@@ -159,9 +159,9 @@ void TimerGetActual()
 				InsertWorkCountToDB(gWorkingSOID[i], prs_qty2, gWorkingOSnD[i], gZone, REASON_OSND_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], Now);
 				
 				checkMoldChange(aRow, DOOR_MANUAL);
-				if(checkFinish(iGridRow, i, iAct, iOSD) == 1) 
+				if(checkFinish(gWorkingSOID[i], iGridRow, i, iAct, iOSD) == 1) 
 				{
-					SetDebug(Format("SOID=%d, finish order : Nor=%d(%s), OSnD=%d(%s)", [gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD]), clRed);
+					SetDebug(Format("SOID=%d, finish order : Nor=%d(%s), OSnD=%d(%s)", [gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD]));
 					return;
 				}
 			}	

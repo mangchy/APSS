@@ -54,18 +54,97 @@ void TimerSetCheck()
 	try
 	{
 		frmScreen1.dhGrid1.UpdateStart(1);	
-		for(int i=0; i<STATION_NUM; i++)
+		
+		SetDebug(Format("SOID=%d, check next order : station=%d, sortkey=%d", [soid, gCurrentStation, gCurrentSortKey]), clRed);
+		if(gCurrentStation > -1 && gCurrentSortKey > -1)
 		{
-			String sMachineName = sMCAs[Int(i/STATION_NUM)];
-			int iSOID = GetTagValueI(gTagSOID[i]);	
-			int iRow  = getGridRowFromSOID(sMachineName, i, iSOID);
+			for(int i=0; i<STATION_NUM; i++)
+			{	
+				String sMachineName = sMCAs[Int(i/STATION_NUM)];
+				int iSOID = GetTagValueI(gTagSOID[i]);	
+				int iRow  = getGridRowFromSOID(sMachineName, i, iSOID);
+				//ShowMessage(Format("%d, %d", [iSOID, iRow]));
+				if(iRow > -1) //find LP's SOID from Database(grid data)
+				{
+					TDateTime dt1 = GetTagUpdateTime(gTagNorA[i]);
+					TDateTime dt2 = GetTagUpdateTime(gTagOsdA[i]);
+					
+					if(dt1 == gTagUpdateTime1[i]) 
+					{
+						SetDebug(Format("Checking order 1! %d, %d", [iRow, iSOID]));
+						TimerCheck.Enabled = true;	
+						frmScreen1.dhGrid1.UpdateStart(0);
+						//setColorRow(iRow, COLOR_WORK_PROGRESS);
+						return;
+					}
+					if(dt2 == gTagUpdateTime2[i]) 
+					{
+						SetDebug(Format("Checking order 2! %d, %d", [iRow, iSOID]));
+						TimerCheck.Enabled = true;	
+						frmScreen1.dhGrid1.UpdateStart(0);
+						//setColorRow(iRow, COLOR_WORK_PROGRESS);
+						return;
+					}
+				
+					SaveOrder(i, iRow, iSOID);
+					
+					int iAct  = GetTagValueI(gTagNorA[i]);
+					int iOSD  = GetTagValueI(gTagOsdA[i]);   
+
+					//ShowMessage(Format("%d, %d, %d", [iRow, iAct, iOSD]));
+					if((iAct == 0) && (iOSD == 0))//finish order - change row color -> lime
+					{
+						SetColorRow(iRow, COLOR_WORK_FINISH);
+
+						int iNextRow = getNextOrderRow(sMachineName, iRow);				
+						if(iNextRow > -1)
+						{
+							String soid2 = frmScreen1.dhGrid1.GetCellData(iNextRow, COLUMN_SO_ID);	
+							int isoid3	= StrToIntDef(soid2, 0);
+							SaveOrder(i, iNextRow, isoid3);
+							
+							SetColorRow(iNextRow, COLOR_WORK_NEXT);
+
+							gDownloadData[gDownloadNum] = iNextRow;
+							gDownloadNum++;
+						}
+					}
+					else //progressing order -> clYellow
+					{				
+						setColorRow(iRow, COLOR_WORK_PROGRESS);
+					}
+				}
+				else//NOT FOUND LP's SOID in grid, example Init LP status or SOID address's data = 0
+				{			
+					SetDebug(Format("SO_ID not found : %d, %d", [i,iSOID]));
+					
+					iRow  = getGridRow(sMachineName, i);
+					if(iRow > -1)
+					{
+						String soid = frmScreen1.dhGrid1.GetCellData(iRow, COLUMN_SO_ID);	
+						int isoid2	= StrToIntDef(soid, 0);
+						SaveOrder(i, iRow, isoid2);
+						
+						SetColorRow(iRow, COLOR_WORK_NEXT);
+
+						gDownloadData[gDownloadNum] = iRow;
+						gDownloadNum++;
+					}
+				}
+			}       
+		}
+		else
+		{
+			String sMachineName = sMCAs[Int(gCurrentStation/STATION_NUM)];
+			int iSOID = GetTagValueI(gTagSOID[gCurrentStation]);	
+			int iRow  = getGridRowFromSOID(sMachineName, gCurrentStation, iSOID);
 			//ShowMessage(Format("%d, %d", [iSOID, iRow]));
 			if(iRow > -1) //find LP's SOID from Database(grid data)
 			{
-				TDateTime dt1 = GetTagUpdateTime(gTagNorA[i]);
-				TDateTime dt2 = GetTagUpdateTime(gTagOsdA[i]);
+				TDateTime dt1 = GetTagUpdateTime(gTagNorA[gCurrentStation]);
+				TDateTime dt2 = GetTagUpdateTime(gTagOsdA[igCurrentStation]);
 				
-				if(dt1 == gTagUpdateTime1[i]) 
+				if(dt1 == gTagUpdateTime1[gCurrentStation]) 
 				{
 					SetDebug(Format("Checking order 1! %d, %d", [iRow, iSOID]));
 					TimerCheck.Enabled = true;	
@@ -73,7 +152,7 @@ void TimerSetCheck()
 					//setColorRow(iRow, COLOR_WORK_PROGRESS);
 					return;
 				}
-				if(dt2 == gTagUpdateTime2[i]) 
+				if(dt2 == gTagUpdateTime2[gCurrentStation]) 
 				{
 					SetDebug(Format("Checking order 2! %d, %d", [iRow, iSOID]));
 					TimerCheck.Enabled = true;	
@@ -82,10 +161,10 @@ void TimerSetCheck()
 					return;
 				}
 			
-				SaveOrder(i, iRow, iSOID);
+				SaveOrder(gCurrentStation, iRow, iSOID);
 				
-				int iAct  = GetTagValueI(gTagNorA[i]);
-				int iOSD  = GetTagValueI(gTagOsdA[i]);   
+				int iAct  = GetTagValueI(gTagNorA[gCurrentStation]);
+				int iOSD  = GetTagValueI(gTagOsdA[gCurrentStation]);   
 
 				//ShowMessage(Format("%d, %d, %d", [iRow, iAct, iOSD]));
 				if((iAct == 0) && (iOSD == 0))//finish order - change row color -> lime
@@ -112,14 +191,14 @@ void TimerSetCheck()
 			}
 			else//NOT FOUND LP's SOID in grid, example Init LP status or SOID address's data = 0
 			{			
-				SetDebug(Format("SO_ID not found : %d, %d", [i,iSOID]));
+				SetDebug(Format("SO_ID not found : %d, %d", [gCurrentStation,iSOID]));
 				
-				iRow  = getGridRow(sMachineName, i);
+				iRow  = getGridRow(sMachineName, gCurrentStation);
 				if(iRow > -1)
 				{
 					String soid = frmScreen1.dhGrid1.GetCellData(iRow, COLUMN_SO_ID);	
 					int isoid2	= StrToIntDef(soid, 0);
-					SaveOrder(i, iRow, isoid2);
+					SaveOrder(gCurrentStation, iRow, isoid2);
 					
 					SetColorRow(iRow, COLOR_WORK_NEXT);
 
@@ -127,7 +206,7 @@ void TimerSetCheck()
 					gDownloadNum++;
 				}
 			}
-		}        
+		}
 
 		frmScreen1.dhGrid1.UpdateStart(0);
 	}
