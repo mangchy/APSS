@@ -1,4 +1,4 @@
-uses 'GlobalScripts.pas', 'UpdateDateTime.cpp', 'DownloadNext.cpp', 'DownloadWork.cpp', 'TimerGetActual.cpp', 'TimerSetCheck.cpp', 'InitSetup.cpp', 'OnTimerAllClear2.cpp', 'DownloadInitOrder.cpp', 'SetRepaintGrid.cpp', 'ReadBarcode.cpp', 'TimerSetSyncTimeLP.cpp', 'SetFilterGrid.cpp', 'SetFilterGrid.cpp', 'UpdateVersionID.cpp', 'GetSelectOrder.cpp', 'SetFinishOrders.cpp', 'srcSQL.cpp', 'send.cpp', 'SetStop.cpp', 'ClearDebugMessage.cpp', 'SaveLogFile.cpp', 'SetAllDataItems.cpp', 'SetSyncTimeLP.cpp', 'SetMachineTag.cpp', 'SetMachineTag.cpp', 'SetMachineTag.cpp', 'InitStationOrder.cpp';
+uses 'GlobalScripts.pas', 'UpdateDateTime.cpp', 'DownloadNext.cpp', 'DownloadWork.cpp', 'TimerGetActual.cpp', 'TimerSetCheck.cpp', 'InitSetup.cpp', 'OnTimerAllClear2.cpp', 'DownloadInitOrder.cpp', 'SetRepaintGrid.cpp', 'ReadBarcode.cpp', 'TimerSetSyncTimeLP.cpp', 'SetFilterGrid.cpp', 'SetFilterGrid.cpp', 'UpdateVersionID.cpp', 'GetSelectOrder.cpp', 'SetFinishOrders.cpp', 'send.cpp', 'SetStop.cpp', 'srcSQL.cpp', 'ClearDebugMessage.cpp', 'SaveLogFile.cpp', 'SetAllDataItems.cpp', 'SetSyncTimeLP.cpp', 'SetMachineTag.cpp', 'SetMachineTag.cpp', 'SetMachineTag.cpp', 'InitStationOrder.cpp';
 
 procedure OnTimerSyncTimeLP(Sender:TObject);
 begin
@@ -314,13 +314,6 @@ begin
 end;
 
 
-procedure frmScreen1dhSpeedButton1Click(Sender:TObject);
-begin
-    srcSQL;
-
-end;
-
-
 procedure frmScreen1btnRunClick(Sender:TObject);
 begin
     send;
@@ -331,6 +324,13 @@ end;
 procedure frmScreen1btnStopClick(Sender:TObject);
 begin
     SetStop;
+
+end;
+
+
+procedure frmScreen1dhSpeedButton1Click(Sender:TObject);
+begin
+    srcSQL;
 
 end;
 

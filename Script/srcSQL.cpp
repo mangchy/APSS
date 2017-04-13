@@ -195,7 +195,10 @@ void srcSQL()
         
         frmScreen1_2.Show();
 		
-		SetUpdateTagTime();
+		SetUpdateTagTime(); 
+        
+        gCurrentStation = -1;
+        gCurrentSortKey = -1;
         TimerCheck.Enabled = true;		
 		//TimerRefresh.Enabled = true;
 	}

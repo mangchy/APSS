@@ -1,5 +1,5 @@
 object frmScreen1: TfrmScreen1
-  Tag = 61652032
+  Tag = 60472384
   AlignWithMargins = True
   Left = 16
   Top = 180
