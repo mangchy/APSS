@@ -32,7 +32,7 @@ void TimerGetActual()
 			if((gDoorStatus[i] == DOOR_OPEN) && (iDoorStatus == DOOR_CLOSE))//close door?
 			{	
 				gDoorStatus[i] = DOOR_CLOSE;
-				SetDebug(Format("#%d, door close", [i+1]));
+				SetDebug(Format("#%d, door closed", [i+1]));
 			}
 			else if(iDoorStatus == DOOR_OPEN) 
 			{

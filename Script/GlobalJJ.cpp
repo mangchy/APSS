@@ -766,7 +766,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 				if(remain_count == 0)
 				{
 					//SetDebug(Format("#%d station, Door : set Auto, %d", [istation+1, aAutoManualMode]));	
-					LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
+//					LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
 					return;
 				}
 				else if(remain_count2 > 3)

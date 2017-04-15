@@ -1391,7 +1391,7 @@ object frmScreen1: TfrmScreen1
     Options = []
     ParentFont = False
     ShowClockFormat = 'yyyy-mm-dd hh:nn:ss'
-    Caption = 'Version : 2017.04.12'
+    Caption = 'Version : 2017.04.15'
   end
   object dhGrid1: TdhGrid
     Left = 6
@@ -2502,7 +2502,7 @@ object frmScreen1: TfrmScreen1
     IOSource.IOReadMapIndex = 0
     Bevel.EdgeStyle = etRaisedInner
     Bevel.Mode = bmCustom
-    Caption = 'Injection IPS System'
+    Caption = 'APS-SS IP Monitoring System'
     FillObject.Style = sfGradient
     FillObject.Gradient.Color = 3815994
     FillObject.Gradient.EndColor = clBlack
