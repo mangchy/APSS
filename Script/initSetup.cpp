@@ -14,6 +14,7 @@ void iniSetting()
 	gMachinePrefix = ini.ReadString(sect, "MACHINE_PREFIX", "IPI-I");
     
     gQueryWithCompleted = ini.ReadInteger(sect, "SHOW_COMPLETED", 0);
+	gUseManualCmd = ini.ReadInteger(sect, "USE_MANUAL_CMD", 0);
     //int iGridHeaderVisible = ini.ReadInteger(sect, "HEADER_VISIBLE", 0);
 	frmScreen1.lbZone.Caption = sZone;
 	                                                

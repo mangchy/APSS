@@ -50,6 +50,7 @@ int			gCurrentSortKey = -1;
 int			gQueryWithCompleted = 0;
 
 int			grefreshDatabase = 0;//2:30 pm automatically  refresh VersionID and reload Database
+int			gUseManualCmd    = 0;
 
 //=============================================================GRID COLUMN
 #define COLUMN_VERSION_ID	0
@@ -766,7 +767,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 				if(remain_count == 0)
 				{
 					//SetDebug(Format("#%d station, Door : set Auto, %d", [istation+1, aAutoManualMode]));	
-//					LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
+					if(gUseManualCmd == 1) LP_SetAutoManual(istation, aAutoManualMode, gDoorAMDescript[aAutoManualMode]);
 					return;
 				}
 				else if(remain_count2 > 3)
