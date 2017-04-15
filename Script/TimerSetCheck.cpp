@@ -28,7 +28,7 @@ void SaveOrder(int aOrderPos, int arow, int asoid)
 	gWorkingSOID[aOrderPos]			= asoid;
 	gTagPRSQTY[aOrderPos]			= iprs_qty;
 	
-	SetDebug(Format("------Save Order : #%d, SOID=%d, %d, Row=%d", [istation, asoid, aOrderPos, arow]), clRed);
+	SetDebug(Format("------Save Order : #%d, side=%s, SOID=%d, %d, Row=%d", [istation, side, asoid, aOrderPos, arow]), clRed);
 }
 
 //=======================================================================================

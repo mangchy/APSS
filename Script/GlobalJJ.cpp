@@ -719,7 +719,7 @@ void checkMoldChange(int aCurrentRow, int aAutoManualMode)
 	if(remain_count > 3)//continue work
 	{
 		LP_SetAutoManual(istation, DOOR_AUTO, gDoorAMDescript[DOOR_AUTO]);
-		SetDebug(Format("Continue work : row=%d, remain count=%d", [aCurrentRow, remain_count]));
+		SetDebug(Format("#%d, Continue work : row=%d, remain count=%d", [istation+1, aCurrentRow, remain_count]));
 		return;
 	}
 	else//check mold type      <= 3
