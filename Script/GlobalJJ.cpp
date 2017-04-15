@@ -127,9 +127,11 @@ TDateTime	gBarcodeTime;
 #define DOOR_NUM			24
 
 int			gTagDoor[DOOR_NUM];//LP 1=4 door d/i
+TDateTime	gTagUpdateTimeCloseDoor[DOOR_NUM];
 TDateTime	gTagUpdateTimeDoor[DOOR_NUM];
 int			gDoorStatus[DOOR_NUM];
 
+#define DOOR_NONE			-1
 #define DOOR_OPEN			0
 #define DOOR_CLOSE			1
 
@@ -629,7 +631,7 @@ void InsertWorkCountToDB(int soid, int prs_qty, int workcnt, string zone_cd, str
 	except	
 	{
 		//ShowMessage(ExceptionMessage);
-		SetDebug(ExceptionMessage, clRed);
+		SetDebug(Format("insert db error : %d, %s", [soid, ExceptionMessage]), clRed);
 	}	
 }
 

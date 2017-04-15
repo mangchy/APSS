@@ -67,6 +67,25 @@ void TimerSetCheck()
 				String sMachineName = sMCAs[Int(i/STATION_NUM)];
 				int iSOID = GetTagValueI(gTagSOID[i]);	
 				int iRow  = getGridRowFromSOID(sMachineName, i, iSOID);
+				
+				SQLActDtRead(i, iSOID);
+				if(Length(gRstEndDt) > 0)
+				{
+					gTagUpdateTimeCloseDoor[i] = StrToDateTime(gRstEndDt);
+					SetDebug(Format("#%d, SOID=%d, 1, Set End Time=%s", [i+1, iSOID, gRstEndDt]));
+				}
+				else if(Length(gRstStartDt) > 0)
+				{
+					gTagUpdateTimeCloseDoor[i] = StrToDateTime(gRstStartDt);
+					SetDebug(Format("#%d, SOID=%d, 2, Set Start Time=%s", [i+1, iSOID, gRstStartDt]));
+				}
+				else
+				{
+					gTagUpdateTimeCloseDoor[i] = Now;
+					String sWorkStartTime = FormatDateTime("hh:nn:ss", gTagUpdateTimeCloseDoor[i]);
+					SetDebug(Format("#%d, SOID=%d, 3, Set Start Time=%s", [i+1, iSOID, sWorkStartTime]));
+				}
+				
 				//ShowMessage(Format("%d, %d", [iSOID, iRow]));
 				if(iRow > -1) //find LP's SOID from Database(grid data)
 				{

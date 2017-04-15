@@ -3,6 +3,7 @@
 #include "GlobalScripts.pas", "GlobalJJ.cpp"
 
 
+TDateTime	tempTagUpdateTimeCloseDoor[DOOR_NUM];
 
 //========================================================================================
 void TimerGetActual()
@@ -32,7 +33,8 @@ void TimerGetActual()
 			if((gDoorStatus[i] == DOOR_OPEN) && (iDoorStatus == DOOR_CLOSE))//close door?
 			{	
 				gDoorStatus[i] = DOOR_CLOSE;
-				SetDebug(Format("#%d, door closed", [i+1]));
+				tempTagUpdateTimeCloseDoor[i] = dtDoor;				
+				SetDebug(Format("#%d, door closed time(working start)=%s", [i+1, FormatDateTime("hh:nn:ss", dtDoor)]), clRed);
 			}
 			else if(iDoorStatus == DOOR_OPEN) 
 			{
@@ -109,8 +111,6 @@ void TimerGetActual()
 				
 				checkMoldChange(iGridRow, DOOR_MANUAL);
 				
-				SetDebug(Format("Station=%d, SOID=%d, insert db : %d, %d(%d-%d)", [i+1, gWorkingSOID[i], gWorkingNormalPln[i], iDBSaveActCount, iDBnor_actcnt, iAct]), clRed);
-				
 				if(iDBSaveActCount < 0)
 				{
 					SetDebug(Format("Station=%d, SOID=%d, error count : %d, %d(%d-%d)", [i+1, gWorkingSOID[i], gWorkingNormalPln[i], iDBSaveActCount, iDBnor_actcnt, iAct]), clRed);
@@ -118,7 +118,23 @@ void TimerGetActual()
 					return;
 				}
 				
-				InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBSaveActCount, gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], Now);
+				//String sTime2 = FormatDateTime("ss", dtDoor);
+				//SetDebug(Format("-------------debug 1, %d", [i]));
+				TDateTime dtEndTime = Now;
+				String sStartTime = FormatDateTime("hh:nn:ss:zzz", gTagUpdateTimeCloseDoor[iDoor]);
+				//SetDebug(Format("-------------debug 2, %d, %s", [i, sStartTime]));
+				String sEndTime   = FormatDateTime("hh:nn:ss:zzz", dtEndTime);
+				//SetDebug(Format("-------------debug 3, %d, %s", [i, sEndTime]));
+				Extended iSec 	  = SecondsBetween(dtEndTime, gTagUpdateTimeCloseDoor[iDoor]);//"00";//DecodeSec(aEndTime - sStartTime);	 
+				//SetDebug(Format("-------------debug 4, %d", [i]));
+				String sec 		  = Int64ToStr(iSec);
+				SetDebug(Format("Station=%d, SOID=%d, insert db : %d, %d(%d-%d), diff time=%s, start time=%s, end time=%s", [i+1, gWorkingSOID[i], gWorkingNormalPln[i], iDBSaveActCount, iDBnor_actcnt, iAct, sec, sStartTime, sEndTime]), clRed);
+				
+				InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBSaveActCount, gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeCloseDoor[iDoor], dtEndTime);
+				//SetDebug(Format("-------------debug 5, %d", [i]));
+				
+				gTagUpdateTimeCloseDoor[i] = tempTagUpdateTimeCloseDoor[i];
+				//SetDebug(Format("-------------debug 6, %d", [i]));
 				
 //GetDebugactCount(iGridRow, "Get Act 3");
 				SQLActDtRead(i+1, gWorkingSOID[i]);
@@ -151,7 +167,16 @@ void TimerGetActual()
 				
 				checkMoldChange(iGridRow, DOOR_MANUAL);
 				
-				InsertWorkCountToDB(gWorkingSOID[i], prs_qty2, gWorkingOSnD[i], gZone, REASON_OSND_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], Now);
+				TDateTime dtEndTime2 = Now;
+				String sStartTime2 = FormatDateTime("hh:nn:ss:zzz", gTagUpdateTimeCloseDoor[iDoor]);
+				String sEndTime2   = FormatDateTime("hh:nn:ss:zzz", dtEndTime2);
+				Extended iSec2 	   = SecondsBetween(dtEndTime2, gTagUpdateTimeCloseDoor[iDoor]);//"00";//DecodeSec(aEndTime - sStartTime);	 
+				String sec2 	   = Int64ToStr(iSec2);
+				SetDebug(Format("Station=%d, SOID=%d, insert db : %d, %d(%d-%d), diff time=%s, start time=%s, end time=%s", [i+1, gWorkingSOID[i], gWorkingNormalPln[i], iDBSaveActCount, iDBnor_actcnt, iAct, sec2, sStartTime2, sEndTime2]), clRed);
+				
+				InsertWorkCountToDB(gWorkingSOID[i], prs_qty2, gWorkingOSnD[i], gZone, REASON_OSND_COUNT, sMachineName, gTagUpdateTimeCloseDoor[iDoor], Now);
+				
+				gTagUpdateTimeCloseDoor[i] = tempTagUpdateTimeCloseDoor[i];
 				
 				SQLActDtRead(i+1, gWorkingSOID[i]);
 				String start_time2 = Copy(gRstStartDt, 9, Length(gRstStartDt));

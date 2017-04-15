@@ -2774,7 +2774,7 @@ object frmScreen1_4: TfrmScreen1
     IOSource.IOReadMapIndex = 0
     Bevel.EdgeStyle = etRaisedInner
     Bevel.Mode = bmCustom
-    Caption = 'Injection Machine System'
+    Caption = 'APS-SS IP Monitoring System'
     FillObject.Style = sfGradient
     FillObject.Gradient.Color = 3815994
     FillObject.Gradient.EndColor = clBlack
