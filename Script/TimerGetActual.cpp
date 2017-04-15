@@ -32,7 +32,7 @@ void TimerGetActual()
 			if((gDoorStatus[i] == DOOR_OPEN) && (iDoorStatus == DOOR_CLOSE))//close door?
 			{	
 				gDoorStatus[i] = DOOR_CLOSE;
-				SetDebug(Format("door close : %d", [i]));
+				SetDebug(Format("#%d, door close", [i+1]));
 			}
 			else if(iDoorStatus == DOOR_OPEN) 
 			{
@@ -121,7 +121,7 @@ void TimerGetActual()
 				InsertWorkCountToDB(gWorkingSOID[i], prs_qty, iDBSaveActCount, gZone, REASON_NORMAL_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], Now);
 				
 //GetDebugactCount(iGridRow, "Get Act 3");
-				SQLActDtRead(gWorkingSOID[i]);
+				SQLActDtRead(i+1, gWorkingSOID[i]);
 				String start_time = Copy(gRstStartDt, 9, Length(gRstStartDt));
 				String end_time   = Copy(gRstEndDt, 9, Length(gRstEndDt));
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATESTART, start_time, false);
@@ -153,7 +153,7 @@ void TimerGetActual()
 				
 				InsertWorkCountToDB(gWorkingSOID[i], prs_qty2, gWorkingOSnD[i], gZone, REASON_OSND_COUNT, sMachineName, gTagUpdateTimeDoor[iDoor], Now);
 				
-				SQLActDtRead(gWorkingSOID[i]);
+				SQLActDtRead(i+1, gWorkingSOID[i]);
 				String start_time2 = Copy(gRstStartDt, 9, Length(gRstStartDt));
 				String end_time2   = Copy(gRstEndDt, 9, Length(gRstEndDt));
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATESTART, start_time2, false);
@@ -168,7 +168,7 @@ void TimerGetActual()
 			}
 			else if((iAct == 0) && (iOSD == 0))		
 			{
-				SQLActDtRead(gWorkingSOID[i]);
+				SQLActDtRead(i+1, gWorkingSOID[i]);
 				
 				if(checkFinish(gWorkingSOID[i], iGridRow, i, iAct, iOSD) == 1) 
 				{

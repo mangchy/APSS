@@ -515,7 +515,7 @@ int checkFinish(int soid, int aRow, int aStation, int aAct, int aOSD)
 		gCurrentStation = aStation;
 		gCurrentSortKey = isort_key;
 
-		SetDebug(Format("SOID=%d, compeleted order : station=%d, sortkey=%d", [soid, gCurrentStation, gCurrentSortKey]), clRed);
+		SetDebug(Format("SOID=%d, completed order : station=%d, sortkey=%d", [soid, gCurrentStation+1, gCurrentSortKey]), clRed);
 		
 		frmScreen1_2.Show();
 		TimerCheck.Enabled = true;  
@@ -892,7 +892,8 @@ void SQLalarmInsert(String aSoid, TDateTime aStartTime, String aAlarmType, Strin
 
 
 //=======================================================================================
-void SQLActDtRead(int soid)
+//station -> start 1
+void SQLActDtRead(int station, int soid)
 {
 	try
 	{
@@ -920,7 +921,7 @@ void SQLActDtRead(int soid)
 		DBDisconnect(namedb, true); 
 		//===================================================3/3
 		
-		SetDebug(Format("SOID=%d, Read Act Count From DB : %s, %s", [soid, gAct, gOSD]));
+		SetDebug(Format("#%d, SOID=%d, Read Act Count From DB : %s, %s", [station, soid, gAct, gOSD]));
 	}
 	except
 	{

@@ -51,16 +51,17 @@ void TimerSetCheck()
 	{
 		frmScreen1.dhGrid1.UpdateStart(1);	
 		
-		SetDebug(Format("#%d, check next order : sortkey=%d", [gCurrentStation+1, gCurrentSortKey]), clRed);
+		SetDebug(Format("check next order : station=%d, sortkey=%d", [gCurrentStation, gCurrentSortKey]), clRed);
 		if((gCurrentStation == -1) && (gCurrentSortKey == -1))
-		{
+		{			
+			SetDebug(Format("check  all of next orders : station=%d, sortkey=%d", [gCurrentStation, gCurrentSortKey]), clRed);
+		
 			for(int io=0; io<ALL_ORDERS; io++)
 			{
 				gDownloadData[io] = -1;
 				gWorkingRow[io] = -1;
-			}			
-	
-			SetDebug(Format("#%d, check next order 2 : sortkey=%d", [gCurrentStation+1, gCurrentSortKey]), clRed);
+			}
+			
 			for(int i=0; i<STATION_NUM; i++)
 			{	
 				String sMachineName = sMCAs[Int(i/STATION_NUM)];
@@ -74,7 +75,7 @@ void TimerSetCheck()
 					
 					if(dt1 == gTagUpdateTime1[i]) 
 					{
-						SetDebug(Format("#%d, Checking order 1! Row=%d, SOID=%d", [i+1, iRow, iSOID]));
+						SetDebug(Format("#%d, Checking order 1! Normal, Row=%d, SOID=%d", [i+1, iRow, iSOID]));
 						TimerCheck.Enabled = true;	
 						frmScreen1.dhGrid1.UpdateStart(0);
 						//setColorRow(iRow, COLOR_WORK_PROGRESS);
@@ -82,7 +83,7 @@ void TimerSetCheck()
 					}
 					if(dt2 == gTagUpdateTime2[i]) 
 					{
-						SetDebug(Format("#%d, Checking order 2! Row=%d, SOID=%d", [i+1, iRow, iSOID]));
+						SetDebug(Format("#%d, Checking order 2! OS&D, Row=%d, SOID=%d", [i+1, iRow, iSOID]));
 						TimerCheck.Enabled = true;	
 						frmScreen1.dhGrid1.UpdateStart(0);
 						//setColorRow(iRow, COLOR_WORK_PROGRESS);
@@ -147,8 +148,7 @@ void TimerSetCheck()
 			int iSOID2   = GetTagValueI(gTagSOID[gCurrentStation]);	
 			int iRow2    = getGridRowFromSOID(sMachineName, gCurrentStation, iSOID2);
 			
-//GetDebugactCount(iRow2, "SetCheck 1");
-			
+//GetDebugactCount(iRow2, "SetCheck 1");			
 			SetDebug(Format("#%d, read LP data 1 : SOID=%d, Row=%d", [gCurrentStation+1, iSOID2, iRow2]));
 			if(iRow2 > -1) //find LP's SOID from Database(grid data)
 			{
@@ -157,7 +157,7 @@ void TimerSetCheck()
 			
 				if(dt12 == gTagUpdateTime1[gCurrentStation]) 
 				{
-					SetDebug(Format("#%d, Checking order 1! Row=%d, SOID=%d", [gCurrentStation+1, iRow2, iSOID2]));
+					SetDebug(Format("#%d, Checking order 1! Normal, Row=%d, SOID=%d", [gCurrentStation+1, iRow2, iSOID2]));
 					TimerCheck.Enabled = true;	
 					frmScreen1.dhGrid1.UpdateStart(0);
 					//setColorRow(iRow2, COLOR_WORK_PROGRESS);
@@ -165,7 +165,7 @@ void TimerSetCheck()
 				}
 				if(dt22 == gTagUpdateTime2[gCurrentStation]) 
 				{
-					SetDebug(Format("#%d, Checking order 2! Row=%d, SOID=%d", [gCurrentStation+1, iRow2, iSOID2]));
+					SetDebug(Format("#%d, Checking order 2! OS&D, Row=%d, SOID=%d", [gCurrentStation+1, iRow2, iSOID2]));
 					TimerCheck.Enabled = true;	
 					frmScreen1.dhGrid1.UpdateStart(0);
 					//setColorRow(iRow2, COLOR_WORK_PROGRESS);
