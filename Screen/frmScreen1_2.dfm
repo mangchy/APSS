@@ -1,12 +1,12 @@
 object frmScreen1_2: TfrmScreen1
-  Tag = 51297344
+  Tag = 63641152
   AlignWithMargins = True
   Left = 353
-  Top = 185
+  Top = 186
   BorderStyle = bsNone
   Caption = 'Screen3'
   ClientHeight = 101
-  ClientWidth = 607
+  ClientWidth = 756
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,9 +18,9 @@ object frmScreen1_2: TfrmScreen1
   PixelsPerInch = 96
   TextHeight = 13
   object prgCheck: TdhProgress
-    Left = 47
+    Left = 48
     Top = 60
-    Width = 512
+    Width = 658
     Height = 20
     Margins.Left = 0
     Margins.Top = 0
@@ -36,8 +36,8 @@ object frmScreen1_2: TfrmScreen1
   end
   object dhPanelFill10: TdhPanelFill
     Left = 1
-    Top = 4
-    Width = 606
+    Top = 2
+    Width = 753
     Height = 44
     Margins.Left = 0
     Margins.Top = 0
@@ -82,7 +82,7 @@ object frmScreen1_2: TfrmScreen1
     PasswordChar = #0
   end
   object dhPanelFill17: TdhPanelFill
-    Left = 605
+    Left = 754
     Top = 2
     Width = 2
     Height = 97
@@ -97,14 +97,12 @@ object frmScreen1_2: TfrmScreen1
     Bevel.Mode = bmCustom
     Caption = ' '
     TabOrder = 2
-    ExplicitLeft = 1364
-    ExplicitTop = 0
-    ExplicitHeight = 768
+    ExplicitLeft = 605
   end
   object dhPanelFill20: TdhPanelFill
     Left = 0
     Top = 99
-    Width = 607
+    Width = 756
     Height = 2
     Margins.Left = 0
     Margins.Top = 0
@@ -117,13 +115,12 @@ object frmScreen1_2: TfrmScreen1
     Bevel.Mode = bmCustom
     Caption = ' '
     TabOrder = 3
-    ExplicitTop = 766
-    ExplicitWidth = 1366
+    ExplicitWidth = 607
   end
   object dhPanelFill19: TdhPanelFill
     Left = 0
     Top = 0
-    Width = 607
+    Width = 756
     Height = 2
     Margins.Left = 0
     Margins.Top = 0
@@ -136,7 +133,7 @@ object frmScreen1_2: TfrmScreen1
     Bevel.Mode = bmCustom
     Caption = ' '
     TabOrder = 4
-    ExplicitWidth = 1366
+    ExplicitWidth = 607
   end
   object dhPanelFill18: TdhPanelFill
     Left = 0
@@ -154,8 +151,5 @@ object frmScreen1_2: TfrmScreen1
     Bevel.Mode = bmCustom
     Caption = ' '
     TabOrder = 5
-    ExplicitLeft = 1364
-    ExplicitTop = 4
-    ExplicitHeight = 768
   end
 end
