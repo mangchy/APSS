@@ -121,7 +121,18 @@ void TimerGetActual()
 				//String sTime2 = FormatDateTime("ss", dtDoor);
 				//SetDebug(Format("-------------debug 1, %d", [i]));
 				TDateTime dtEndTime = Now;
+				
 				String sStartTime = FormatDateTime("hh:nn:ss:zzz", gTagUpdateTimeCloseDoor[iDoor]);
+				try
+				{
+					sStartTime = FormatDateTime("hh:nn:ss:zzz", gTagUpdateTimeCloseDoor[iDoor]);
+				}
+				except
+				{
+					gTagUpdateTimeCloseDoor[iDoor] = tempTagUpdateTimeCloseDoor[iDoor];
+					sStartTime = FormatDateTime("hh:nn:ss:zzz", gTagUpdateTimeCloseDoor[iDoor]);
+					SetDebug(Format("Station=%d, SOID=%d, start working time calculate error, %s", [i+1, gWorkingSOID[i], sStartTime]));
+				}
 				//SetDebug(Format("-------------debug 2, %d, %s", [i, sStartTime]));
 				String sEndTime   = FormatDateTime("hh:nn:ss:zzz", dtEndTime);
 				//SetDebug(Format("-------------debug 3, %d, %s", [i, sEndTime]));
@@ -193,14 +204,16 @@ void TimerGetActual()
 			}
 			else if((iAct == 0) && (iOSD == 0))		
 			{
-				SQLActDtRead(i+1, gWorkingSOID[i]);
-				
-				if(checkFinish(gWorkingSOID[i], iGridRow, i, iAct, iOSD) == 1) 
+				//SQLActDtRead(i+1, gWorkingSOID[i]);
+				if(gFinishOrders[i] == NOT_FINISH_WORK)
 				{
-					SetDebug(Format("Station=%d, SOID=%d, finish order : Nor=%d(%s), OSnD=%d(%s)", [i+1, gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD]));
-					return;
+					if(checkFinish(gWorkingSOID[i], iGridRow, i, iAct, iOSD) == 1) 
+					{
+						SetDebug(Format("Station=%d, SOID=%d, finish order : Nor=%d(%s), OSnD=%d(%s)", [i+1, gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD]));
+						return;
+					}
 				}
-			}
+			}			
 		}
 		except
 		{

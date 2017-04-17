@@ -135,14 +135,20 @@ int			gDoorStatus[DOOR_NUM];
 #define DOOR_OPEN			0
 #define DOOR_CLOSE			1
 
-string gRstStartDt 	= "";
-string gRstEndDt 	= "";
-string gAct 		= "";
-string gOSD 		= "";
+string 	gRstStartDt 	= "";
+string 	gRstEndDt 	= "";
+string 	gAct 		= "";
+string 	gOSD 		= "";
 
-String gMoldID[STATION_NUM];	//barcode data = mold_id
-String gDoorStatusDescript[2];// = {"Open", "Close"};
-String gDoorAMDescript[2];// = {"Auto", "Manual"};
+String 	gMoldID[STATION_NUM];	//barcode data = mold_id
+String 	gDoorStatusDescript[2];// = {"Open", "Close"};
+String 	gDoorAMDescript[2];// = {"Auto", "Manual"};
+
+
+int		gFinishOrders[STATION_NUM];//0-not finish, 1-finish
+
+#define NOT_FINISH_WORK		0
+#define FINISHED_WORK		1
 
 //=======================================================================================
 void SetUpdateTagTime()
@@ -518,7 +524,7 @@ int checkFinish(int soid, int aRow, int aStation, int aAct, int aOSD)
 		gCurrentStation = aStation;
 		gCurrentSortKey = isort_key;
 
-		SetDebug(Format("SOID=%d, completed order : station=%d, sortkey=%d", [soid, gCurrentStation+1, gCurrentSortKey]), clRed);
+		SetDebug(Format("#%d, completed order : SOID=%d, sortkey=%d", [gCurrentStation+1, soid, gCurrentSortKey]), clRed);
 		
 		frmScreen1_2.Show();
 		TimerCheck.Enabled = true;  
@@ -895,7 +901,7 @@ void SQLalarmInsert(String aSoid, TDateTime aStartTime, String aAlarmType, Strin
 
 
 //=======================================================================================
-//station -> start 1
+//station -> start 0
 void SQLActDtRead(int station, int soid)
 {
 	try
@@ -924,7 +930,7 @@ void SQLActDtRead(int station, int soid)
 		DBDisconnect(namedb, true); 
 		//===================================================3/3
 		
-		SetDebug(Format("#%d, SOID=%d, Read Act Count From DB : %s, %s", [station, soid, gAct, gOSD]));
+		SetDebug(Format("#%d, SOID=%d, Read Act Count From DB : %s, %s", [station+1, soid, gAct, gOSD]));
 	}
 	except
 	{

@@ -54,6 +54,8 @@ void TimerSetCheck()
 		SetDebug(Format("check next order : station=%d, sortkey=%d", [gCurrentStation, gCurrentSortKey]), clRed);
 		if((gCurrentStation == -1) && (gCurrentSortKey == -1))
 		{			
+			frmScreen1_2.dhPanelFill10.Caption = "Check LP : All Stations";
+		
 			SetDebug(Format("check  all of next orders : station=%d, sortkey=%d", [gCurrentStation, gCurrentSortKey]), clRed);
 		
 			for(int io=0; io<ALL_ORDERS; io++)
@@ -157,7 +159,7 @@ void TimerSetCheck()
 			}       
 		}
 		else
-		{			
+		{	
 			SetDebug(Format("#%d, check next order 3 : sortkey=%d", [gCurrentStation+1, gCurrentSortKey]), clRed);
 			
 			gDownloadData[gCurrentStation] = -1;
@@ -166,6 +168,8 @@ void TimerSetCheck()
 			sMachineName = sMCAs[Int(gCurrentStation/STATION_NUM)];
 			int iSOID2   = GetTagValueI(gTagSOID[gCurrentStation]);	
 			int iRow2    = getGridRowFromSOID(sMachineName, gCurrentStation, iSOID2);
+			
+			frmScreen1_2.dhPanelFill10.Caption = Format("Check LP : #%d, next SOID=%d, Sort Key=%d", [gCurrentStation + 1, iSOID2, gCurrentSortKey]);
 			
 //GetDebugactCount(iRow2, "SetCheck 1");			
 			SetDebug(Format("#%d, read LP data 1 : SOID=%d, Row=%d", [gCurrentStation+1, iSOID2, iRow2]));
@@ -235,6 +239,10 @@ void TimerSetCheck()
 
 					gDownloadData[gDownloadNum] = iRow2;
 					gDownloadNum++;
+				}
+				else
+				{
+					gFinishOrders[gCurrentStation] = FINISHED_WORK;
 				}
 			}
 		}

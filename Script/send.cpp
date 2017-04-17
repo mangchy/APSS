@@ -7,6 +7,7 @@ void send()
 	String ss;
     for(i=0; i<STATION_NUM; i++)
     {
+		gFinishOrders[i] = NOT_FINISH_WORK;
 		ss += Format("%d, ", [gWorkingRow[i]]);
     }         
     SetDebug("Working row : " + ss);
