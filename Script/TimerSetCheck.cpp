@@ -243,6 +243,7 @@ void TimerSetCheck()
 				else
 				{
 					gFinishOrders[gCurrentStation] = FINISHED_WORK;
+					SetDebug(Format("#%d, Finished work", [gCurrentStation+1]));
 				}
 			}
 		}
