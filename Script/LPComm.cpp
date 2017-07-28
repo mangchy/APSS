@@ -117,21 +117,21 @@ void LP_SetTime(int LPTag, int aHour, int aMin)
     SetModBusTagValueWithResult(LPTag, 1, mb_addr, wmode, offset, tx, nil, 2000);
 }
 
-/*
-void LP_SetMoldChingSatusON(int LPTag,int orders)
+
+/* void LP_SetMoldChingSatusON(int LPTag,int orders)
 {
 	Variant tx = VarArrayCreate([0, 128], varInteger);
 	int mb_addr = 810 + orders;
     int wmode = 2;
 	int offset = 0;
 	
-	tx[offset] = ( aHour >> 8) && 0xff;
+	tx[offset] = ( 1 >> 8) && 0xff;
 	offset++;
-	tx[offset] = ( aHour ) && 0xff;
+	tx[offset] = ( 1 ) && 0xff;
 	offset++;
 	
     SetModBusTagValueWithResult(LPTag, 1, mb_addr, wmode, offset, tx, nil, 2000);
-}*/
+} */
 
 //=============================================================
 void LP_ReadWork()

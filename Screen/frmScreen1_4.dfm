@@ -1,8 +1,8 @@
 object frmScreen1_4: TfrmScreen1
-  Tag = 61652032
+  Tag = 61586496
   AlignWithMargins = True
-  Left = 326
-  Top = 178
+  Left = 353
+  Top = 186
   BorderStyle = bsNone
   Caption = 'Screen5'
   ClientHeight = 766
@@ -4027,7 +4027,6 @@ object frmScreen1_4: TfrmScreen1
     Bevel.Mode = bmCustom
     Caption = ' '
     TabOrder = 12
-    ExplicitLeft = 1
   end
   object dhPanelFill21: TdhPanelFill
     Left = 440

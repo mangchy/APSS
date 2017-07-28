@@ -127,6 +127,10 @@ TDateTime	gBarcodeTime;
 #define DOOR_NUM			24
 
 int			gTagDoor[DOOR_NUM];//LP 1=4 door d/i
+int 		gTagInjPos; //Injector Position : 1 2 4 8 16 32 64 128
+int 		gTagInjPos2; //Injector Position : 1 2 4 8 16 32 64 128
+int 		gInjPos;
+int 		gInjPos2;
 TDateTime	gTagUpdateTimeCloseDoor[DOOR_NUM];
 TDateTime	gTagUpdateTimeDoor[DOOR_NUM];
 int			gDoorStatus[DOOR_NUM];
@@ -380,8 +384,8 @@ int getNextOrderRow(String aMachine, int aRow)
 
 
 //=======================================================================================
-/*/check Mold changing next order
-void checkMoldChange(int aGridRow)
+//check Mold changing next order
+/* void checkMoldChange(int aGridRow)
 {
 	String mold = frmScreen1.dhGrid1.GetCellData(aGridRow, COLUMN_MOLDSIZE);	
 	String machine  = frmScreen1.dhGrid1.GetCellData(aGridRow, COLUMN_MACHINE);	
@@ -401,11 +405,12 @@ void checkMoldChange(int aGridRow)
 			String smoldrear1 = Copy(mold, ilen1-3, ilen1);
 			String smoldrear2 = Copy(mold2, ilen2-3, ilen2);
 			
-			
-			//LP_SetMoldChingSatusON
+			gSetMold = gChangeMold[aGridRow];
+			//-->>LP_SetMoldChingSatusON(gTagWrite[0], aGridRow);
+			timerChangeMold.enabled = true;
 		}		
 	}
-}*/
+} */
 
 
 //==================================
@@ -1070,6 +1075,9 @@ void SQLActDtRead(int station, int soid)
 	gTagDoor[5] = TagDoor6;
 	gTagDoor[6] = TagDoor7;
 	gTagDoor[7] = TagDoor8;
+	
+	gTagInjPos = TagInjPos;
+	gTagInjPos2 = TagInjPos2;
 	
 /*	
 	int iTagNorP[STATION_NUM];

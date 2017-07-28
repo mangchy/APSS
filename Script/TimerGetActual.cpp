@@ -19,14 +19,68 @@ void TimerGetActual()
 	sMCAs[1] = frmScreen1_4.cbxMCA2.Text;
 	sMCAs[2] = frmScreen1_4.cbxMCA3.Text;	
 	
+	//gInjPos = 0;
+	
+	int InjPos = GetTagValueI(gTagInjPos) + (16*GetTagValueI(gTagInjPos2));
+	if(InjPos == 1)
+		{
+		gInjPos = 1;
+		frmScreen1_4.dhPanelFill5.Caption = Format("STATION %d", [gInjPos]);
+		}
+	else if(InjPos == 2)
+		{
+		gInjPos = 2;
+		frmScreen1_4.dhPanelFill5.Caption = Format("STATION %d", [gInjPos]);
+		}
+	else if(InjPos == 4)
+		{
+		gInjPos = 3;
+		frmScreen1_4.dhPanelFill5.Caption = Format("STATION %d", [gInjPos]);
+		}
+	else if(InjPos == 8)
+		{
+		gInjPos = 4;
+		frmScreen1_4.dhPanelFill5.Caption = Format("STATION %d", [gInjPos]);
+		}
+	else if(InjPos == 16)
+		{
+		gInjPos = 5;
+		frmScreen1_4.dhPanelFill5.Caption = Format("STATION %d", [gInjPos]);
+		}
+	else if(InjPos == 32)
+		{
+		gInjPos = 6;
+		frmScreen1_4.dhPanelFill5.Caption = Format("STATION %d", [gInjPos]);
+		}
+	else if(InjPos == 64)
+		{
+		gInjPos = 7;
+		frmScreen1_4.dhPanelFill5.Caption = Format("STATION %d", [gInjPos]);
+		}
+	else if(InjPos == 128)
+		{
+		gInjPos = 8;
+		frmScreen1_4.dhPanelFill5.Caption = Format("STATION %d", [gInjPos]);
+		}
+	else
+		{
+		gInjPos = 0;
+		frmScreen1_4.dhPanelFill5.Caption = "";
+		}
+		
+	//gInjPos2 = GetTagValueI(gTagInjPos2);
+	
+	
 	//check door
 	frmScreen1_4.dhGrid2.UpdateStart(1);
 	for(i=0; i<8; i++)//8 = LP1=door 4, LP2=door 4
 	{	
 		TDateTime dtDoor = GetTagUpdateTime(gTagDoor[i]);
+		
 		if(dtDoor != gTagUpdateTimeDoor[i]) 
 		{			
 			int iDoorStatus = GetTagValueI(gTagDoor[i]);
+			
 			String sTime = FormatDateTime("ss", dtDoor);
 			frmScreen1_4.dhGrid2.SetCellData(2*i+1, 2, Format("%d, %s", [iDoorStatus, sTime]), false);
 			
@@ -80,7 +134,6 @@ void TimerGetActual()
 			int iAct 	= GetTagValueI(gTagNorA[i]);//LP Data, down count
 			int iOSD 	= GetTagValueI(gTagOsdA[i]);   
 			int iOSDPln = GetTagValueI(gTagOsdP[i]);
-			
 			int iDBnor_actcnt = gWorkingNormalPln[i] - gWorkingNormal[i];
 //GetDebugactCount(iGridRow, "Get Act 1");
 			frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, IntToStr(gWorkingNormalPln[i] - iAct), true);	
@@ -147,18 +200,19 @@ void TimerGetActual()
 				gTagUpdateTimeCloseDoor[i] = tempTagUpdateTimeCloseDoor[i];
 				//SetDebug(Format("-------------debug 6, %d", [i]));
 				
-//GetDebugactCount(iGridRow, "Get Act 3");
+				//GetDebugactCount(iGridRow, "Get Act 3");
 				SQLActDtRead(i+1, gWorkingSOID[i]);
 				String start_time = Copy(gRstStartDt, 9, Length(gRstStartDt));
 				String end_time   = Copy(gRstEndDt, 9, Length(gRstEndDt));
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATESTART, start_time, false);
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_ACTDATEEND, end_time, false);
 				frmScreen1.dhGrid1.SetCellData(iGridRow, COLUMN_NORACTCNT, gAct, false);
-//GetDebugactCount(iGridRow, "Get Act 4");
+				//GetDebugactCount(iGridRow, "Get Act 4");
 				int iCalcAct = gWorkingNormalPln[i] - StrToIntDef(gAct, 0);
 				int iCalcOSD = gWorkingOSnD[i] - StrToIntDef(gOSD, 0);					
 				
 				SetDebug(Format("Station=%d, SOID=%d, finish order : Nor=%d(%s), OSnD=%d(%s), %d, %d", [i+1, gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD, iCalcAct, iCalcOSD]));
+				checkMoldChange(i, gUseManualCmd);
 				if(checkFinish(gWorkingSOID[i], iGridRow, i, iCalcAct, iCalcOSD) == 1) 
 				{
 					SetDebug(Format("Station=%d, SOID=%d, finish order : Nor=%d(%s), OSnD=%d(%s)", [i+1, gWorkingSOID[i], gWorkingNormalPln[i], gAct, gWorkingOSnD[i], gOSD]));

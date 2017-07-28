@@ -1,5 +1,5 @@
 object frmScreen1: TfrmScreen1
-  Tag = 60472384
+  Tag = 63087376
   AlignWithMargins = True
   Left = 16
   Top = 180
@@ -1391,7 +1391,7 @@ object frmScreen1: TfrmScreen1
     Options = []
     ParentFont = False
     ShowClockFormat = 'yyyy-mm-dd hh:nn:ss'
-    Caption = 'Version : 2017.04.15'
+    Caption = 'Version : 2017.07.27'
   end
   object dhGrid1: TdhGrid
     Left = 6
